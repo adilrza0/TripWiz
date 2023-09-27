@@ -1,19 +1,14 @@
-import { combineReducers, legacy_createStore } from "redux";
+import { applyMiddleware, combineReducers, legacy_createStore } from "redux";
+import { reducer as hotelReducer } from "./hotelReducers/reducer";
+import thunk from "redux-thunk";
 
-//*************** */
-const reducer=(state={},{type})=>{
-    switch(type){
-        default:{
-            return state
-        }
-    }
-}
 
-//************** */
+
+
 
 const rootReducer=combineReducers({
     //add your reducers here
-    reducer
+   hotelReducer
 
 })
-export const store=legacy_createStore(rootReducer)
+export const store=legacy_createStore(rootReducer,applyMiddleware(thunk))
