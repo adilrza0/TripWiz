@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link, Navigate } from 'react-router-dom';
 import styled from 'styled-components';
 
 export default function HotelCard({ category, description, id, image, location, name, price, rating }) {
@@ -16,7 +17,12 @@ export default function HotelCard({ category, description, id, image, location, 
           
           {/* <p>{description}</p> */}
           
-          <div className='book-section'><p>${price}</p> <button>Reserve</button></div> 
+          <div className='book-section'><p>${price}</p> 
+          <Link to={`/cart/${id}`}>
+          
+          <button>Reserve</button>
+          </Link>
+          </div> 
         </div>
       </div>
     </div>

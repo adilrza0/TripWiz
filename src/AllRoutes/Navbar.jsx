@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
-
+import trip_wiz from "../images/trip_wiz.png"
+import { Image } from "@chakra-ui/react";
 
 const Navbar = () => {
 
@@ -13,7 +14,7 @@ const Navbar = () => {
       {
         id: 2,
         title: "Hotel",
-        path: "/hotel"
+        path: "/hotels"
       },
       {
         id: 3,
@@ -67,8 +68,7 @@ const Navbar = () => {
     return (
       <div style={{display:"flex",backgroundColor: "#4c4177",color:"whitesmoke"}}>
          <NavLink to="/" >
-            {/* <Image src={travel} w="100px" alt="travel" /> */}
-            <h2 style={{color:"whitesmoke"}}>Logo</h2>
+            <Image src={trip_wiz} w="70px" alt="travel" borderRadius={"50%"} />
           </NavLink>
           
         <div style={{display:"flex",justifyContent:"space-between", gap:"40px",ml:"600px", maxW:"container.lg"}}   >
