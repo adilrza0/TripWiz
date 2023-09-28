@@ -583,7 +583,7 @@
     "hotels":[
       {
       "id": "1",
-      "name": "Ambika Vilas, Trivandrum, ama Stays & Trails",
+      "name": "Ambika Vilas",
       "location": "Thiruvananthapuram",
       "price": 25000,
       "description": "Revel in the living heritage, Ambika Vilas, and live the authentic Kerela life in the calm courtyards and cool verandas.",
@@ -593,7 +593,7 @@
       },
       {
       "id": "2",
-      "name": "Sluice House, Lonavala, ama Stays & Trails",
+      "name": "Sluice House",
       "location": "Lonavala",
       "price": 20000,
       "description": "Soak in gorgeous views of gardens in a sun-filled yard with a view of nature's best and dine under the stars treading a basket full of cherishable memories.",
@@ -613,7 +613,7 @@
       },
       {
       "id": "4",
-      "name": "StayVista | La Bougainvillea 5 BHK Villa",
+      "name": "StayVista ",
       "location": "Goa",
       "price": 29408,
       "description": "Located in Torda Goa, La Bougainvillea offers homely accommodations away from crowded beaches but within easy reach of Mandovi River and its casino ships.",
@@ -643,7 +643,7 @@
       },
       {
       "id": "7",
-      "name": "JW Marriott Hotel Kolkata",
+      "name": "JW Marriott Hotel",
       "location": "Kolkata",
       "price": 2000,
       "description": "A 5-star hotel, JW Marriott is known for its warm hospitality, opulent amenities, luxe rooms and premium dining.",
@@ -773,7 +773,7 @@
       },
       {
       "id": "20",
-      "name": "Ramee Guestline Hotel Dadar",
+      "name": "Ramee Guestline Hotel",
       "location": "Mumbai",
       "price": 1500,
       "description": "Be sure to enjoy recreational amenities, including an outdoor pool, a spa tub, and a sauna. Additional amenities at this hotel include complimentary wireless Internet access, wedding services, and a television in a common area",
@@ -793,7 +793,7 @@
       },
       {
       "id": "22",
-      "name": "Sluice House, Lonavala, ama Stays & Trails",
+      "name": "Sluice House",
       "location": "Lonavala",
       "price": 29000,
       "description": "Soak in gorgeous views of gardens in a sun-filled yard with a view of nature's best and dine under the stars treading a basket full of cherishable memories.",
@@ -843,7 +843,7 @@
       },
       {
       "id": "27",
-      "name": "FabHotel Arafa Inn Gandhinagar",
+      "name": "FabHotel Arafa Inn",
       "location": "Bangalore",
       "price": 5000,
       "description": "The COVID19 pandemic has made us all understand the importance of sanitisation and not take it for granted. Rest assured, our properties are following a number of safety measures like disinfecting surfaces with highquality disinfectant",
@@ -913,7 +913,7 @@
       },
       {
       "id": "34",
-      "name": "The Leela Palace Udaipur",
+      "name": "The Leela Palace",
       "location": "Udaipur",
       "price": 40000,
       "description": "The Leela Palace Udaipur is a luxurious hotel located on the banks of Lake Pichola, offering breathtaking views of the surrounding hills and the City Palace. Its opulent rooms and world-class amenities make it the perfect place to experience the grandeur of Udaipur.",
@@ -923,7 +923,7 @@
       },
       {
       "id": "35",
-      "name": "Wildflower Hall, Shimla",
+      "name": "Wildflower Hall",
       "location": "Shimla",
       "price": 35000,
       "description": "Perched at an altitude of 8,250 feet, the Wildflower Hall is a luxury resort offering panoramic views of the Himalayas. With its colonial architecture, world-class amenities, and spa treatments, it provides an unforgettable experience to its guests.",
@@ -933,7 +933,7 @@
       },
       {
       "id": "36",
-      "name": "Amber Trail, Jaipur, ama Stays & Trails",
+      "name": "Amber Trail",
       "location": "Jaipur",
       "price": 18000,
       "description": "Unwind in the luxurious ambiance of this stunning 8-suite villa with a private pool, spa, and a bar serving refreshing drinks.",
@@ -943,7 +943,7 @@
       },
       {
       "id": "37",
-      "name": "Valley View, Mahabaleshwar, ama Stays & Trails",
+      "name": "Valley View",
       "location": "Mahabaleshwar",
       "price": 21000,
       "description": "Experience the serene beauty of Mahabaleshwar from this luxurious villa with a private pool, lush gardens, and a gazebo perfect for relaxing with loved ones.",
@@ -953,7 +953,7 @@
       },
       {
       "id": "38",
-      "name": "Vineyard Villa, Nashik, ama Stays & Trails",
+      "name": "Vineyard Villa",
       "location": "Nashik",
       "price": 17000,
       "description": "Escape to the tranquil surroundings of this 3-bedroom villa with stunning vineyard views, a private pool, and a gazebo perfect for sipping on wine.",
@@ -963,7 +963,7 @@
       },
       {
       "id": "39",
-      "name": "Mango Tree, Coorg, ama Stays & Trails",
+      "name": "Mango Tree",
       "location": "Coorg",
       "price": 22000,
       "description": "Enjoy the breathtaking views of the Coorg hills from this luxurious villa with a private pool, beautiful gardens, and a balcony perfect for sipping on hot coffee.",

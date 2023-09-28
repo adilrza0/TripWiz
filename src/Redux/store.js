@@ -1,5 +1,5 @@
 import { applyMiddleware, combineReducers, legacy_createStore } from "redux";
-import { reducer as hotelReducer } from "./hotelReducers/reducer";
+import { reducer as hotelReducer } from "./hotelReducer/reducer";
 import thunk from "redux-thunk";
 
 
