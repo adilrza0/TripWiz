@@ -11,7 +11,7 @@ export default function MainRouter() {
         <Route path='/' element={<HomePage />}/>
         <Route path='/login' element={<Login />}/>
         <Route path='/hotels' element={<HotelPage />}/>
-        <Route path='/cart' element={<Cart />}/>
+        <Route path='/cart/:id' element={<Cart />}/>
 
         
 
