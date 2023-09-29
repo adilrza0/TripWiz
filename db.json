@@ -1017,6 +1017,21 @@
         "id":1,
         "username":"adil@gmail.com",
         "password":"adil123"
+      },
+      {
+        "id":2,
+        "username":"test1@gmail.com",
+        "password":"1234"
+      },
+      {
+        "id":3,
+        "username":"test2@gmail.com",
+        "password":"1235"
+      },
+      {
+        "id":4,
+        "username":"test3@gmail.com",
+        "password":"12345"
       }
 
     ]
