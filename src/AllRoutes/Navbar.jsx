@@ -13,7 +13,7 @@ const Navbar = () => {
       {
         id: 2,
         title: "Hotel",
-        path: "/hotel"
+        path: "/hotels"
       },
       {
         id: 3,

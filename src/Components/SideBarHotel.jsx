@@ -93,7 +93,7 @@ export const SideBarHotel = () => {
         />
         <label>Descending</label>
       </div>
-      <div>
+      <div className="slider">
       <RangeSlider
         aria-label={['min', 'max']}
         colorScheme='blue'
@@ -115,4 +115,7 @@ const DIV = styled.div`
   border-right: 1px solid gray;
   font-size: 20px;
   text-align: left;
+  .slider{
+    padding:40px;
+  }
 `;
