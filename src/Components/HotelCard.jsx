@@ -30,29 +30,34 @@ export default function HotelCard({ category, description, id, image, location, 
   );
 }
 const DIV=styled.div`
-font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-font-weight:bold;
-font-size: 18px;
+/* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight:bold; */
+//font-size: 18px;
 
 .Hotel-card {
     margin: 20px;
     margin-bottom: 40px;
-    box-shadow: 0px 2px 6px 3px rgba(0, 0, 0, 0.1);
+    
    
   
  // margin: 20px; /* Add spacing between cards */
-
+}
+h2{
+  font-size: 16px;
+  font-weight: bold;
+}
 .name{
     display: flex;
     justify-content: space-between;
     text-align: left;
-    margin-bottom: 2px;
+    margin-bottom: 0px;
+    font-size: 14px;
 }
 .book-section{
     display: flex;
     justify-content: space-between;
     margin-bottom: 5px;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     color: #1071DB;
     margin-top: 2px;
@@ -63,9 +68,9 @@ font-size: 18px;
     button{
         border-radius: 15px;
         color: white;
-        font-size: 22px;
-        width: 120px;
-        height: 40px;
+        font-size: 18px;
+        width: 90px;
+        height: 30px;
         background-color: #1071DB;
         border: none;
     }
@@ -73,7 +78,8 @@ font-size: 18px;
 }
 
 .Hotel-card-image {
-  height: 550px;
+  height: 400px;
+  width: 300px;
   background-size: cover;
   position: relative;
   border-radius:10px;
@@ -82,6 +88,7 @@ font-size: 18px;
   flex-direction: column;
   justify-content: end;
   align-items:center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
   
  
 
@@ -94,11 +101,11 @@ font-size: 18px;
   
   top: 50%;
   left: 0; */
-  height: 230px;
+  
   box-sizing: border-box;
   width: 90%;
-  padding-left: 20px;
-  padding-right: 20px;
+ padding: 20px;
+ 
 
   margin-left: 10px;
   margin-right: 10px;
@@ -112,6 +119,7 @@ font-size: 18px;
     margin-top: 5px;
     
   }
+  
   
   
 }
