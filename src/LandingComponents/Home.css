@@ -1,0 +1,730 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+.main-container{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),  url("images/Untitled.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: -70px;
+    height: 110vh;
+  
+ 
+}
+.main-container  h2{
+    margin-top: 60px;
+    color: #FB9216;
+    margin-bottom: 20px;
+    padding-top: 200px;
+  }
+.main-container  h1{
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 50px;
+  }
+.main-container  p{
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 17px;
+  }
+.planTrip{
+    font-weight: 600;
+    font-size: 17px;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 23px;
+    background-color: #1071DB;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.planTrip:hover{
+    font-weight: 600;
+    font-size: 17px;
+    color: #1071DB;
+    border: 1px solid #1071DB;
+    padding: 10px;
+    border-radius: 23px;
+    background: none;
+    cursor: pointer;
+}
+.learnMore{
+    font-weight: 600;
+    font-size: 17px;
+    color: #1071DB;
+    border: 1px solid #1071DB;
+    padding: 10px;
+    border-radius: 23px;
+    background: none;
+    cursor: pointer;
+    
+}
+.learnMore:hover{
+    font-weight: 600;
+    font-size: 17px;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 23px;
+    background-color: #1071DB;
+    
+    cursor: pointer;
+}
+/* Existing CSS ... */
+
+.destination {
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+  }
+  
+  /* Add the following styles for the hover effect */
+  
+  .image-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .image-container:hover img {
+    transform: scale(1.05); /* Enlarge the image on hover */
+  }
+  
+  .image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .image-container:hover .image-overlay {
+    opacity: 1; /* Show the overlay on hover */
+  }
+  
+  .image-overlay-text {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+  }
+.makeflex{
+    display: flex;
+    gap:5px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+  .text-white{
+    color: white;
+    font-weight: 600;
+  }
+  .text-blue{
+    color: #1071DB;
+    font-weight: 700;
+    font-size: 24px;
+  }
+
+  .planTrip2{
+    font-weight: 600;
+  
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 23px;
+    background-color: #1071DB;
+  
+    cursor: pointer;
+}
+.planTrip2:hover{
+    font-weight: 600;
+   
+    color: #1071DB;
+    border: 1px solid #1071DB;
+    padding: 10px;
+    border-radius: 23px;
+    background: none;
+    cursor: pointer;
+}
+  
+  /* Existing CSS ... */
+  
+.destination a{
+    text-align: right;
+    margin-top: -30px;
+
+  display: flex;
+  justify-content: flex-end;
+  color: #1071DB;
+  text-decoration: none;
+  font-weight: 500;
+  
+
+}
+.span1{
+    font-weight: 700;
+    font-size: 30px;
+    margin-right: 10px;
+}
+.span2{
+    font-weight: 700;
+    font-size: 30px;
+    margin-right: 10px;
+    color: #1071DB;
+}
+.span3{
+margin-top: 40px;
+
+
+}
+.dest-pics{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    margin-top: 40px;
+}
+.dest-pics img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+.dest-pics2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin-top: 40px;
+}
+.dest-pics2 img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+.nights3{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),  url("images/wallpaperflare.com_wallpaper\ \(4\).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    background-position: center; 
+    margin-top: 50px;   
+    color: white;
+
+
+
+
+}
+.main-night3{
+    width: 80%;
+display: flex;
+align-items: center;
+height: 100%;
+justify-content: space-between;
+margin: auto;
+ margin-top: 20px;
+}
+.first-night3{
+    width: 60%;
+    margin-top: 20px;
+}
+.first-night3 h1{
+   
+    margin-top: 10px;
+}
+.first-night3 p{
+   
+    margin-bottom: 30px;
+    line-height: 25px;
+}
+.first-night3 button{
+   
+    font-weight: 600;
+  
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 23px;
+    background-color: #1071DB;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.second-night3{
+    width: 40%;
+    margin-top: 20px;
+}
+.customer{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),  url("images/paul-pastourmatzis-EXbGG5dBZKw-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 100vh;
+   
+    
+}
+.customer-main{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:10px ;
+    width: 80%;
+    margin: auto;
+}
+.card {
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 100px;
+    padding: 20px;
+    line-height: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Other styles remain the same */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Move the card up slightly on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow on hover */
+}
+.card img{
+    width: 50px;
+    border-radius: 50%
+}
+.star{
+    color: #FB9216;
+}
+.subscribe{
+    color: white;
+    margin-top: 100px;
+}
+.subscribe input{
+    margin: 40px;
+    font-size: 17px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 400px;
+}
+.subscribe input:focus{
+    border: none;
+    outline: none;
+}
+.card-1{
+    /* background-image: url("./images/"); */
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),  url("images/luke-stackpoole-mOEqOtmuPG8-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 50vh;
+    border-radius: 20px;
+    display: flex;
+    align-items: end;
+}
+.card-12{
+    /* background-image: url("./images/renan-kamikoga-2bZeEZx7Kaw-unsplash.jpg"); */
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),  url("images/cyril-mzn-WSvth_lwCi0-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 50vh;
+    border-radius: 20px;
+    display: flex;
+    align-items: end;
+}
+.card-13{
+ 
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),  url("images/paul-pastourmatzis-EXbGG5dBZKw-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 50vh;
+    border-radius: 20px;
+    display: flex;
+    align-items: end;
+}
+.card-14{
+    /* background-image: url("./images/christian-lambert-ycyXpdhCnp8-unsplash.jpg"); */
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),  url("images/christoph-schulz-7tb-b37yHx4-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 50vh;
+    border-radius: 20px;
+    display: flex;
+    align-items: end;
+}
+/* Add transition properties to your card class */
+.card-2 {
+    background-color: rgba(255, 255, 255, 0.5);
+    opacity: 0.5;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 5px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.card-2:hover {
+    transform: scale(1.05); /* Scale the card on hover */
+    opacity: 1; /* Fully reveal the card on hover */
+}
+
+/* Add animation properties to your "Read More" button */
+.read-more {
+    color: #1071DB;
+ 
+    border: none;
+   
+   background: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.read-more:hover {
+    background-color: #0b5fa5; /* Change button color on hover */
+    transform: scale(1.05); /* Scale the button on hover */
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+
+.main-homecard {
+    width: 80%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 1rem;
+    margin-top: 70px;
+    box-shadow: 0 2px 8px 4px rgba(178, 178, 178, 0.45);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+.btn{
+    width: 98%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+/* Add transition properties to buttons */
+.btn1, .btn2 {
+    background-color: #1071DB;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 15px;
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn2 {
+    background: none;
+    color: white;
+}
+
+.homecard{
+    width: 98%;
+    border-radius: 1rem;
+    padding: 2rem;
+    background-color: white;
+   
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+   
+    
+  margin: auto;
+    box-shadow: 0 2px 8px 4px rgba(178,178,178,0.45);
+    height: 150px;
+    align-items: center;
+
+}
+.locationDiv{
+    border-right: 2px solid #1071DB;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-weight: 600;
+}
+.locationDiv input, .distDiv input, .pricediv input, .searchdiv input {
+    margin-right: 20px;
+    font-weight: 600;
+    border: none;
+    border: 1px solid #1071DB;
+    font-size: 17px;
+    padding: 5px;
+    border-radius: 10px;
+    transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+.locationDiv input::placeholder, .distDiv input::placeholder, .pricediv input::placeholder, .searchdiv input::placeholder {
+    color: #1071DB;
+    font-weight: 600;
+}
+
+.locationDiv input:focus, .distDiv input:focus, .pricediv input:focus, .searchdiv input:focus {
+    outline: none;
+    border-color: #0b5fa5; /* Change border color on focus */
+    transform: scale(1.02); /* Slightly scale the input field on focus */
+}
+
+/* Add hover effect to buttons */
+.btn1:hover, .btn2:hover {
+    background-color: #0b5fa5; /* Change button background color on hover */
+    transform: scale(1.05); /* Scale the button on hover */
+}
+
+/* Hover effect on .main-homecard */
+.main-homecard:hover {
+    background-color: rgba(66, 66, 66, 0.8); /* Change background color on hover */
+    box-shadow: 0 4px 12px 6px rgba(178, 178, 178, 0.6);
+}
+
+
+.distDiv{
+    border-right: 2px solid #1071DB;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-weight: 600;
+}
+.distDiv input{
+    margin-right: 20px;
+    font-weight: 600;
+    border: none;
+    border: 1px solid #1071DB;
+    font-size: 17px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.distDiv input::placeholder{
+    color: #1071DB;
+    font-weight: 600;
+}
+.distDiv input:focus{
+    outline: none;
+    /* border: none; */
+}
+.pricediv{
+    border-right: 2px solid #1071DB;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-weight: 600;
+}
+.pricediv input{
+    margin-right: 20px;
+    font-weight: 600;
+    border: none;
+    border: 1px solid #1071DB;
+    font-size: 17px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.pricediv input::placeholder{
+    color: #1071DB;
+    font-weight: 600;
+}
+.pricediv input:focus{
+    outline: none;
+    /* border: none; */
+}
+
+
+.searchdiv{
+    /* border-right: 2px solid #1071DB; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-weight: 600;
+}
+.searchdiv input{
+    margin-right: 20px;
+    font-weight: 600;
+    border: none;
+    border: 1px solid #1071DB;
+    font-size: 17px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.searchdiv input::placeholder{
+    color: #1071DB;
+    font-weight: 600;
+}
+.searchdiv input:focus{
+    outline: none;
+    /* border: none; */
+}
+
+@media (max-width: 1345px) {
+    .main-container{
+        background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),  url("images/Untitled.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        margin-top: -70px;
+        height: 150vh;
+      
+     
+    }
+
+    .main-homecard {
+      flex-direction: column; /* Change to a column layout */
+      align-items: center;
+     
+    }
+  
+    /* Adjust the input styles to be in a single line */
+    .main-homecard .btn {
+      flex-direction: column;
+    }
+  
+    .main-homecard .btn1,
+    .main-homecard .btn2 {
+      width: 100%; /* Make buttons full width */
+      margin-bottom: 10px;
+    }
+  
+    .main-homecard .locationDiv,
+    .main-homecard .distDiv,
+    .main-homecard .pricediv,
+    .main-homecard .searchdiv {
+      border: none; /* Remove borders */
+      margin-bottom: 10px; /* Add margin between sections */
+    }
+  
+    .main-homecard .locationDiv input,
+    .main-homecard .distDiv input,
+    .main-homecard .pricediv input,
+    .main-homecard .searchdiv input {
+      width: calc(25% - 20px); /* Make inputs full width and distribute them evenly */
+      margin-right: 20px; /* Add right margin for spacing */
+    }
+    
+    /* Remove right margin from the last input to prevent overflow */
+    .main-homecard .searchdiv input:last-child {
+      margin-right: 0;
+    }
+  
+  }
+
+  @media (max-width: 1345px) {
+    .homecard {
+      /* display: flex; */
+      flex-direction: column;
+      align-items: center;
+      
+      height: 50vh;
+    }
+    .customer{
+        background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),  url("images/paul-pastourmatzis-EXbGG5dBZKw-unsplash.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        height: 130vh;
+       
+        
+    }
+    .customer-main{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:10px ;
+        width: 80%;
+        margin: auto;
+    }
+  
+    .homecard .locationDiv,
+    .homecard .distDiv,
+    .homecard .pricediv,
+    .homecard .searchdiv {
+      width: 100%;
+      /* display: flex; */
+     
+    
+    }
+    .dest-pics{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 15px;
+        margin-top: 40px;
+
+    }
+    .dest-pics2{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 15px;
+        margin-top: 40px;
+    }
+   
+   
+  
+    .homecard label {
+      font-size: 16px;
+      display: none; /* Adjust label font size as needed */
+    }
+  
+    .homecard input {
+      width: 100% !important;
+      padding: 10px;
+      font-size: 16px; /* Adjust input font size as needed */
+      border: 1px solid #1071DB;
+      border-radius: 10px;
+    }
+  }
+  @media (max-width: 745px ) {
+    .customer{
+        background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),  url("images/paul-pastourmatzis-EXbGG5dBZKw-unsplash.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        height: 200vh;
+       
+        
+    }
+    .customer-main{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap:10px ;
+        width: 80%;
+        margin: auto;
+    }
+    .card{
+    
+        background-color: white;
+        border-radius: 20px;
+        margin-top: 100px;
+        padding: 20px;
+        line-height: 30px;
+       
+    }
+  }
+  @media (max-width: 545px ) {
+    .customer{
+        background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),  url("images/paul-pastourmatzis-EXbGG5dBZKw-unsplash.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        height: 250vh;
+       
+        
+    }
+  }
