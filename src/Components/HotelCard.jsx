@@ -39,6 +39,10 @@ font-weight:bold; */
     margin-bottom: 40px;
     
    
+
+    box-shadow: 0px 2px 6px 3px rgba(0, 0, 0, 0.1);
+}
+
   
  // margin: 20px; /* Add spacing between cards */
 }
