@@ -17,9 +17,7 @@ export const SideBarHotel = () => {
   const [order,setOrder]=useState(search.get("order")||"")
   const [minMax,setMinMax]=useState(search.get("range")||[0,30000])
 
-  useEffect(()=>{
-    console.log(category.includes("Vilas"))
-  },[])
+  
   
 
 
