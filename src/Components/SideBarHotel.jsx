@@ -6,7 +6,7 @@ import {
     RangeSliderFilledTrack,
     RangeSliderThumb,
     Checkbox,
-    Stack
+    
   } from '@chakra-ui/react'
 
 import styled from "styled-components";
@@ -15,6 +15,14 @@ export const SideBarHotel = () => {
   const [search,setSearchParams]=useSearchParams()
   const [category,setCategory]=useState(search.getAll("category")||[])
   const [order,setOrder]=useState(search.get("order")||"")
+  const [minMax,setMinMax]=useState(search.get("range")||[0,30000])
+
+  useEffect(()=>{
+    console.log(category.includes("Vilas"))
+  },[])
+  
+
+
 
   const handleCategory=(e)=>{
     const {value}=e.target
@@ -37,53 +45,80 @@ export const SideBarHotel = () => {
     let params={
       category,
     }
+    minMax[0]&&(params.min=minMax[0])
+    minMax[1]&&(params.max=minMax[1])
     order&&(params.order=order)
     setSearchParams(params)
-  },[category,order,setSearchParams])
+  },[category,order,setSearchParams,minMax])
   return (
     <DIV>
-      <h3>Filter by Category</h3>
-      <Stack>
-        <Checkbox size='lg' colorScheme="blue" type="checkbox" value={"Vilas"} onChange={handleCategory} checked={category.includes("Vilas")} >Vilas</Checkbox>
+      <div className="category_filter">
+      <h2>Category</h2>
+      
+       
+        <Checkbox isChecked={category.includes("Vilas")} size='lg' colorScheme="orange"  value={"Vilas"} onChange={handleCategory} >Vilas</Checkbox>
        
 
-        <br />
-        <Checkbox
-         size='lg' colorScheme="blue"
-          type="checkbox"
+       
+        <Checkbox 
+         size='lg' colorScheme="orange"
+          
           value={"Resort"}
           onChange={handleCategory}
-          checked={category.includes("Resort")} >Resort</Checkbox>
+          isChecked={category.includes("Resort")} >Resort</Checkbox>
         
-        <label>Resort</label>
-        <br />
-        <input
+        
+       
+        <Checkbox
           
-          type="checkbox"
+          size='lg' colorScheme="orange"
           value={"Hotel"}
           onChange={handleCategory}
-          checked={category.includes("Hotel")}
-        />
-        <label>Hotel</label>
-        <br />
-        <input
-          data-testid="motivational-filter"
-          type="checkbox"
+          isChecked={category.includes("Hotel")}>Hotel
+          </Checkbox>
+       
+        
+        <Checkbox
+          
+          size='lg' colorScheme="orange"
           value={"Homestay"}
           onChange={handleCategory}
-          checked={category.includes("Homestay")}
-        />
-        <label>Homestay</label>
-        <br />
-      </Stack>
-      <br />
-      <br />
+          isChecked={category.includes("Homestay")}
+        >HomeStay</Checkbox>
+        
+      </div>
+    
+      
+      <div className="slider">
+      <h2>Price Range</h2>
+      <RangeSlider
+      onChange={(e)=>setMinMax(e)}
+      min={500}
+      max={30000}
+        aria-label={['min', 'max']}
+        colorScheme="orange"
+        defaultValue={[500,30000]}
+        >
+        <RangeSliderTrack>
+          
+            <RangeSliderFilledTrack />
+        </RangeSliderTrack>
+        <RangeSliderThumb className="thumb" bg="orange"  index={0}>{minMax[0]}</RangeSliderThumb>
+        <RangeSliderThumb  className="thumb"   bg="orange" index={1}>{minMax[1]}</RangeSliderThumb>
+        </RangeSlider>
+        
+        
+        
+      </div>
+      
+      
+      <div className="price_sort">
       <h3>Sort By Price</h3>
-      <div>
-        <input data-testid="sort-asc" type="radio" name="sort" value={"asc"} onChange={handleOrder} checked={order==="asc"} />
+        <input className="radio" data-testid="sort-asc" type="radio" name="sort" value={"asc"} onChange={handleOrder} checked={order==="asc"} />
         <label>Ascending</label>
         <br />
         <input
+          className="radio"
           data-testid="sort-desc"
           type="radio"
           name="sort"
@@ -93,29 +128,72 @@ export const SideBarHotel = () => {
         />
         <label>Descending</label>
       </div>
-      <div className="slider">
-      <RangeSlider
-        aria-label={['min', 'max']}
-        colorScheme='blue'
-        defaultValue={[10, 30]}
-        >
-        <RangeSliderTrack>
-            <RangeSliderFilledTrack />
-        </RangeSliderTrack>
-        <RangeSliderThumb index={0} />
-        <RangeSliderThumb index={1} />
-        </RangeSlider>
-      </div>
+      
     </DIV>
   );
 };
 
 const DIV = styled.div`
-  width: 15%;
-  border-right: 1px solid gray;
-  font-size: 20px;
+>div{
+  margin-bottom :20px;
+}
+
+  padding: 30px;
+  
+  width:18%;
+  color: white;
+  font-size: 18px;
   text-align: left;
+  background-color:#1071DB; 
+  margin: 20px;
+  //position: fixed;
+  height: 800px;
+  border-radius: 10px;
   .slider{
-    padding:40px;
+    padding:20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    background-color:#1071DB; 
+    border-radius: 5px;
+    height: 100px;
+    
+  }
+  .category_filter{
+    h2{
+      margin-bottom:8px;
+      
+    }
+    
+    display: flex;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;;
+    padding: 20px;
+    border-radius: 5px;
+    flex-direction: column;
+    background-color:#1071DB; 
+    border-radius: 5px;
+    
+  }
+  .price_sort{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;;
+    padding: 20px;
+    border-radius: 5px;
+  } 
+  input[type='radio'] {
+    width: 19px;
+    height: 19px;
+    margin-right: 10px;
+   
+    accent-color: #fb9216;
+        
+        
+    }
+  .thumb{
+    color: transparent;
+  }
+  .thumb:hover{
+      font-size: 10px;
+      font-weight: bold;
+      width: 30px;
+      height: 30px;
+      color: #1071DB;
   }
 `;
