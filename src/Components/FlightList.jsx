@@ -2,6 +2,7 @@ import { Button, HStack, Heading, Image, VStack } from '@chakra-ui/react'
 import {AiOutlineArrowLeft,AiOutlineArrowRight} from "react-icons/ai"
 import React from 'react'
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 export default function FlightList({
     id,
@@ -50,7 +51,9 @@ export default function FlightList({
             </VStack>
             <VStack>
                 <Heading color="#1071DB" as='h4' size='md'>${price}</Heading>
+                <Link to={`/flightcart/${id}`}>
                 <Button color="white" bg="#fb9216">BOOK NOW</Button>
+                </Link>
 
             </VStack>
         

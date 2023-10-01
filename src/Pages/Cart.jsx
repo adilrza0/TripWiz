@@ -1,14 +1,23 @@
 import { Card } from '@chakra-ui/react'
 import React, { useEffect, useState } from 'react'
 import { useSelector } from 'react-redux'
-import { useParams } from 'react-router-dom'
+import { useParams,Link } from 'react-router-dom'
 import styled from 'styled-components'
-
+const inital ={
+  firstname:"",
+  lastname:"",
+  gender:"",
+  adult:"",
+  email:"",
+  mobile:0,
+  address:""
+}
 const Cart = () => {
   const {id} = useParams()
   const hotels = useSelector((store)=>store.hotelReducer.hotels)
   const  [hotel, setHotel] = useState({})
   const [count, setCount] = useState(1)
+  const [data, setData] = useState(inital)
   let priceStore = localStorage.getItem("priceStore")||hotel.price;
   useEffect(()=>{
     const data = hotels.find((el)=>el.id===id)
@@ -18,9 +27,21 @@ const Cart = () => {
   const handleCount=(val)=>{
     setCount((prev)=>prev+val)
   }
-
+useEffect(()=>{
 priceStore=count*hotel.price;
-localStorage.setItem("priceStore",priceStore)
+localStorage.setItem("priceStore",priceStore)},[count])
+
+const handleChange =(e)=>{
+  const {name,value} = e.target;
+
+  setData((prev)=>{
+    return{...prev ,[name]:name=="monile"? +value:value}
+  })
+
+
+}
+
+console.log(data)
   return (
     <DIV >
       
@@ -31,17 +52,65 @@ localStorage.setItem("priceStore",priceStore)
         </div>
         <Card className='hotel'>
 
-      <h2>{hotel.name} </h2>
+      <h1>{hotel.name} </h1>
       <h5>Location: {hotel.location}</h5>
+      <br/>
+
+      <p>{hotel.description}</p>
+      <br/>
       <p>Rating: {hotel.rating}</p>
       <h4>Price: ${hotel.price}</h4>
+      <br/>
       <div className='quantity'>
+        <label> <h1>Add Days</h1></label>
         <button onClick={()=>handleCount(-1)} disabled={count===1}>-</button>
         <button>{count}</button>
         <button onClick={()=>handleCount(1)} >+</button>
       </div>
+      <br/>
+      <Link to="/hotels">
+      <button id='delete'>Delete</button>
+      </Link>
+
         </Card>
       </div>
+            <h2>Guest details</h2>
+      
+        <div id="guest">
+          <form>
+            <div>
+            <label>First name: </label>
+            <input type='text' placeholder='Enter first name' name="firstname" value={data.firstname} onChange={handleChange} />
+            <label>Last name: </label>
+            <input type='text' placeholder='Enter last name'name='lastname' value={data.lastname} onChange={handleChange} />
+            </div>
+            <br/>
+
+            
+            <div>
+            <select name="gender" value={data.gender} onChange={handleChange}>
+              <option value="">Select Gender</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+            </div>
+            <br/>
+            <select name="adult" value={data.adult} onChange={handleChange}>
+              <option value="">Adult</option>
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select>
+            <br/>
+            <label>Email id : </label>
+            <input type='email' placeholder='email' name='email' value={data.email} onChange={handleChange}/>
+            <label>Mobile No : </label>
+            <input type='number' placeholder='mobile number' name='mobile' value={data.mobile}  onChange={handleChange}/>
+            <br/>
+            <label>Address: </label>
+            <input type="textarea" placeholder='Address' name='address' value={data.address} onChange={handleChange} />
+          </form>
+     
+        </div>
       <div className='payment-page'>
       <button>Payment Amount: </button>
       <h3>${count*hotel.price}</h3>
@@ -67,14 +136,15 @@ const DIV = styled.div`
  
 
   .cart-item{
-    width:60%;
-    /* height: 350px; */
+    width:80%;
     display: flex;
     justify-content: space-around;
     padding: 30px;
     border-radius: 15px;
     border: 10px solid #BCDCFF;
-    background: linear-gradient(90deg, rgba(175,170,255,1) 0%, rgba(110,193,143,1) 63%, rgba(0,212,255,1) 100%);
+    background: #1071db;
+    color:whitesmoke;
+    margin: auto;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   }
   .image{
@@ -82,8 +152,10 @@ const DIV = styled.div`
     height: auto;
   }
   img{
-    width: 100%;
+    width: 400px;
+    height: 400px;
     border-radius: 15px;
+    margin: auto;
   }
   .hotel{
     display: flex;
@@ -132,5 +204,27 @@ const DIV = styled.div`
     background-color: #b86705;
     font-size: 30px;
     color: #ffefdb;
+  }
+  #delete{
+    background-color: red;
+    width:50%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 18px;
+    border: none;
+  }
+  #guest{
+    width: 80%;
+  }
+  #guest>form{
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: start;
+    border: 10px solid #BCDCFF;
+    border-radius: 15px;
+    padding: 30px;
+    
   }
 `
