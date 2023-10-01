@@ -6,10 +6,10 @@ import styled from 'styled-components'
 
 const Cart = () => {
   const {id} = useParams()
-
   const hotels = useSelector((store)=>store.hotelReducer.hotels)
   const  [hotel, setHotel] = useState({})
   const [count, setCount] = useState(1)
+  let priceStore = localStorage.getItem("priceStore")||hotel.price;
   useEffect(()=>{
     const data = hotels.find((el)=>el.id===id)
     setHotel(data);
@@ -19,7 +19,8 @@ const Cart = () => {
     setCount((prev)=>prev+val)
   }
 
-
+priceStore=count*hotel.price;
+localStorage.setItem("priceStore",priceStore)
   return (
     <DIV >
       
@@ -63,6 +64,7 @@ const DIV = styled.div`
   gap:10px;
   margin-top: 30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
 
   .cart-item{
     width:60%;
@@ -71,6 +73,7 @@ const DIV = styled.div`
     justify-content: space-around;
     padding: 30px;
     border-radius: 15px;
+    border: 10px solid #BCDCFF;
     background: linear-gradient(90deg, rgba(175,170,255,1) 0%, rgba(110,193,143,1) 63%, rgba(0,212,255,1) 100%);
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   }
@@ -97,6 +100,9 @@ const DIV = styled.div`
     justify-content: space-between;
     padding: 20px;
     border-radius: 15px;
+    border: 10px solid #BCDCFF;
+    margin-top: 50px;
+    margin-bottom: 50px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   }
   .payment-page>button{
@@ -106,6 +112,7 @@ const DIV = styled.div`
     background-color: #a9faf6;
     border-radius: 15px;
     font-size: x-large;
+    
     
   }
   .payment-page>h3{

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Flex, Image, Text,Icon } from '@chakra-ui/react';
+import { Box, Flex, Image, Text,Stack, Link,Icon } from '@chakra-ui/react';
 //import {  } from '@chakra-ui/icons';
 import { FaFacebook, FaTwitter, FaInstagram, FaPhoneAlt, FaCcVisa, FaCcMastercard } from "react-icons/fa";
 import { TfiYoutube, TfiEmail,TfiLocationPin } from "react-icons/tfi";
@@ -22,11 +22,11 @@ export const Footer = () => {
             <Box mr="2" w="30%">
               <Image src="https://i.ibb.co/DVQLYVm/logo-color.png" alt="" w="100%" />
             </Box>
-            <Text fontSize="3xl" fontWeight="bold">
+            <Text fontSize="2xl" fontWeight="bold">
               Outdoor Life
             </Text>
           </Flex>
-          <Text mt="4" textAlign="left" fontSize="sm">
+          <Text mt="4" textAlign="justify" fontSize="sm">
             Outdoor Life is a digital service where you can book your local & international trips
             with the cheapest costs. It includes hotel booking & services by which you can get a
             complete trip package without any hustle for those services individually. We have
@@ -98,6 +98,16 @@ export const Footer = () => {
           </Flex>
           </Box>
         </Box>
+
+        <Stack align="flex-start" mt="30px" mb="30px">
+          <Text fontSize="2xl"  mb="20px">Install App</Text>
+          <Link href="https://play.google.com/store/games?device=windows&pli=1" isExternal>
+            <Image src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nxnz2ypv3wx0aokd84cj.png" alt="Google Play" maxW="10rem" />
+          </Link>
+          <Link href="https://www.apple.com/app-store/" isExternal>
+            <Image src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/imqahj6chipcfdcv8zdk.png" alt="App Store" maxW="10rem" />
+          </Link>
+        </Stack>
 
       </Flex>
     </Box>

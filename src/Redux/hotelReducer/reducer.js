@@ -1,9 +1,10 @@
-import { GET_HOTELS_FAILURE, GET_HOTELS_REQUEST, GET_HOTELS_SUCCESS } from "../actionType"
+import { GET_HOTELS_FAILURE, GET_HOTELS_REQUEST, GET_HOTELS_SUCCESS, GET_TOTAL_PAGES } from "../actionType"
 
 const initialdata={
     isLoading:false,
     isError:false,
-    hotels:[]
+    hotels:[],
+    totalPages:0
 }
 export const reducer=(state=initialdata,{type,payload})=>{
     switch(type){
@@ -15,6 +16,9 @@ export const reducer=(state=initialdata,{type,payload})=>{
         }
         case GET_HOTELS_FAILURE:{
             return {...state,isLoading:false,isError:true,}
+        }
+        case GET_TOTAL_PAGES:{
+            return {...state,totalPages:payload}
         }
         default:{
             return state
