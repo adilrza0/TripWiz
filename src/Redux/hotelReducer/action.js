@@ -8,7 +8,7 @@ export const getHotels=(paramObj)=>(dispatch)=>{
    console.log(paramObj._page)
    axios.get(`http://localhost:8080/hotels`,{params:paramObj})
    .then((res)=>{
-      console.log(paramObj)
+      
     dispatch({type:GET_HOTELS_SUCCESS,payload:res.data})
    })
    .catch((err)=>{

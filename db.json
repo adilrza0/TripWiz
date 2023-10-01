@@ -4,7 +4,7 @@
     {
     "id": 1,
     "flight_number": "AI101",
-    "image": "https://1000logos.net/wp-content/uploads/2022/04/Air-India-Logo-1971.png",
+    "image": "https://www.nicepng.com/png/full/250-2508376_air-india-logo-air-india-airlines-logo.png",
     "airline": "Air India",
     "from_city": "Delhi",
     "from_code": "DEL",
@@ -20,7 +20,7 @@
     {
     "id": 2,
     "flight_number": "6E502",
-    "image": "https://tse3.mm.bing.net/th?id=OIP.Cvbxy2hwVfOiYvXD3gWV_AHaEK&pid=Api&P=0",
+    "image": "https://images.crunchbase.com/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1454732177/hngzxxk0aqqla5fjwqm4.png",
     "airline": "IndiGo",
     "from_city": "Bangalore",
     "from_code": "BLR",
@@ -36,7 +36,7 @@
     {
     "id": 3,
     "flight_number": "SG298",
-    "image": "https://tse1.mm.bing.net/th?id=OIP.G1FBiJ-ycDK3PZDWwebVmQHaC_&pid=Api&P=0&w=300&h=300",
+    "image": "https://i.pinimg.com/564x/a3/7c/d6/a37cd657621e9faf0f793bb9e5093f58.jpg",
     "airline": "SpiceJet",
     "from_city": "Delhi",
     "from_code": "DEL",
@@ -52,7 +52,7 @@
     {
     "id": 4,
     "flight_number": "UK859",
-    "image": "https://www.airvistara.com/content/dam/airvistara/global/english/home-page/social-media-preview/Vistara-Logo.jpg",
+    "image": "https://seeklogo.com/images/V/vistara-logo-C07710BC2B-seeklogo.com.png",
     "airline": "Vistara",
     "from_city": "Mumbai",
     "from_code": "BOM",
@@ -68,7 +68,7 @@
     {
     "id": 5,
     "flight_number": "AI302",
-    "image": "https://1000logos.net/wp-content/uploads/2022/04/Air-India-Logo-1971.png",
+    "image": "https://www.nicepng.com/png/full/250-2508376_air-india-logo-air-india-airlines-logo.png",
     "airline": "Air India",
     "from_city": "Mumbai",
     "from_code": "BOM",
@@ -84,7 +84,7 @@
     {
     "id": 6,
     "flight_number": "6E310",
-    "image": "https://tse3.mm.bing.net/th?id=OIP.Cvbxy2hwVfOiYvXD3gWV_AHaEK&pid=Api&P=0",
+    "image": "https://images.crunchbase.com/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1454732177/hngzxxk0aqqla5fjwqm4.png",
     "airline": "IndiGo",
     "from_city": "Hyderabad",
     "from_code": "HYD",
@@ -100,7 +100,7 @@
     {
     "id": 7,
     "flight_number": "SG856",
-    "image": "https://tse1.mm.bing.net/th?id=OIP.G1FBiJ-ycDK3PZDWwebVmQHaC_&pid=Api&P=0&w=300&h=300",
+    "image": "https://i.pinimg.com/564x/a3/7c/d6/a37cd657621e9faf0f793bb9e5093f58.jpg",
     "airline": "SpiceJet",
     "from_city": "Chennai",
     "from_code": "MAA",
@@ -116,7 +116,7 @@
     {
     "id": 8,
     "flight_number": "UK128",
-    "image": "https://www.airvistara.com/content/dam/airvistara/global/english/home-page/social-media-preview/Vistara-Logo.jpg",
+    "image": "https://seeklogo.com/images/V/vistara-logo-C07710BC2B-seeklogo.com.png",
     "airline": "Vistara",
     "from_city": "Ahmedabad",
     "from_code": "AMD",
@@ -132,7 +132,7 @@
     {
     "id": 9,
     "flight_number": "AI202",
-    "image": "https://1000logos.net/wp-content/uploads/2022/04/Air-India-Logo-1971.png",
+    "image": "https://www.nicepng.com/png/full/250-2508376_air-india-logo-air-india-airlines-logo.png",
     "airline": "Air India",
     "from_city": "Kolkata",
     "from_code": "CCU",
@@ -150,7 +150,7 @@
     {
     "id": 10,
     "flight_number": "6E912",
-    "image": "https://tse3.mm.bing.net/th?id=OIP.Cvbxy2hwVfOiYvXD3gWV_AHaEK&pid=Api&P=0",
+    "image": "https://images.crunchbase.com/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1454732177/hngzxxk0aqqla5fjwqm4.png",
     "airline": "IndiGo",
     "from_city": "Hyderabad",
     "from_code": "HYD",
@@ -166,7 +166,7 @@
     {
     "id": 11,
     "flight_number": "G8125",
-    "image": "https://i0.wp.com/www.bms.co.in/wp-content/uploads/2015/01/Go-Air-Logo-e1421730764349.jpg?resize=600%2C333",
+    "image": "https://images.crunchbase.com/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1502865823/tnmj7h4bzec4ge8vygha.png",
     "airline": "GoAir",
     "from_city": "Mumbai",
     "from_code": "BOM",
@@ -182,7 +182,7 @@
     {
     "id": 12,
     "flight_number": "UK115",
-    "image": "https://www.airvistara.com/content/dam/airvistara/global/english/home-page/social-media-preview/Vistara-Logo.jpg",
+    "image": "https://seeklogo.com/images/V/vistara-logo-C07710BC2B-seeklogo.com.png",
     "airline": "Vistara",
     "from_city": "Delhi",
     "from_code": "DEL",
@@ -198,7 +198,7 @@
     {
     "id": 17,
     "flight_number": "SG201",
-    "image": "https://tse1.mm.bing.net/th?id=OIP.G1FBiJ-ycDK3PZDWwebVmQHaC_&pid=Api&P=0&w=300&h=300",
+    "image": "https://i.pinimg.com/564x/a3/7c/d6/a37cd657621e9faf0f793bb9e5093f58.jpg",
     "airline": "SpiceJet",
     "from_city": "Kolkata",
     "from_code": "CCU",
@@ -214,7 +214,7 @@
     {
     "id": 18,
     "flight_number": "UK735",
-    "image": "https://www.airvistara.com/content/dam/airvistara/global/english/home-page/social-media-preview/Vistara-Logo.jpg",
+    "image": "https://seeklogo.com/images/V/vistara-logo-C07710BC2B-seeklogo.com.png",
     "airline": "Vistara",
     "from_city": "Ahmedabad",
     "from_code": "AMD",
@@ -230,7 +230,7 @@
     {
     "id": 19,
     "flight_number": "6E711",
-    "image": "https://tse3.mm.bing.net/th?id=OIP.Cvbxy2hwVfOiYvXD3gWV_AHaEK&pid=Api&P=0",
+    "image": "https://images.crunchbase.com/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1454732177/hngzxxk0aqqla5fjwqm4.png",
     "airline": "IndiGo",
     "from_city": "Delhi",
     "from_code": "DEL",
@@ -246,7 +246,7 @@
     {
     "id": 20,
     "flight_number": "AI812",
-    "image": "https://1000logos.net/wp-content/uploads/2022/04/Air-India-Logo-1971.png",
+    "image": "https://www.nicepng.com/png/full/250-2508376_air-india-logo-air-india-airlines-logo.png",
     "airline": "Air India",
     "from_city": "Mumbai",
     "from_code": "BOM",
@@ -278,7 +278,7 @@
     {
     "id": 22,
     "flight_number": "SG609",
-    "image": "https://tse1.mm.bing.net/th?id=OIP.G1FBiJ-ycDK3PZDWwebVmQHaC_&pid=Api&P=0&w=300&h=300",
+    "image": "https://i.pinimg.com/564x/a3/7c/d6/a37cd657621e9faf0f793bb9e5093f58.jpg",
     "airline": "SpiceJet",
     "from_city": "Kolkata",
     "from_code": "CCU",
@@ -294,7 +294,7 @@
     {
     "id": 23,
     "flight_number": "AI202",
-    "image": "https://1000logos.net/wp-content/uploads/2022/04/Air-India-Logo-1971.png",
+    "image": "https://www.nicepng.com/png/full/250-2508376_air-india-logo-air-india-airlines-logo.png",
     "airline": "Air India",
     "from_city": "Delhi",
     "from_code": "DEL",
@@ -310,7 +310,7 @@
     {
     "id": 24,
     "flight_number": "UK302",
-    "image": "https://www.airvistara.com/content/dam/airvistara/global/english/home-page/social-media-preview/Vistara-Logo.jpg",
+    "image": "https://seeklogo.com/images/V/vistara-logo-C07710BC2B-seeklogo.com.png",
     "airline": "Vistara",
     "from_city": "Bangalore",
     "from_code": "BLR",
@@ -326,7 +326,7 @@
     {
     "id": 25,
     "flight_number": "AI902",
-    "image": "https://1000logos.net/wp-content/uploads/2022/04/Air-India-Logo-1971.png",
+    "image": "https://www.nicepng.com/png/full/250-2508376_air-india-logo-air-india-airlines-logo.png",
     "airline": "Air India",
     "from_city": "Chennai",
     "from_code": "MAA",
@@ -342,7 +342,7 @@
     {
     "id": 26,
     "flight_number": "6E204",
-    "image": "https://tse3.mm.bing.net/th?id=OIP.Cvbxy2hwVfOiYvXD3gWV_AHaEK&pid=Api&P=0",
+    "image": "https://images.crunchbase.com/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1454732177/hngzxxk0aqqla5fjwqm4.png",
     "airline": "IndiGo",
     "from_city": "Hyderabad",
     "from_code": "HYD",
@@ -358,7 +358,7 @@
     {
     "id": 27,
     "flight_number": "SG462",
-    "image": "https://tse1.mm.bing.net/th?id=OIP.G1FBiJ-ycDK3PZDWwebVmQHaC_&pid=Api&P=0&w=300&h=300",
+    "image": "https://i.pinimg.com/564x/a3/7c/d6/a37cd657621e9faf0f793bb9e5093f58.jpg",
     "airline": "SpiceJet",
     "from_city": "Ahmedabad",
     "from_code": "AMD",
@@ -374,7 +374,7 @@
     {
     "id": 28,
     "flight_number": "G8432",
-    "image": "https://i0.wp.com/www.bms.co.in/wp-content/uploads/2015/01/Go-Air-Logo-e1421730764349.jpg?resize=600%2C333",
+    "image": "https://images.crunchbase.com/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1502865823/tnmj7h4bzec4ge8vygha.png",
     "airline": "GoAir",
     "from_city": "Mumbai",
     "from_code": "BOM",
@@ -390,7 +390,7 @@
     {
     "id": 29,
     "flight_number": "6E650",
-    "image": "https://tse3.mm.bing.net/th?id=OIP.Cvbxy2hwVfOiYvXD3gWV_AHaEK&pid=Api&P=0",
+    "image": "https://images.crunchbase.com/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1454732177/hngzxxk0aqqla5fjwqm4.png",
     "airline": "IndiGo",
     "from_city": "Kolkata",
     "from_code": "CCU",
@@ -406,7 +406,7 @@
     {
     "id": 30,
     "flight_number": "AI905",
-    "image": "https://1000logos.net/wp-content/uploads/2022/04/Air-India-Logo-1971.png",
+    "image": "https://www.nicepng.com/png/full/250-2508376_air-india-logo-air-india-airlines-logo.png",
     "airline": "Air India",
     "from_city": "Delhi",
     "from_code": "DEL",
@@ -422,7 +422,7 @@
     {
     "id": 31,
     "flight_number": "G8307",
-    "image": "https://i0.wp.com/www.bms.co.in/wp-content/uploads/2015/01/Go-Air-Logo-e1421730764349.jpg?resize=600%2C333",
+    "image": "https://images.crunchbase.com/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1502865823/tnmj7h4bzec4ge8vygha.png",
     "airline": "GoAir",
     "from_city": "Hyderabad",
     "from_code": "HYD",
@@ -454,7 +454,7 @@
     {
     "id": 33,
     "flight_number": "AI201",
-    "image": "https://1000logos.net/wp-content/uploads/2022/04/Air-India-Logo-1971.png",
+    "image": "https://www.nicepng.com/png/full/250-2508376_air-india-logo-air-india-airlines-logo.png",
     "airline": "Air India",
     "from_city": "Delhi",
     "from_code": "DEL",
@@ -470,7 +470,7 @@
     {
     "id": 34,
     "flight_number": "6E712",
-    "image": "https://tse3.mm.bing.net/th?id=OIP.Cvbxy2hwVfOiYvXD3gWV_AHaEK&pid=Api&P=0",
+    "image": "https://images.crunchbase.com/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1454732177/hngzxxk0aqqla5fjwqm4.png",
     "airline": "IndiGo",
     "from_city": "Mumbai",
     "from_code": "BOM",
@@ -486,7 +486,7 @@
     {
     "id": 35,
     "flight_number": "SG891",
-    "image": "https://tse1.mm.bing.net/th?id=OIP.G1FBiJ-ycDK3PZDWwebVmQHaC_&pid=Api&P=0&w=300&h=300",
+    "image": "https://i.pinimg.com/564x/a3/7c/d6/a37cd657621e9faf0f793bb9e5093f58.jpg",
     "airline": "SpiceJet",
     "from_city": "Chennai",
     "from_code": "MAA",
@@ -502,7 +502,7 @@
     {
     "id": 36,
     "flight_number": "UK107",
-    "image": "https://www.airvistara.com/content/dam/airvistara/global/english/home-page/social-media-preview/Vistara-Logo.jpg",
+    "image": "https://seeklogo.com/images/V/vistara-logo-C07710BC2B-seeklogo.com.png",
     "airline": "Vistara",
     "from_city": "Hyderabad",
     "from_code": "HYD",
@@ -518,7 +518,7 @@
     {
     "id": 37,
     "flight_number": "AI306",
-    "image": "https://1000logos.net/wp-content/uploads/2022/04/Air-India-Logo-1971.png",
+    "image": "https://www.nicepng.com/png/full/250-2508376_air-india-logo-air-india-airlines-logo.png",
     "airline": "Air India",
     "from_city": "Hyderabad",
     "from_code": "HYD",
@@ -534,7 +534,7 @@
     {
     "id": 38,
     "flight_number": "6E263",
-    "image": "https://tse3.mm.bing.net/th?id=OIP.Cvbxy2hwVfOiYvXD3gWV_AHaEK&pid=Api&P=0",
+    "image": "https://images.crunchbase.com/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1454732177/hngzxxk0aqqla5fjwqm4.png",
     "airline": "IndiGo",
     "from_city": "Chennai",
     "from_code": "MAA",
@@ -550,7 +550,7 @@
     {
     "id": 39,
     "flight_number": "SG852",
-    "image": "https://tse1.mm.bing.net/th?id=OIP.G1FBiJ-ycDK3PZDWwebVmQHaC_&pid=Api&P=0&w=300&h=300",
+    "image": "https://i.pinimg.com/564x/a3/7c/d6/a37cd657621e9faf0f793bb9e5093f58.jpg",
     "airline": "SpiceJet",
     "from_city": "Jaipur",
     "from_code": "JAI",
@@ -566,7 +566,7 @@
     {
     "id": 40,
     "flight_number": "UK492",
-    "image": "https://www.airvistara.com/content/dam/airvistara/global/english/home-page/social-media-preview/Vistara-Logo.jpg",
+    "image": "https://seeklogo.com/images/V/vistara-logo-C07710BC2B-seeklogo.com.png",
     "airline": "Vistara",
     "from_city": "Mumbai",
     "from_code": "BOM",
