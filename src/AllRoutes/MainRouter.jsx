@@ -5,7 +5,9 @@ import Login from '../Pages/Login'
 import HotelPage from '../Pages/HotelPage'
 import { Cart } from '../Pages/Cart'
 import Signup from '../Pages/Signup'
+import Blogs from '../Pages/Blogs'
 import FlightPage from '../Pages/FlightPage'
+
 
 export default function MainRouter() {
   return (
