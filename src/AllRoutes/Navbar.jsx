@@ -41,6 +41,11 @@ const Navbar = () => {
         title: "Cart",
         path: "/cart"
       },
+      {
+        id: 8,
+        title: "Flights",
+        path: "/flight"
+      },
     ];
   
     const activeStyle = {
