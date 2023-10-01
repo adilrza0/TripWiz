@@ -1,22 +1,50 @@
-import React from 'react'
+import React, { useState } from 'react'
 import login from '../images/Signup.jpg'
 import styled from 'styled-components'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
+import { useDispatch } from 'react-redux'
+import { postSignUpData } from '../Redux/authReducer/action'
 
+const initialState = {
+  userName:"",
+  email:"",
+  password:""
+}
 
 export default function Signup() {
+  const [data, setData] = useState(initialState)
+  const dispatch = useDispatch()
+  const navigate = useNavigate()
+
+  const handleChange = (e) =>{
+    const {name,value} = e.target
+     setData((prev)=>{
+      return {...prev, [name]:value}
+     })
+  }
+
+  const handleSignUp = (e)=>{
+    e.preventDefault()
+    console.log(data)
+    dispatch(postSignUpData(data)).then(()=>{
+        navigate("/login")
+    })
+    
+    setData(initialState)
+  }
+
     return (
         <DIV>
            <div className="signup_content">
                 <div className='signup_form'>
                     <h1>Sign up</h1>
-                    <form >
+                    <form onSubmit={handleSignUp}>
 
                         <div>
                         <label >
                         <i class="zmdi zmdi-account"></i>
                         </label>
-                            <input type="text" name="name" autoComplete='off' placeholder='Username'/>
+                            <input value = {data.userName} onChange={handleChange} type="text" name="userName" autoComplete='off' placeholder='Username'/>
                             <hr />
                         </div>
     
@@ -24,7 +52,7 @@ export default function Signup() {
                           <label >
                           <i class="zmdi zmdi-email"></i>
                           </label>
-                            <input type="email" name="email" autoComplete='off' placeholder='Email'/>
+                            <input value = {data.email} onChange={handleChange } type="email" name="email" autoComplete='off' placeholder='Email'/>
                             <hr />
                         </div>
 
@@ -32,11 +60,11 @@ export default function Signup() {
                           <label >
                           <i class="zmdi zmdi-lock"></i>
                           </label>
-                            <input type="password" name="password"  autoComplete='off' placeholder='Password'/>
+                            <input value = {data.password} onChange={handleChange } type="password" name="password"  autoComplete='off' placeholder='Password'/>
                             <hr />
                         </div>
-                        <p>Already have an account <Link to={"/login"}>signin</Link></p>
-                        <button>Sign up</button>
+                        <p>Already have an account <Link to={"/login"} style={{color:"#1071db",fontWeight:"bold"}}>signin</Link></p>
+                        <button type='submit'>Sign up</button>
                     </form>
                 </div>
     
@@ -68,7 +96,7 @@ const DIV = styled.div`
   form{
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 30px;
     align-items: center;
   } 
 
@@ -77,7 +105,7 @@ const DIV = styled.div`
     height: 38px;
     font-size: large;
     border: none;
-   
+    padding-top: 15px;
   } 
   
   input:focus {
@@ -109,6 +137,8 @@ const DIV = styled.div`
 
   h1{
     margin-top: -10px;
+    font-size: 40px;
+    font-weight: bold;
     color: #1071db;
   }
 
