@@ -46,32 +46,26 @@ const Navbar = () => {
     const activeStyle = {
       textDecoration: 'none',
       color: 'orange',
-      fontSize:"20px",
+      fontSize:"28px",
       fontVariant: "small-caps"
     };
   
     const defaultStyle = {
       textDecoration: 'none',
-      fontSize:"20px",
+      fontSize:"28px",
       fontVariant: "small-caps",
       backgroundColor: "#4c4177",
       color:"whitesmoke",
-
-     
-      
     };
-    const navbarStyle = {
-      backgroundColor: "#4c4177",
-      backgroundImage: "linear-gradient(315deg, #4c4177 0%, #2a5470 74%)"
-    }
+
   
     return (
-      <div style={{display:"flex",backgroundColor: "#4c4177",color:"whitesmoke"}}>
+      <div style={{display:"flex",backgroundColor: "#4c4177",color:"whitesmoke",justifyContent:"space-around",margin:"auto",padding:"10px"}}>
          <NavLink to="/" >
             <Image src={trip_wiz} w="70px" alt="travel" borderRadius={"50%"} />
           </NavLink>
           
-        <div style={{display:"flex",justifyContent:"space-between", gap:"40px",ml:"600px", maxW:"container.lg"}}   >
+        <div style={{display:"flex",justifyContent:"space-evenly",gap:"80px", maxW:"container.lg"}}   >
           {links.map((link) => (
             <div key={link.id} >
                 <NavLink
