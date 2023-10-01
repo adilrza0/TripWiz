@@ -1,587 +1,586 @@
 {
-  
-  "flights":[
+  "flights": [
     {
-    "id": 1,
-    "flight_number": "AI101",
-    "image": "https://1000logos.net/wp-content/uploads/2022/04/Air-India-Logo-1971.png",
-    "airline": "Air India",
-    "from_city": "Delhi",
-    "from_code": "DEL",
-    "to_city": "Mumbai",
-    "to_code": "BOM",
-    "arrival": "10:45",
-    "departure": "08:15",
-    "duration": "2h 30m",
-    "price": 5000,
-    "seats_available": 50,
-    "layovers": []
+      "id": 1,
+      "flight_number": "AI101",
+      "image": "https://1000logos.net/wp-content/uploads/2022/04/Air-India-Logo-1971.png",
+      "airline": "Air India",
+      "from_city": "Delhi",
+      "from_code": "DEL",
+      "to_city": "Mumbai",
+      "to_code": "BOM",
+      "arrival": "10:45",
+      "departure": "08:15",
+      "duration": "2h 30m",
+      "price": 5000,
+      "seats_available": 50,
+      "layovers": []
     },
     {
-    "id": 2,
-    "flight_number": "6E502",
-    "image": "https://tse3.mm.bing.net/th?id=OIP.Cvbxy2hwVfOiYvXD3gWV_AHaEK&pid=Api&P=0",
-    "airline": "IndiGo",
-    "from_city": "Bangalore",
-    "from_code": "BLR",
-    "to_city": "Hyderabad",
-    "to_code": "HYD",
-    "arrival": "13:00",
-    "departure": "10:30",
-    "duration": "2h 30m",
-    "price": 4000,
-    "seats_available": 80,
-    "layovers": []
+      "id": 2,
+      "flight_number": "6E502",
+      "image": "https://tse3.mm.bing.net/th?id=OIP.Cvbxy2hwVfOiYvXD3gWV_AHaEK&pid=Api&P=0",
+      "airline": "IndiGo",
+      "from_city": "Bangalore",
+      "from_code": "BLR",
+      "to_city": "Hyderabad",
+      "to_code": "HYD",
+      "arrival": "13:00",
+      "departure": "10:30",
+      "duration": "2h 30m",
+      "price": 4000,
+      "seats_available": 80,
+      "layovers": []
     },
     {
-    "id": 3,
-    "flight_number": "SG298",
-    "image": "https://tse1.mm.bing.net/th?id=OIP.G1FBiJ-ycDK3PZDWwebVmQHaC_&pid=Api&P=0&w=300&h=300",
-    "airline": "SpiceJet",
-    "from_city": "Delhi",
-    "from_code": "DEL",
-    "to_city": "Chennai",
-    "to_code": "MAA",
-    "arrival": "17:25",
-    "departure": "14:45",
-    "duration": "2h 40m",
-    "price": 5500,
-    "seats_available": 40,
-    "layovers": []
+      "id": 3,
+      "flight_number": "SG298",
+      "image": "https://tse1.mm.bing.net/th?id=OIP.G1FBiJ-ycDK3PZDWwebVmQHaC_&pid=Api&P=0&w=300&h=300",
+      "airline": "SpiceJet",
+      "from_city": "Delhi",
+      "from_code": "DEL",
+      "to_city": "Chennai",
+      "to_code": "MAA",
+      "arrival": "17:25",
+      "departure": "14:45",
+      "duration": "2h 40m",
+      "price": 5500,
+      "seats_available": 40,
+      "layovers": []
     },
     {
-    "id": 4,
-    "flight_number": "UK859",
-    "image": "https://www.airvistara.com/content/dam/airvistara/global/english/home-page/social-media-preview/Vistara-Logo.jpg",
-    "airline": "Vistara",
-    "from_city": "Mumbai",
-    "from_code": "BOM",
-    "to_city": "Ahmedabad",
-    "to_code": "AMD",
-    "arrival": "16:30",
-    "departure": "14:10",
-    "duration": "2h 20m",
-    "price": 4500,
-    "seats_available": 60,
-    "layovers": []
+      "id": 4,
+      "flight_number": "UK859",
+      "image": "https://www.airvistara.com/content/dam/airvistara/global/english/home-page/social-media-preview/Vistara-Logo.jpg",
+      "airline": "Vistara",
+      "from_city": "Mumbai",
+      "from_code": "BOM",
+      "to_city": "Ahmedabad",
+      "to_code": "AMD",
+      "arrival": "16:30",
+      "departure": "14:10",
+      "duration": "2h 20m",
+      "price": 4500,
+      "seats_available": 60,
+      "layovers": []
     },
     {
-    "id": 5,
-    "flight_number": "AI302",
-    "image": "https://1000logos.net/wp-content/uploads/2022/04/Air-India-Logo-1971.png",
-    "airline": "Air India",
-    "from_city": "Mumbai",
-    "from_code": "BOM",
-    "to_city": "Kolkata",
-    "to_code": "CCU",
-    "arrival": "16:50",
-    "departure": "14:15",
-    "duration": "2h 35m",
-    "price": 6000,
-    "seats_available": 45,
-    "layovers": []
+      "id": 5,
+      "flight_number": "AI302",
+      "image": "https://1000logos.net/wp-content/uploads/2022/04/Air-India-Logo-1971.png",
+      "airline": "Air India",
+      "from_city": "Mumbai",
+      "from_code": "BOM",
+      "to_city": "Kolkata",
+      "to_code": "CCU",
+      "arrival": "16:50",
+      "departure": "14:15",
+      "duration": "2h 35m",
+      "price": 6000,
+      "seats_available": 45,
+      "layovers": []
     },
     {
-    "id": 6,
-    "flight_number": "6E310",
-    "image": "https://tse3.mm.bing.net/th?id=OIP.Cvbxy2hwVfOiYvXD3gWV_AHaEK&pid=Api&P=0",
-    "airline": "IndiGo",
-    "from_city": "Hyderabad",
-    "from_code": "HYD",
-    "to_city": "Bengaluru",
-    "to_code": "BLR",
-    "arrival": "19:40",
-    "departure": "17:10",
-    "duration": "2h 30m",
-    "price": 4500,
-    "seats_available": 70,
-    "layovers": []
+      "id": 6,
+      "flight_number": "6E310",
+      "image": "https://tse3.mm.bing.net/th?id=OIP.Cvbxy2hwVfOiYvXD3gWV_AHaEK&pid=Api&P=0",
+      "airline": "IndiGo",
+      "from_city": "Hyderabad",
+      "from_code": "HYD",
+      "to_city": "Bengaluru",
+      "to_code": "BLR",
+      "arrival": "19:40",
+      "departure": "17:10",
+      "duration": "2h 30m",
+      "price": 4500,
+      "seats_available": 70,
+      "layovers": []
     },
     {
-    "id": 7,
-    "flight_number": "SG856",
-    "image": "https://tse1.mm.bing.net/th?id=OIP.G1FBiJ-ycDK3PZDWwebVmQHaC_&pid=Api&P=0&w=300&h=300",
-    "airline": "SpiceJet",
-    "from_city": "Chennai",
-    "from_code": "MAA",
-    "to_city": "Mumbai",
-    "to_code": "BOM",
-    "arrival": "21:30",
-    "departure": "19:10",
-    "duration": "2h 20m",
-    "price": 5000,
-    "seats_available": 55,
-    "layovers": []
+      "id": 7,
+      "flight_number": "SG856",
+      "image": "https://tse1.mm.bing.net/th?id=OIP.G1FBiJ-ycDK3PZDWwebVmQHaC_&pid=Api&P=0&w=300&h=300",
+      "airline": "SpiceJet",
+      "from_city": "Chennai",
+      "from_code": "MAA",
+      "to_city": "Mumbai",
+      "to_code": "BOM",
+      "arrival": "21:30",
+      "departure": "19:10",
+      "duration": "2h 20m",
+      "price": 5000,
+      "seats_available": 55,
+      "layovers": []
     },
     {
-    "id": 8,
-    "flight_number": "UK128",
-    "image": "https://www.airvistara.com/content/dam/airvistara/global/english/home-page/social-media-preview/Vistara-Logo.jpg",
-    "airline": "Vistara",
-    "from_city": "Ahmedabad",
-    "from_code": "AMD",
-    "to_city": "Delhi",
-    "to_code": "DEL",
-    "arrival": "19:00",
-    "departure": "16:25",
-    "duration": "2h 35m",
-    "price": 5500,
-    "seats_available": 50,
-    "layovers": []
+      "id": 8,
+      "flight_number": "UK128",
+      "image": "https://www.airvistara.com/content/dam/airvistara/global/english/home-page/social-media-preview/Vistara-Logo.jpg",
+      "airline": "Vistara",
+      "from_city": "Ahmedabad",
+      "from_code": "AMD",
+      "to_city": "Delhi",
+      "to_code": "DEL",
+      "arrival": "19:00",
+      "departure": "16:25",
+      "duration": "2h 35m",
+      "price": 5500,
+      "seats_available": 50,
+      "layovers": []
     },
     {
-    "id": 9,
-    "flight_number": "AI202",
-    "image": "https://1000logos.net/wp-content/uploads/2022/04/Air-India-Logo-1971.png",
-    "airline": "Air India",
-    "from_city": "Kolkata",
-    "from_code": "CCU",
-    "to_city": "Bangalore",
-    "to_code": "BLR",
-    "arrival": "20:30",
-    "departure": "16:45",
-    "duration": "3h 45m",
-    "price": 7000,
-    "seats_available": 30,
-    "layovers": [
-    "Mumbai"
-    ]
+      "id": 9,
+      "flight_number": "AI202",
+      "image": "https://1000logos.net/wp-content/uploads/2022/04/Air-India-Logo-1971.png",
+      "airline": "Air India",
+      "from_city": "Kolkata",
+      "from_code": "CCU",
+      "to_city": "Bangalore",
+      "to_code": "BLR",
+      "arrival": "20:30",
+      "departure": "16:45",
+      "duration": "3h 45m",
+      "price": 7000,
+      "seats_available": 30,
+      "layovers": [
+        "Mumbai"
+      ]
     },
     {
-    "id": 10,
-    "flight_number": "6E912",
-    "image": "https://tse3.mm.bing.net/th?id=OIP.Cvbxy2hwVfOiYvXD3gWV_AHaEK&pid=Api&P=0",
-    "airline": "IndiGo",
-    "from_city": "Hyderabad",
-    "from_code": "HYD",
-    "to_city": "Delhi",
-    "to_code": "DEL",
-    "arrival": "21:45",
-    "departure": "18:30",
-    "duration": "3h 15m",
-    "price": 5500,
-    "seats_available": 70,
-    "layovers": []
+      "id": 10,
+      "flight_number": "6E912",
+      "image": "https://tse3.mm.bing.net/th?id=OIP.Cvbxy2hwVfOiYvXD3gWV_AHaEK&pid=Api&P=0",
+      "airline": "IndiGo",
+      "from_city": "Hyderabad",
+      "from_code": "HYD",
+      "to_city": "Delhi",
+      "to_code": "DEL",
+      "arrival": "21:45",
+      "departure": "18:30",
+      "duration": "3h 15m",
+      "price": 5500,
+      "seats_available": 70,
+      "layovers": []
     },
     {
-    "id": 11,
-    "flight_number": "G8125",
-    "image": "https://i0.wp.com/www.bms.co.in/wp-content/uploads/2015/01/Go-Air-Logo-e1421730764349.jpg?resize=600%2C333",
-    "airline": "GoAir",
-    "from_city": "Mumbai",
-    "from_code": "BOM",
-    "to_city": "Kolkata",
-    "to_code": "CCU",
-    "arrival": "14:30",
-    "departure": "11:45",
-    "duration": "2h 45m",
-    "price": 5000,
-    "seats_available": 55,
-    "layovers": []
+      "id": 11,
+      "flight_number": "G8125",
+      "image": "https://i0.wp.com/www.bms.co.in/wp-content/uploads/2015/01/Go-Air-Logo-e1421730764349.jpg?resize=600%2C333",
+      "airline": "GoAir",
+      "from_city": "Mumbai",
+      "from_code": "BOM",
+      "to_city": "Kolkata",
+      "to_code": "CCU",
+      "arrival": "14:30",
+      "departure": "11:45",
+      "duration": "2h 45m",
+      "price": 5000,
+      "seats_available": 55,
+      "layovers": []
     },
     {
-    "id": 12,
-    "flight_number": "UK115",
-    "image": "https://www.airvistara.com/content/dam/airvistara/global/english/home-page/social-media-preview/Vistara-Logo.jpg",
-    "airline": "Vistara",
-    "from_city": "Delhi",
-    "from_code": "DEL",
-    "to_city": "Mumbai",
-    "to_code": "BOM",
-    "arrival": "20:45",
-    "departure": "18:00",
-    "duration": "2h 45m",
-    "price": 6500,
-    "seats_available": 45,
-    "layovers": []
+      "id": 12,
+      "flight_number": "UK115",
+      "image": "https://www.airvistara.com/content/dam/airvistara/global/english/home-page/social-media-preview/Vistara-Logo.jpg",
+      "airline": "Vistara",
+      "from_city": "Delhi",
+      "from_code": "DEL",
+      "to_city": "Mumbai",
+      "to_code": "BOM",
+      "arrival": "20:45",
+      "departure": "18:00",
+      "duration": "2h 45m",
+      "price": 6500,
+      "seats_available": 45,
+      "layovers": []
     },
     {
-    "id": 17,
-    "flight_number": "SG201",
-    "image": "https://tse1.mm.bing.net/th?id=OIP.G1FBiJ-ycDK3PZDWwebVmQHaC_&pid=Api&P=0&w=300&h=300",
-    "airline": "SpiceJet",
-    "from_city": "Kolkata",
-    "from_code": "CCU",
-    "to_city": "Delhi",
-    "to_code": "DEL",
-    "arrival": "21:10",
-    "departure": "18:30",
-    "duration": "2h 40m",
-    "price": 6000,
-    "seats_available": 30,
-    "layovers": []
+      "id": 17,
+      "flight_number": "SG201",
+      "image": "https://tse1.mm.bing.net/th?id=OIP.G1FBiJ-ycDK3PZDWwebVmQHaC_&pid=Api&P=0&w=300&h=300",
+      "airline": "SpiceJet",
+      "from_city": "Kolkata",
+      "from_code": "CCU",
+      "to_city": "Delhi",
+      "to_code": "DEL",
+      "arrival": "21:10",
+      "departure": "18:30",
+      "duration": "2h 40m",
+      "price": 6000,
+      "seats_available": 30,
+      "layovers": []
     },
     {
-    "id": 18,
-    "flight_number": "UK735",
-    "image": "https://www.airvistara.com/content/dam/airvistara/global/english/home-page/social-media-preview/Vistara-Logo.jpg",
-    "airline": "Vistara",
-    "from_city": "Ahmedabad",
-    "from_code": "AMD",
-    "to_city": "Mumbai",
-    "to_code": "BOM",
-    "arrival": "12:00",
-    "departure": "09:40",
-    "duration": "2h 20m",
-    "price": 5500,
-    "seats_available": 70,
-    "layovers": []
+      "id": 18,
+      "flight_number": "UK735",
+      "image": "https://www.airvistara.com/content/dam/airvistara/global/english/home-page/social-media-preview/Vistara-Logo.jpg",
+      "airline": "Vistara",
+      "from_city": "Ahmedabad",
+      "from_code": "AMD",
+      "to_city": "Mumbai",
+      "to_code": "BOM",
+      "arrival": "12:00",
+      "departure": "09:40",
+      "duration": "2h 20m",
+      "price": 5500,
+      "seats_available": 70,
+      "layovers": []
     },
     {
-    "id": 19,
-    "flight_number": "6E711",
-    "image": "https://tse3.mm.bing.net/th?id=OIP.Cvbxy2hwVfOiYvXD3gWV_AHaEK&pid=Api&P=0",
-    "airline": "IndiGo",
-    "from_city": "Delhi",
-    "from_code": "DEL",
-    "to_city": "Jaipur",
-    "to_code": "JAI",
-    "arrival": "16:00",
-    "departure": "14:00",
-    "duration": "2h 00m",
-    "price": 3500,
-    "seats_available": 100,
-    "layovers": []
+      "id": 19,
+      "flight_number": "6E711",
+      "image": "https://tse3.mm.bing.net/th?id=OIP.Cvbxy2hwVfOiYvXD3gWV_AHaEK&pid=Api&P=0",
+      "airline": "IndiGo",
+      "from_city": "Delhi",
+      "from_code": "DEL",
+      "to_city": "Jaipur",
+      "to_code": "JAI",
+      "arrival": "16:00",
+      "departure": "14:00",
+      "duration": "2h 00m",
+      "price": 3500,
+      "seats_available": 100,
+      "layovers": []
     },
     {
-    "id": 20,
-    "flight_number": "AI812",
-    "image": "https://1000logos.net/wp-content/uploads/2022/04/Air-India-Logo-1971.png",
-    "airline": "Air India",
-    "from_city": "Mumbai",
-    "from_code": "BOM",
-    "to_city": "Kolkata",
-    "to_code": "CCU",
-    "arrival": "22:50",
-    "departure": "19:20",
-    "duration": "3h 30m",
-    "price": 7500,
-    "seats_available": 20,
-    "layovers": []
+      "id": 20,
+      "flight_number": "AI812",
+      "image": "https://1000logos.net/wp-content/uploads/2022/04/Air-India-Logo-1971.png",
+      "airline": "Air India",
+      "from_city": "Mumbai",
+      "from_code": "BOM",
+      "to_city": "Kolkata",
+      "to_code": "CCU",
+      "arrival": "22:50",
+      "departure": "19:20",
+      "duration": "3h 30m",
+      "price": 7500,
+      "seats_available": 20,
+      "layovers": []
     },
     {
-    "id": 21,
-    "flight_number": "6E735",
-    "image": "https://cloudfront-us-east-2.images.arcpublishing.com/reuters/63A5PJW3XNJ7DHI3LONSY5VVUY.jpg",
-    "airline": "IndiGo",
-    "from_city": "Chennai",
-    "from_code": "MAA",
-    "to_city": "Kolkata",
-    "to_code": "CCU",
-    "arrival": "18:35",
-    "departure": "16:05",
-    "duration": "2h 30m",
-    "price": 6000,
-    "seats_available": 20,
-    "layovers": []
+      "id": 21,
+      "flight_number": "6E735",
+      "image": "https://cloudfront-us-east-2.images.arcpublishing.com/reuters/63A5PJW3XNJ7DHI3LONSY5VVUY.jpg",
+      "airline": "IndiGo",
+      "from_city": "Chennai",
+      "from_code": "MAA",
+      "to_city": "Kolkata",
+      "to_code": "CCU",
+      "arrival": "18:35",
+      "departure": "16:05",
+      "duration": "2h 30m",
+      "price": 6000,
+      "seats_available": 20,
+      "layovers": []
     },
     {
-    "id": 22,
-    "flight_number": "SG609",
-    "image": "https://tse1.mm.bing.net/th?id=OIP.G1FBiJ-ycDK3PZDWwebVmQHaC_&pid=Api&P=0&w=300&h=300",
-    "airline": "SpiceJet",
-    "from_city": "Kolkata",
-    "from_code": "CCU",
-    "to_city": "Delhi",
-    "to_code": "DEL",
-    "arrival": "22:00",
-    "departure": "19:15",
-    "duration": "2h 45m",
-    "price": 5500,
-    "seats_available": 35,
-    "layovers": []
+      "id": 22,
+      "flight_number": "SG609",
+      "image": "https://tse1.mm.bing.net/th?id=OIP.G1FBiJ-ycDK3PZDWwebVmQHaC_&pid=Api&P=0&w=300&h=300",
+      "airline": "SpiceJet",
+      "from_city": "Kolkata",
+      "from_code": "CCU",
+      "to_city": "Delhi",
+      "to_code": "DEL",
+      "arrival": "22:00",
+      "departure": "19:15",
+      "duration": "2h 45m",
+      "price": 5500,
+      "seats_available": 35,
+      "layovers": []
     },
     {
-    "id": 23,
-    "flight_number": "AI202",
-    "image": "https://1000logos.net/wp-content/uploads/2022/04/Air-India-Logo-1971.png",
-    "airline": "Air India",
-    "from_city": "Delhi",
-    "from_code": "DEL",
-    "to_city": "Bangalore",
-    "to_code": "BLR",
-    "arrival": "08:50",
-    "departure": "06:10",
-    "duration": "2h 40m",
-    "price": 7000,
-    "seats_available": 25,
-    "layovers": []
+      "id": 23,
+      "flight_number": "AI202",
+      "image": "https://1000logos.net/wp-content/uploads/2022/04/Air-India-Logo-1971.png",
+      "airline": "Air India",
+      "from_city": "Delhi",
+      "from_code": "DEL",
+      "to_city": "Bangalore",
+      "to_code": "BLR",
+      "arrival": "08:50",
+      "departure": "06:10",
+      "duration": "2h 40m",
+      "price": 7000,
+      "seats_available": 25,
+      "layovers": []
     },
     {
-    "id": 24,
-    "flight_number": "UK302",
-    "image": "https://www.airvistara.com/content/dam/airvistara/global/english/home-page/social-media-preview/Vistara-Logo.jpg",
-    "airline": "Vistara",
-    "from_city": "Bangalore",
-    "from_code": "BLR",
-    "to_city": "Hyderabad",
-    "to_code": "HYD",
-    "arrival": "13:00",
-    "departure": "10:30",
-    "duration": "2h 30m",
-    "price": 5500,
-    "seats_available": 40,
-    "layovers": []
+      "id": 24,
+      "flight_number": "UK302",
+      "image": "https://www.airvistara.com/content/dam/airvistara/global/english/home-page/social-media-preview/Vistara-Logo.jpg",
+      "airline": "Vistara",
+      "from_city": "Bangalore",
+      "from_code": "BLR",
+      "to_city": "Hyderabad",
+      "to_code": "HYD",
+      "arrival": "13:00",
+      "departure": "10:30",
+      "duration": "2h 30m",
+      "price": 5500,
+      "seats_available": 40,
+      "layovers": []
     },
     {
-    "id": 25,
-    "flight_number": "AI902",
-    "image": "https://1000logos.net/wp-content/uploads/2022/04/Air-India-Logo-1971.png",
-    "airline": "Air India",
-    "from_city": "Chennai",
-    "from_code": "MAA",
-    "to_city": "Delhi",
-    "to_code": "DEL",
-    "arrival": "12:30",
-    "departure": "09:10",
-    "duration": "3h 20m",
-    "price": 5300,
-    "seats_available": 25,
-    "layovers": []
+      "id": 25,
+      "flight_number": "AI902",
+      "image": "https://1000logos.net/wp-content/uploads/2022/04/Air-India-Logo-1971.png",
+      "airline": "Air India",
+      "from_city": "Chennai",
+      "from_code": "MAA",
+      "to_city": "Delhi",
+      "to_code": "DEL",
+      "arrival": "12:30",
+      "departure": "09:10",
+      "duration": "3h 20m",
+      "price": 5300,
+      "seats_available": 25,
+      "layovers": []
     },
     {
-    "id": 26,
-    "flight_number": "6E204",
-    "image": "https://tse3.mm.bing.net/th?id=OIP.Cvbxy2hwVfOiYvXD3gWV_AHaEK&pid=Api&P=0",
-    "airline": "IndiGo",
-    "from_city": "Hyderabad",
-    "from_code": "HYD",
-    "to_city": "Kolkata",
-    "to_code": "CCU",
-    "arrival": "13:55",
-    "departure": "11:25",
-    "duration": "2h 30m",
-    "price": 4600,
-    "seats_available": 65,
-    "layovers": []
+      "id": 26,
+      "flight_number": "6E204",
+      "image": "https://tse3.mm.bing.net/th?id=OIP.Cvbxy2hwVfOiYvXD3gWV_AHaEK&pid=Api&P=0",
+      "airline": "IndiGo",
+      "from_city": "Hyderabad",
+      "from_code": "HYD",
+      "to_city": "Kolkata",
+      "to_code": "CCU",
+      "arrival": "13:55",
+      "departure": "11:25",
+      "duration": "2h 30m",
+      "price": 4600,
+      "seats_available": 65,
+      "layovers": []
     },
     {
-    "id": 27,
-    "flight_number": "SG462",
-    "image": "https://tse1.mm.bing.net/th?id=OIP.G1FBiJ-ycDK3PZDWwebVmQHaC_&pid=Api&P=0&w=300&h=300",
-    "airline": "SpiceJet",
-    "from_city": "Ahmedabad",
-    "from_code": "AMD",
-    "to_city": "Mumbai",
-    "to_code": "BOM",
-    "arrival": "13:15",
-    "departure": "11:00",
-    "duration": "2h 15m",
-    "price": 3700,
-    "seats_available": 50,
-    "layovers": []
+      "id": 27,
+      "flight_number": "SG462",
+      "image": "https://tse1.mm.bing.net/th?id=OIP.G1FBiJ-ycDK3PZDWwebVmQHaC_&pid=Api&P=0&w=300&h=300",
+      "airline": "SpiceJet",
+      "from_city": "Ahmedabad",
+      "from_code": "AMD",
+      "to_city": "Mumbai",
+      "to_code": "BOM",
+      "arrival": "13:15",
+      "departure": "11:00",
+      "duration": "2h 15m",
+      "price": 3700,
+      "seats_available": 50,
+      "layovers": []
     },
     {
-    "id": 28,
-    "flight_number": "G8432",
-    "image": "https://i0.wp.com/www.bms.co.in/wp-content/uploads/2015/01/Go-Air-Logo-e1421730764349.jpg?resize=600%2C333",
-    "airline": "GoAir",
-    "from_city": "Mumbai",
-    "from_code": "BOM",
-    "to_city": "Kolkata",
-    "to_code": "CCU",
-    "arrival": "15:45",
-    "departure": "12:25",
-    "duration": "3h 20m",
-    "price": 6200,
-    "seats_available": 35,
-    "layovers": []
+      "id": 28,
+      "flight_number": "G8432",
+      "image": "https://i0.wp.com/www.bms.co.in/wp-content/uploads/2015/01/Go-Air-Logo-e1421730764349.jpg?resize=600%2C333",
+      "airline": "GoAir",
+      "from_city": "Mumbai",
+      "from_code": "BOM",
+      "to_city": "Kolkata",
+      "to_code": "CCU",
+      "arrival": "15:45",
+      "departure": "12:25",
+      "duration": "3h 20m",
+      "price": 6200,
+      "seats_available": 35,
+      "layovers": []
     },
     {
-    "id": 29,
-    "flight_number": "6E650",
-    "image": "https://tse3.mm.bing.net/th?id=OIP.Cvbxy2hwVfOiYvXD3gWV_AHaEK&pid=Api&P=0",
-    "airline": "IndiGo",
-    "from_city": "Kolkata",
-    "from_code": "CCU",
-    "to_city": "Mumbai",
-    "to_code": "BOM",
-    "arrival": "15:20",
-    "departure": "12:40",
-    "duration": "2h 40m",
-    "price": 5500,
-    "seats_available": 35,
-    "layovers": []
+      "id": 29,
+      "flight_number": "6E650",
+      "image": "https://tse3.mm.bing.net/th?id=OIP.Cvbxy2hwVfOiYvXD3gWV_AHaEK&pid=Api&P=0",
+      "airline": "IndiGo",
+      "from_city": "Kolkata",
+      "from_code": "CCU",
+      "to_city": "Mumbai",
+      "to_code": "BOM",
+      "arrival": "15:20",
+      "departure": "12:40",
+      "duration": "2h 40m",
+      "price": 5500,
+      "seats_available": 35,
+      "layovers": []
     },
     {
-    "id": 30,
-    "flight_number": "AI905",
-    "image": "https://1000logos.net/wp-content/uploads/2022/04/Air-India-Logo-1971.png",
-    "airline": "Air India",
-    "from_city": "Delhi",
-    "from_code": "DEL",
-    "to_city": "Chennai",
-    "to_code": "MAA",
-    "arrival": "09:10",
-    "departure": "06:40",
-    "duration": "2h 30m",
-    "price": 6000,
-    "seats_available": 20,
-    "layovers": []
+      "id": 30,
+      "flight_number": "AI905",
+      "image": "https://1000logos.net/wp-content/uploads/2022/04/Air-India-Logo-1971.png",
+      "airline": "Air India",
+      "from_city": "Delhi",
+      "from_code": "DEL",
+      "to_city": "Chennai",
+      "to_code": "MAA",
+      "arrival": "09:10",
+      "departure": "06:40",
+      "duration": "2h 30m",
+      "price": 6000,
+      "seats_available": 20,
+      "layovers": []
     },
     {
-    "id": 31,
-    "flight_number": "G8307",
-    "image": "https://i0.wp.com/www.bms.co.in/wp-content/uploads/2015/01/Go-Air-Logo-e1421730764349.jpg?resize=600%2C333",
-    "airline": "GoAir",
-    "from_city": "Hyderabad",
-    "from_code": "HYD",
-    "to_city": "Kolkata",
-    "to_code": "CCU",
-    "arrival": "17:00",
-    "departure": "14:20",
-    "duration": "2h 40m",
-    "price": 5500,
-    "seats_available": 50,
-    "layovers": []
+      "id": 31,
+      "flight_number": "G8307",
+      "image": "https://i0.wp.com/www.bms.co.in/wp-content/uploads/2015/01/Go-Air-Logo-e1421730764349.jpg?resize=600%2C333",
+      "airline": "GoAir",
+      "from_city": "Hyderabad",
+      "from_code": "HYD",
+      "to_city": "Kolkata",
+      "to_code": "CCU",
+      "arrival": "17:00",
+      "departure": "14:20",
+      "duration": "2h 40m",
+      "price": 5500,
+      "seats_available": 50,
+      "layovers": []
     },
     {
-    "id": 32,
-    "flight_number": "I517",
-    "image": "https://cdn.businesstraveller.com/wp-content/uploads/fly-images/840956/AirAsia-916x516.jpg",
-    "airline": "AirAsia India",
-    "from_city": "Mumbai",
-    "from_code": "BOM",
-    "to_city": "Bangalore",
-    "to_code": "BLR",
-    "arrival": "13:50",
-    "departure": "11:10",
-    "duration": "2h 40m",
-    "price": 4000,
-    "seats_available": 80,
-    "layovers": []
+      "id": 32,
+      "flight_number": "I517",
+      "image": "https://cdn.businesstraveller.com/wp-content/uploads/fly-images/840956/AirAsia-916x516.jpg",
+      "airline": "AirAsia India",
+      "from_city": "Mumbai",
+      "from_code": "BOM",
+      "to_city": "Bangalore",
+      "to_code": "BLR",
+      "arrival": "13:50",
+      "departure": "11:10",
+      "duration": "2h 40m",
+      "price": 4000,
+      "seats_available": 80,
+      "layovers": []
     },
     {
-    "id": 33,
-    "flight_number": "AI201",
-    "image": "https://1000logos.net/wp-content/uploads/2022/04/Air-India-Logo-1971.png",
-    "airline": "Air India",
-    "from_city": "Delhi",
-    "from_code": "DEL",
-    "to_city": "Kolkata",
-    "to_code": "CCU",
-    "arrival": "16:20",
-    "departure": "13:40",
-    "duration": "2h 40m",
-    "price": 5500,
-    "seats_available": 30,
-    "layovers": []
+      "id": 33,
+      "flight_number": "AI201",
+      "image": "https://1000logos.net/wp-content/uploads/2022/04/Air-India-Logo-1971.png",
+      "airline": "Air India",
+      "from_city": "Delhi",
+      "from_code": "DEL",
+      "to_city": "Kolkata",
+      "to_code": "CCU",
+      "arrival": "16:20",
+      "departure": "13:40",
+      "duration": "2h 40m",
+      "price": 5500,
+      "seats_available": 30,
+      "layovers": []
     },
     {
-    "id": 34,
-    "flight_number": "6E712",
-    "image": "https://tse3.mm.bing.net/th?id=OIP.Cvbxy2hwVfOiYvXD3gWV_AHaEK&pid=Api&P=0",
-    "airline": "IndiGo",
-    "from_city": "Mumbai",
-    "from_code": "BOM",
-    "to_city": "Jaipur",
-    "to_code": "JAI",
-    "arrival": "18:00",
-    "departure": "15:15",
-    "duration": "2h 45m",
-    "price": 4500,
-    "seats_available": 50,
-    "layovers": []
+      "id": 34,
+      "flight_number": "6E712",
+      "image": "https://tse3.mm.bing.net/th?id=OIP.Cvbxy2hwVfOiYvXD3gWV_AHaEK&pid=Api&P=0",
+      "airline": "IndiGo",
+      "from_city": "Mumbai",
+      "from_code": "BOM",
+      "to_city": "Jaipur",
+      "to_code": "JAI",
+      "arrival": "18:00",
+      "departure": "15:15",
+      "duration": "2h 45m",
+      "price": 4500,
+      "seats_available": 50,
+      "layovers": []
     },
     {
-    "id": 35,
-    "flight_number": "SG891",
-    "image": "https://tse1.mm.bing.net/th?id=OIP.G1FBiJ-ycDK3PZDWwebVmQHaC_&pid=Api&P=0&w=300&h=300",
-    "airline": "SpiceJet",
-    "from_city": "Chennai",
-    "from_code": "MAA",
-    "to_city": "Bangalore",
-    "to_code": "BLR",
-    "arrival": "20:00",
-    "departure": "18:00",
-    "duration": "2h 00m",
-    "price": 3500,
-    "seats_available": 70,
-    "layovers": []
+      "id": 35,
+      "flight_number": "SG891",
+      "image": "https://tse1.mm.bing.net/th?id=OIP.G1FBiJ-ycDK3PZDWwebVmQHaC_&pid=Api&P=0&w=300&h=300",
+      "airline": "SpiceJet",
+      "from_city": "Chennai",
+      "from_code": "MAA",
+      "to_city": "Bangalore",
+      "to_code": "BLR",
+      "arrival": "20:00",
+      "departure": "18:00",
+      "duration": "2h 00m",
+      "price": 3500,
+      "seats_available": 70,
+      "layovers": []
     },
     {
-    "id": 36,
-    "flight_number": "UK107",
-    "image": "https://www.airvistara.com/content/dam/airvistara/global/english/home-page/social-media-preview/Vistara-Logo.jpg",
-    "airline": "Vistara",
-    "from_city": "Hyderabad",
-    "from_code": "HYD",
-    "to_city": "Delhi",
-    "to_code": "DEL",
-    "arrival": "13:50",
-    "departure": "11:10",
-    "duration": "2h 40m",
-    "price": 6000,
-    "seats_available": 25,
-    "layovers": []
+      "id": 36,
+      "flight_number": "UK107",
+      "image": "https://www.airvistara.com/content/dam/airvistara/global/english/home-page/social-media-preview/Vistara-Logo.jpg",
+      "airline": "Vistara",
+      "from_city": "Hyderabad",
+      "from_code": "HYD",
+      "to_city": "Delhi",
+      "to_code": "DEL",
+      "arrival": "13:50",
+      "departure": "11:10",
+      "duration": "2h 40m",
+      "price": 6000,
+      "seats_available": 25,
+      "layovers": []
     },
     {
-    "id": 37,
-    "flight_number": "AI306",
-    "image": "https://1000logos.net/wp-content/uploads/2022/04/Air-India-Logo-1971.png",
-    "airline": "Air India",
-    "from_city": "Hyderabad",
-    "from_code": "HYD",
-    "to_city": "Delhi",
-    "to_code": "DEL",
-    "arrival": "16:25",
-    "departure": "14:00",
-    "duration": "2h 25m",
-    "price": 6000,
-    "seats_available": 30,
-    "layovers": []
+      "id": 37,
+      "flight_number": "AI306",
+      "image": "https://1000logos.net/wp-content/uploads/2022/04/Air-India-Logo-1971.png",
+      "airline": "Air India",
+      "from_city": "Hyderabad",
+      "from_code": "HYD",
+      "to_city": "Delhi",
+      "to_code": "DEL",
+      "arrival": "16:25",
+      "departure": "14:00",
+      "duration": "2h 25m",
+      "price": 6000,
+      "seats_available": 30,
+      "layovers": []
     },
     {
-    "id": 38,
-    "flight_number": "6E263",
-    "image": "https://tse3.mm.bing.net/th?id=OIP.Cvbxy2hwVfOiYvXD3gWV_AHaEK&pid=Api&P=0",
-    "airline": "IndiGo",
-    "from_city": "Chennai",
-    "from_code": "MAA",
-    "to_city": "Mumbai",
-    "to_code": "BOM",
-    "arrival": "20:20",
-    "departure": "17:45",
-    "duration": "2h 35m",
-    "price": 5500,
-    "seats_available": 70,
-    "layovers": []
+      "id": 38,
+      "flight_number": "6E263",
+      "image": "https://tse3.mm.bing.net/th?id=OIP.Cvbxy2hwVfOiYvXD3gWV_AHaEK&pid=Api&P=0",
+      "airline": "IndiGo",
+      "from_city": "Chennai",
+      "from_code": "MAA",
+      "to_city": "Mumbai",
+      "to_code": "BOM",
+      "arrival": "20:20",
+      "departure": "17:45",
+      "duration": "2h 35m",
+      "price": 5500,
+      "seats_available": 70,
+      "layovers": []
     },
     {
-    "id": 39,
-    "flight_number": "SG852",
-    "image": "https://tse1.mm.bing.net/th?id=OIP.G1FBiJ-ycDK3PZDWwebVmQHaC_&pid=Api&P=0&w=300&h=300",
-    "airline": "SpiceJet",
-    "from_city": "Jaipur",
-    "from_code": "JAI",
-    "to_city": "Delhi",
-    "to_code": "DEL",
-    "arrival": "11:50",
-    "departure": "10:10",
-    "duration": "1h 40m",
-    "price": 4000,
-    "seats_available": 20,
-    "layovers": []
+      "id": 39,
+      "flight_number": "SG852",
+      "image": "https://tse1.mm.bing.net/th?id=OIP.G1FBiJ-ycDK3PZDWwebVmQHaC_&pid=Api&P=0&w=300&h=300",
+      "airline": "SpiceJet",
+      "from_city": "Jaipur",
+      "from_code": "JAI",
+      "to_city": "Delhi",
+      "to_code": "DEL",
+      "arrival": "11:50",
+      "departure": "10:10",
+      "duration": "1h 40m",
+      "price": 4000,
+      "seats_available": 20,
+      "layovers": []
     },
     {
-    "id": 40,
-    "flight_number": "UK492",
-    "image": "https://www.airvistara.com/content/dam/airvistara/global/english/home-page/social-media-preview/Vistara-Logo.jpg",
-    "airline": "Vistara",
-    "from_city": "Mumbai",
-    "from_code": "BOM",
-    "to_city": "Chennai",
-    "to_code": "MAA",
-    "arrival": "13:40",
-    "departure": "11:20",
-    "duration": "2h 20m",
-    "price": 6500,
-    "seats_available": 10,
-    "layovers": []
+      "id": 40,
+      "flight_number": "UK492",
+      "image": "https://www.airvistara.com/content/dam/airvistara/global/english/home-page/social-media-preview/Vistara-Logo.jpg",
+      "airline": "Vistara",
+      "from_city": "Mumbai",
+      "from_code": "BOM",
+      "to_city": "Chennai",
+      "to_code": "MAA",
+      "arrival": "13:40",
+      "departure": "11:20",
+      "duration": "2h 20m",
+      "price": 6500,
+      "seats_available": 10,
+      "layovers": []
     }
-    ],
-    "hotels":[
-      {
+  ],
+  "hotels": [
+    {
       "id": "1",
       "name": "Ambika Vilas",
       "location": "Thiruvananthapuram",
@@ -590,8 +589,8 @@
       "category": "Vilas",
       "image": "https://r1imghtlak.mmtcdn.com/66c3efee862511ea873e0242ac110003.png?&output-quality=75&downsize=910:612&crop=910:612;58,0&output-format=jpg&downsize=821:550&crop=821:550",
       "rating": 5
-      },
-      {
+    },
+    {
       "id": "2",
       "name": "Sluice House",
       "location": "Lonavala",
@@ -600,8 +599,8 @@
       "category": "Vilas",
       "image": "https://r1imghtlak.mmtcdn.com/dea19356f08911ecb51e0a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;0,149&output-format=jpg&downsize=821:550&crop=821:550",
       "rating": 4.5
-      },
-      {
+    },
+    {
       "id": "3",
       "name": "Rose Amer",
       "location": "Jaipur",
@@ -610,8 +609,8 @@
       "category": "Vilas",
       "image": "https://r1imghtlak.mmtcdn.com/9d2c73b646e611ecb7d20a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;4,0&output-format=jpg&downsize=821:550&crop=821:550",
       "rating": 5
-      },
-      {
+    },
+    {
       "id": "4",
       "name": "StayVista ",
       "location": "Goa",
@@ -620,8 +619,8 @@
       "category": "Vilas",
       "image": "https://r1imghtlak.mmtcdn.com/a0cecc72871911eba2e60242ac110002.jpg?&output-quality=75&downsize=910:612&crop=910:612;4,0&output-format=jpg&downsize=821:550&crop=821:550",
       "rating": 4.5
-      },
-      {
+    },
+    {
       "id": "5",
       "name": "Villa Siolim",
       "location": " Goa",
@@ -630,8 +629,8 @@
       "category": "Vilas",
       "image": "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/202004080632427962-b636fc1e74b511eaa5eb0242ac110005.jpg?&output-quality=75&downsize=910:612&crop=910:612;4,0&out",
       "rating": 4.5
-      },
-      {
+    },
+    {
       "id": "6",
       "name": "Le Meridien",
       "location": "Goa",
@@ -640,8 +639,8 @@
       "category": "Hotel",
       "image": "https://r1imghtlak.mmtcdn.com/6f67aa72e97a11ec9ae10a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;4,0&output-format=jpg&downsize=821:550&crop=821:550",
       "rating": 4.4
-      },
-      {
+    },
+    {
       "id": "7",
       "name": "JW Marriott Hotel",
       "location": "Kolkata",
@@ -650,8 +649,8 @@
       "category": "Hotel",
       "image": "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201611091231415689-170fc18c14d611eab5aa0242ac110002.jpg?&output-quality=75&downsize=910:612&crop=910:612;142,0&output-format=jpg&downsize=821:550&crop=821:550",
       "rating": 4.5
-      },
-      {
+    },
+    {
       "id": "8",
       "name": "Taj Bengal",
       "location": "Kolkata",
@@ -660,8 +659,8 @@
       "category": "Hotel",
       "image": "https://r1imghtlak.mmtcdn.com/c16f9b965a6211e8a7b20a9df65c8753.jpg?&output-quality=75&downsize=910:612&crop=910:612;4,0&output-format=jpg&downsize=821:550&crop=821:550",
       "rating": 4.6
-      },
-      {
+    },
+    {
       "id": "9",
       "name": "Taj Coromandel",
       "location": " Chennai",
@@ -670,8 +669,8 @@
       "category": "Hotel",
       "image": "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/200901081302057726-318c71f640d611e991a50242ac110003.jpg?&output-quality=75&downsize=910:612&crop=910:612;23,0&output-format=jpg&downsize=821:550&crop=821:550",
       "rating": 4.4
-      },
-      {
+    },
+    {
       "id": "10",
       "name": "Red Earth",
       "location": "Chennai",
@@ -680,8 +679,8 @@
       "category": "Hotel",
       "image": "https://r1imghtlak.mmtcdn.com/64e4493c236f11e8a52d025f77df004f.jpg?&output-quality=75&downsize=910:612&crop=910:612;4,0&output-format=jpg&downsize=821:550&crop=821:550",
       "rating": 4.5
-      },
-      {
+    },
+    {
       "id": "11",
       "name": "Silver Sand Beach",
       "location": "Goa",
@@ -690,8 +689,8 @@
       "category": "Resort",
       "image": "https://r1imghtlak.mmtcdn.com/9c8e679c0f0c11eb9e8f0242ac110003.jpg?&output-quality=75&downsize=910:612&crop=910:612;0,35&output-format=jpg&downsize=821:550&crop=821:550",
       "rating": 4.3
-      },
-      {
+    },
+    {
       "id": "12",
       "name": "Radisson Blu Resort",
       "location": "Visakhapatnam",
@@ -700,8 +699,8 @@
       "category": "Resort",
       "image": "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/202106221857384539-e23119e66d3111ec83e90a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;4,0&output-format=jpg&downsize=821:550&crop=821:550",
       "rating": 4.3
-      },
-      {
+    },
+    {
       "id": "13",
       "name": "Caravela Beach Resort",
       "location": " Goa",
@@ -710,8 +709,8 @@
       "category": "Resort",
       "image": "https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/200703241029455940-f0051170d56c11e599ba001ec9b85d13.jpg?&output-quality=75&downsize=910:612&crop=910:612;0,9&output-format=jpg&downsize=821:550&crop=821:550",
       "rating": 4.6
-      },
-      {
+    },
+    {
       "id": "14",
       "name": "Hilton Goa Resort",
       "location": "Goa",
@@ -720,8 +719,8 @@
       "category": "Resort",
       "image": "https://r1imghtlak.mmtcdn.com/3a09403cd39111ed86280a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;4,0&output-format=jpg&downsize=821:550&crop=821:550",
       "rating": 4.5
-      },
-      {
+    },
+    {
       "id": "15",
       "name": "Azaya Beach Resort",
       "location": "Goa",
@@ -730,8 +729,8 @@
       "category": "Resort",
       "image": "https://r1imghtlak.mmtcdn.com/36f95db4f38b11ecb6730a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;13,0&output-format=jpg&downsize=821:550&crop=821:550",
       "rating": 5
-      },
-      {
+    },
+    {
       "id": "16",
       "name": "The Moonlight Chalet",
       "location": "Alibaug",
@@ -740,8 +739,8 @@
       "category": "Homestay",
       "image": "https://r1imghtlak.mmtcdn.com/042c99a23a7911edb3280a58a9feac02.jfif?&output-quality=75&downsize=910:612&crop=910:612;24,0&output-format=jpg&downsize=821:550&crop=821:550",
       "rating": 4.3
-      },
-      {
+    },
+    {
       "id": "17",
       "name": "Elgin Hall ",
       "location": "Alibaug",
@@ -750,8 +749,8 @@
       "category": "Homestay",
       "image": "https://r1imghtlak.mmtcdn.com/d6080eca6d9411eab6b50242ac110006.jpg?&output-quality=75&downsize=910:612&crop=910:612;0,13&output-format=jpg&downsize=821:550&crop=821:550",
       "rating": 4.3
-      },
-      {
+    },
+    {
       "id": "18",
       "name": "Lemon Tree Premier Delhi Airport",
       "location": "Delhi Airport",
@@ -760,8 +759,8 @@
       "category": "Hotel",
       "image": "https://imgcy.trivago.com/c_lfill,d_dummy.jpeg,e_sharpen:60,f_auto,h_225,q_auto,w_225/itemimages/24/71/2471899_v2.jpeg",
       "rating": 4.1
-      },
-      {
+    },
+    {
       "id": "19",
       "name": "President",
       "location": "Delhi",
@@ -770,8 +769,8 @@
       "category": "Hotel",
       "image": "https://imgcy.trivago.com/c_fill,d_dummy.jpeg,f_auto,h_190,q_auto,w_240//partnerimages/48/30/483063376.jpeg",
       "rating": 4.9
-      },
-      {
+    },
+    {
       "id": "20",
       "name": "Ramee Guestline Hotel",
       "location": "Mumbai",
@@ -780,8 +779,8 @@
       "category": "Hotel",
       "image": "https://imgcy.trivago.com/c_fill,d_dummy.jpeg,f_auto,h_190,q_auto,w_240//partnerimages/73/01/730148940.jpeg",
       "rating": 3.3
-      },
-      {
+    },
+    {
       "id": "21",
       "name": "Sofitel BKC",
       "location": "Mumbai",
@@ -790,8 +789,8 @@
       "category": "Hotel",
       "image": "https://imgcy.trivago.com/c_lfill,d_dummy.jpeg,e_sharpen:60,f_auto,h_225,q_auto,w_225/itemimages/19/11/1911037_v7.jpeg",
       "rating": 5
-      },
-      {
+    },
+    {
       "id": "22",
       "name": "Sluice House",
       "location": "Lonavala",
@@ -800,8 +799,8 @@
       "category": "Vilas",
       "image": "https://r1imghtlak.mmtcdn.com/dea19356f08911ecb51e0a58a9feac02.jpg?&output-quality=75&downsize=910:612&crop=910:612;0,149&output-format=jpg&downsize=821:550&crop=821:550",
       "rating": 4.5
-      },
-      {
+    },
+    {
       "id": "23",
       "name": "The Park New",
       "location": "Delhi",
@@ -810,8 +809,8 @@
       "category": "Hotel",
       "image": "https://imgcy.trivago.com/if_iw_lte_ih,c_scale,w_236/if_else,c_scale,h_160/e_improve,q_auto:low/d_dummy.jpeg,f_auto,q_auto//partnerimages/12/31/1231742122.jpeg",
       "rating": 3.4
-      },
-      {
+    },
+    {
       "id": "24",
       "name": "Hilton",
       "location": "Bangalore ",
@@ -820,8 +819,8 @@
       "category": "Hotel",
       "image": "https://imgcy.trivago.com/c_lfill,d_dummy.jpeg,e_sharpen:60,f_auto,h_225,q_auto,w_225/itemimages/21/62/2162610_v2.jpeg",
       "rating": 4.8
-      },
-      {
+    },
+    {
       "id": "25",
       "name": "Treebo Trend Saga Comfort",
       "location": "Bangalore",
@@ -830,8 +829,8 @@
       "category": "Hotel",
       "image": "https://imgcy.trivago.com/c_lfill,d_dummy.jpeg,e_sharpen:60,f_auto,h_225,q_auto,w_225/itemimages/10/50/10509252_v1.jpeg",
       "rating": 3.5
-      },
-      {
+    },
+    {
       "id": "26",
       "name": "JP Cordial",
       "location": "Bangalore",
@@ -840,8 +839,8 @@
       "category": "Hotel",
       "image": "https://imgcy.trivago.com/c_lfill,d_dummy.jpeg,e_sharpen:60,f_auto,h_225,q_auto,w_225/itemimages/14/24/1424011_v1.jpeg",
       "rating": 4.9
-      },
-      {
+    },
+    {
       "id": "27",
       "name": "FabHotel Arafa Inn",
       "location": "Bangalore",
@@ -850,8 +849,8 @@
       "category": "Hotel",
       "image": "https://imgcy.trivago.com/c_lfill,d_dummy.jpeg,e_sharpen:60,f_auto,h_225,q_auto,w_225/itemimages/22/16/2216204_v10.jpeg",
       "rating": 3.4
-      },
-      {
+    },
+    {
       "id": "28",
       "name": "Greens Residency",
       "location": "Delhi",
@@ -860,8 +859,8 @@
       "category": "Hotel",
       "image": "https://imgcy.trivago.com/c_lfill,d_dummy.jpeg,e_sharpen:60,f_auto,h_225,q_auto,w_225/itemimages/45/63/4563874.jpeg",
       "rating": 2.4
-      },
-      {
+    },
+    {
       "id": "29",
       "name": "Elite Park",
       "location": "Bangalore",
@@ -870,8 +869,8 @@
       "category": "Hotel",
       "image": "https://imgcy.trivago.com/c_fill,d_dummy.jpeg,f_auto,h_190,q_auto,w_240//uploadimages/35/85/35852448.jpeg",
       "rating": 3.9
-      },
-      {
+    },
+    {
       "id": "30",
       "name": "DoubleTree Suites by Hilton ",
       "location": " Bangalore",
@@ -880,8 +879,8 @@
       "category": "Vilas",
       "image": "https://imgcy.trivago.com/c_lfill,d_dummy.jpeg,e_sharpen:60,f_auto,h_225,q_auto,w_225/itemimages/25/29/2529777_v1.jpeg",
       "rating": 5
-      },
-      {
+    },
+    {
       "id": "31",
       "name": "The Tamara Coorg",
       "location": "Coorg",
@@ -890,8 +889,8 @@
       "category": "Resort",
       "image": "https://www.realestate.com.au/blog/images/2000x1500-fit,progressive/2019/04/15163225/fijian-bure-with-pool.jpg",
       "rating": 3.8
-      },
-      {
+    },
+    {
       "id": "32",
       "name": "The Oberoi Amarvilas",
       "location": "Agra",
@@ -900,8 +899,8 @@
       "category": "Homestay",
       "image": "https://foreverdc.com/wp-content/uploads/2019/09/dubai-villa.jpg",
       "rating": 4.9
-      },
-      {
+    },
+    {
       "id": "33",
       "name": "Taj Exotica Resort & Spa",
       "location": "Goa",
@@ -910,8 +909,8 @@
       "category": "Resort",
       "image": "https://www.hotelierindia.com/public/images/2020/02/22/JW-Marriott-Muscat-Exterior-Entrance.jpg",
       "rating": 4.7
-      },
-      {
+    },
+    {
       "id": "34",
       "name": "The Leela Palace",
       "location": "Udaipur",
@@ -920,8 +919,8 @@
       "category": "Homestay",
       "image": "https://tse2.mm.bing.net/th?id=OIP.VfJsdi5UARinPHMDiSllgAHaD3&pid=Api&P=0&w=300&h=300",
       "rating": 4.8
-      },
-      {
+    },
+    {
       "id": "35",
       "name": "Wildflower Hall",
       "location": "Shimla",
@@ -930,8 +929,8 @@
       "category": "Homestay",
       "image": "https://tse2.mm.bing.net/th?id=OIP.V1vxCjGbOzVK7oPnZNCaXQHaEK&pid=Api&P=0&w=300&h=300",
       "rating": 1.2
-      },
-      {
+    },
+    {
       "id": "36",
       "name": "Amber Trail",
       "location": "Jaipur",
@@ -940,8 +939,8 @@
       "category": "Vilas",
       "image": "https://www.creativehomeidea.com/wp-content/uploads/2019/03/bellezea_luxury_villas_in_sarjapur-1-752x440.jpg",
       "rating": 2.1
-      },
-      {
+    },
+    {
       "id": "37",
       "name": "Valley View",
       "location": "Mahabaleshwar",
@@ -950,8 +949,8 @@
       "category": "Vilas",
       "image": "https://i.pinimg.com/originals/78/24/94/7824943caa2c4d079296277a7aa2dce5.jpg",
       "rating": 2.3
-      },
-      {
+    },
+    {
       "id": "38",
       "name": "Vineyard Villa",
       "location": "Nashik",
@@ -960,8 +959,8 @@
       "category": "Vilas",
       "image": "https://i.pinimg.com/originals/07/ba/d2/07bad229e126af4138b070a6475be370.jpg",
       "rating": 1.2
-      },
-      {
+    },
+    {
       "id": "39",
       "name": "Mango Tree",
       "location": "Coorg",
@@ -970,8 +969,8 @@
       "category": "Vilas",
       "image": "https://media.cntraveller.in/wp-content/uploads/2019/10/Hamsa-Villas.jpg",
       "rating": 2.6
-      },
-      {
+    },
+    {
       "id": "40",
       "name": "Sunrise Inn",
       "location": "Mumbai",
@@ -980,8 +979,8 @@
       "category": "Homestay",
       "image": "https://tse1.mm.bing.net/th?id=OIP.1AP4EUSemVY8jJ9rN5yukQHaE8&pid=Api&P=0",
       "rating": 3.5
-      },
-      {
+    },
+    {
       "id": "41",
       "name": "Hotel Royal Paradise",
       "location": "Delhi",
@@ -990,8 +989,8 @@
       "category": "Homestay",
       "image": "https://theasiapress.com/wp-content/uploads/2021/03/d1-1024x768.jpg",
       "rating": 4.9
-      },
-      {
+    },
+    {
       "id": "42",
       "name": "Hotel Shiva Palace",
       "location": "Jaipur",
@@ -1000,8 +999,8 @@
       "category": "Resort",
       "image": "https://images.trvl-media.com/hotels/20000000/19390000/19385000/19384906/a69c5f9e.jpg?impolicy=fcrop&w=1200&h=800&p=1&q=medium",
       "rating": 1
-      },
-      {
+    },
+    {
       "id": "43",
       "name": "Hotel Le Garden",
       "location": "Chennai",
@@ -1010,30 +1009,60 @@
       "category": "Vilas",
       "image": "https://tse4.mm.bing.net/th?id=OIP.iyW9ySvgMI_50clbsFZ2zQHaDt&pid=Api&P=0",
       "rating": 2.4
-      }
-      ],
-    "users":[
-      {
-        "id":1,
-        "username":"adil@gmail.com",
-        "password":"adil123"
-      },
-      {
-        "id":2,
-        "username":"test1@gmail.com",
-        "password":"1234"
-      },
-      {
-        "id":3,
-        "username":"test2@gmail.com",
-        "password":"1235"
-      },
-      {
-        "id":4,
-        "username":"test3@gmail.com",
-        "password":"12345"
-      }
-
-    ]
- 
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "adil@gmail.com",
+      "password": "adil123"
+    },
+    {
+      "id": 1,
+      "email": "aamil@gmail.com",
+      "password": "aamil123"
+    },
+    {
+      "userName": "abc",
+      "email": "abc@gmaiil.com",
+      "password": "12345",
+      "id": 2
+    },
+    {
+      "userName": "test1",
+      "email": "test1@gmail.com",
+      "password": "12345",
+      "id": 3
+    },
+    {
+      "userName": "test2",
+      "email": "test2@gmail.com",
+      "password": "12345",
+      "id": 4
+    },
+    {
+      "userName": "test3",
+      "email": "test3@gmail.com",
+      "password": "12345",
+      "id": 5
+    },
+    {
+      "userName": "test3",
+      "email": "test3@gmail.com",
+      "password": "12345",
+      "id": 6
+    },
+    {
+      "userName": "xyz",
+      "email": "xyz@gmail.com",
+      "password": "12345",
+      "id": 7
+    },
+    {
+      "userName": "test6",
+      "email": "test6@gmail.com",
+      "password": "12345",
+      "id": 8
+    }
+  ]
 }
