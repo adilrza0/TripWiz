@@ -83,7 +83,7 @@
 .destination {
     width: 80%;
     margin: auto;
-    margin-top: 60px;
+    margin-top: 130px;
   }
   
   /* Add the following styles for the hover effect */
@@ -309,6 +309,9 @@ margin: auto;
 }
 .star{
     color: #FB9216;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
 }
 .subscribe{
     color: white;
@@ -414,6 +417,7 @@ margin: auto;
     padding: 15px;
     border-radius: 1rem;
     margin-top: 70px;
+    margin-bottom: 100px;
     box-shadow: 0 2px 8px 4px rgba(178, 178, 178, 0.45);
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }

@@ -19,12 +19,10 @@ export const Footer = () => {
       >
         <Box flex="1" mb="4">
           <Flex alignItems="center">
-            <Box mr="2" w="30%">
-              <Image src="https://i.ibb.co/DVQLYVm/logo-color.png" alt="" w="100%" />
+            <Box mr="2" w="60%">
+              <Image  src="https://i.ibb.co/0Jw2rMn/logo-no-background.png" alt="" w="200px" />
             </Box>
-            <Text fontSize="2xl" fontWeight="bold">
-              Outdoor Life
-            </Text>
+            
           </Flex>
           <Text mt="4" textAlign="justify" fontSize="sm">
             Outdoor Life is a digital service where you can book your local & international trips

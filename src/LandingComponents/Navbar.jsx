@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import logo from "./images/logo-no-background.png";
+import logo from "../images/trip_wiz.png";
 import { FaSearch } from "react-icons/fa";
 import { BsFillPersonFill } from "react-icons/bs";
 import "./Navbar.css"
@@ -29,10 +29,12 @@ const Navbar = () => {
   return (
     <MAIN_DIV className='eee' isScrolled={isScrolled}>
       <DIV className='DIV'>
+       
         <Link to={"/"}>
-          <img src={logo} alt="Logo" />
+          <img  src={logo} alt="Logo" />
         </Link>
         <input type="text" placeholder='Search for destinations' className="search-input" />
+      
         {/* <FaSearch className="search-icon" /> */}
         <div className="nav-links">
           <Link to={"/"}> Home</Link>
@@ -85,7 +87,7 @@ const DIV = styled.div`
   justify-content: space-between;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
-  font-size: 17px;
+  font-size: 14px;
   align-items: center;
   position: relative;
   margin-top:8px;
@@ -94,9 +96,10 @@ const DIV = styled.div`
     text-decoration: none;
     color: white;
   }
-
+  
   img {
-    width: 50px;
+    width: 200px;
+    margin-right: 50px;
   }
 
  
