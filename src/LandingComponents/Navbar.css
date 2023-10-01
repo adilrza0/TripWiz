@@ -1,0 +1,39 @@
+@media screen and (max-width: 400px) {
+    .eee {
+      width: 100%;
+    }
+  
+    .DIV .search-input {
+      width: 80%!important; /* Adjust as needed to ensure proper spacing */
+    }
+  
+    .DIV .menu-icon {
+      width: 30px;
+      height: 4px;
+      border-radius: 40%;
+      background-color: white;
+      margin: 4px 0;
+      transition: 0.4s;
+  
+      &.open:nth-child(1) {
+        transform: rotate(-90deg) translate(-5px, 6px);
+      }
+  
+      &.open:nth-child(2) {
+        transform: scaleX(0);
+        opacity: 0;
+      }
+  
+      &.open:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -6px);
+      }
+    }
+  
+    .nav-links {
+      display: none;
+    }
+  
+    .DIV .mobile-menu-button {
+      display: flex;
+    }
+  }

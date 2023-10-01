@@ -6,8 +6,8 @@ import HotelPage from '../Pages/HotelPage'
 import { Cart } from '../Pages/Cart'
 import Signup from '../Pages/Signup'
 import Blogs from '../Pages/Blogs'
-import Contact from '../Pages/Contact'
-import Abouts from '../Pages/Abouts'
+import FlightPage from '../Pages/FlightPage'
+
 
 export default function MainRouter() {
   return (
@@ -17,9 +17,10 @@ export default function MainRouter() {
         <Route path='/hotels' element={<HotelPage />}/>
         <Route path='/cart/:id' element={<Cart />}/>
         <Route path='/signup' element={<Signup />}/>
-        <Route  path='/blogs' element={<Blogs />} />
-        <Route  path='/contact' element={<Contact />} />
-        <Route  path='/about' element={<Abouts />} />
+        <Route path='/flight' element={<FlightPage />}/>
+
+        
+
 
     </Routes>
   )
