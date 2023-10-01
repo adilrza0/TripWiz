@@ -1,128 +1,128 @@
 import { Card } from '@chakra-ui/react'
 import React, { useEffect, useState } from 'react'
 import { useSelector } from 'react-redux'
-import { useParams,Link } from 'react-router-dom'
+import { useParams, Link } from 'react-router-dom'
 import styled from 'styled-components'
-const inital ={
-  firstname:"",
-  lastname:"",
-  gender:"",
-  adult:"",
-  email:"",
-  mobile:0,
-  address:""
+const inital = {
+  firstname: "",
+  lastname: "",
+  gender: "",
+  adult: "",
+  email: "",
+  mobile: 0,
+  address: ""
 }
 const Cart = () => {
-  const {id} = useParams()
-  const hotels = useSelector((store)=>store.hotelReducer.hotels)
-  const  [hotel, setHotel] = useState({})
+  const { id } = useParams()
+  const hotels = useSelector((store) => store.hotelReducer.hotels)
+  const [hotel, setHotel] = useState({})
   const [count, setCount] = useState(1)
   const [data, setData] = useState(inital)
-  let priceStore = localStorage.getItem("priceStore")||hotel.price;
-  useEffect(()=>{
-    const data = hotels.find((el)=>el.id===id)
+  let priceStore = localStorage.getItem("priceStore") || hotel.price;
+  useEffect(() => {
+    const data = hotels.find((el) => el.id === id)
     setHotel(data);
-  },[count])
+  }, [count])
 
-  const handleCount=(val)=>{
-    setCount((prev)=>prev+val)
+
+  useEffect(() => {
+    priceStore = count * hotel.price;
+    localStorage.setItem("priceStore", priceStore)
+  }, [count])
+
+  const handleCount = (val) => {
+    setCount((prev) => prev + val)
   }
-useEffect(()=>{
-priceStore=count*hotel.price;
-localStorage.setItem("priceStore",priceStore)},[count])
+  const handleChange = (e) => {
+    const { name, value } = e.target;
 
-const handleChange =(e)=>{
-  const {name,value} = e.target;
-
-  setData((prev)=>{
-    return{...prev ,[name]:name=="monile"? +value:value}
-  })
+    setData((prev) => {
+      return { ...prev, [name]: name == "monile" ? +value : value }
+    })
 
 
-}
+  }
 
-console.log(data)
+  console.log(data)
   return (
     <DIV >
-      
+
       <div className='cart-item'>
         <div className='image'>
 
-       <img src={hotel.image} alt={hotel.name} />
+          <img src={hotel.image} alt={hotel.name} />
         </div>
         <Card className='hotel'>
 
-      <h1>{hotel.name} </h1>
-      <h5>Location: {hotel.location}</h5>
-      <br/>
+          <h1>{hotel.name} </h1>
+          <h5>Location: {hotel.location}</h5>
+          <br />
 
-      <p>{hotel.description}</p>
-      <br/>
-      <p>Rating: {hotel.rating}</p>
-      <h4>Price: ${hotel.price}</h4>
-      <br/>
-      <div className='quantity'>
-        <label> <h1>Add Days</h1></label>
-        <button onClick={()=>handleCount(-1)} disabled={count===1}>-</button>
-        <button>{count}</button>
-        <button onClick={()=>handleCount(1)} >+</button>
-      </div>
-      <br/>
-      <Link to="/hotels">
-      <button id='delete'>Delete</button>
-      </Link>
+          <p>{hotel.description}</p>
+          <br />
+          <p>Rating: {hotel.rating}</p>
+          <h4>Price: ${hotel.price}</h4>
+          <br />
+          <div className='quantity'>
+            <label> <h1>Add Days</h1></label>
+            <button onClick={() => handleCount(-1)} disabled={count === 1}>-</button>
+            <button>{count}</button>
+            <button onClick={() => handleCount(1)} >+</button>
+          </div>
+          <br />
+          <Link to="/hotels">
+            <button id='delete'>Delete</button>
+          </Link>
 
         </Card>
       </div>
-            <h2>Guest details</h2>
-      
-        <div id="guest">
-          <form>
-            <div>
+      <h2>Guest details</h2>
+
+      <div id="guest">
+        <form>
+          <div>
             <label>First name: </label>
             <input type='text' placeholder='Enter first name' name="firstname" value={data.firstname} onChange={handleChange} />
+            <br />
             <label>Last name: </label>
-            <input type='text' placeholder='Enter last name'name='lastname' value={data.lastname} onChange={handleChange} />
-            </div>
-            <br/>
+            <input type='text' placeholder='Enter last name' name='lastname' value={data.lastname} onChange={handleChange} />
+          </div>
+          <br />
 
-            
-            <div>
+
+          <div>
             <select name="gender" value={data.gender} onChange={handleChange}>
               <option value="">Select Gender</option>
               <option value="male">Male</option>
               <option value="female">Female</option>
             </select>
-            </div>
-            <br/>
-            <select name="adult" value={data.adult} onChange={handleChange}>
-              <option value="">Adult</option>
-              <option value="yes">Yes</option>
-              <option value="no">No</option>
-            </select>
-            <br/>
-            <label>Email id : </label>
-            <input type='email' placeholder='email' name='email' value={data.email} onChange={handleChange}/>
-            <label>Mobile No : </label>
-            <input type='number' placeholder='mobile number' name='mobile' value={data.mobile}  onChange={handleChange}/>
-            <br/>
-            <label>Address: </label>
-            <input type="textarea" placeholder='Address' name='address' value={data.address} onChange={handleChange} />
-          </form>
-     
-        </div>
+          </div>
+          <br />
+          <select name="adult" value={data.adult} onChange={handleChange}>
+            <option value="">Adult</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
+          <br />
+          <label>Email id : </label>
+          <input type='email' placeholder='email' name='email' value={data.email} onChange={handleChange} />
+          <label>Mobile No : </label>
+          <input type='number' placeholder='mobile number' name='mobile' value={data.mobile} onChange={handleChange} />
+          <br />
+          <label>Address: </label>
+          <input type="textarea" placeholder='Address' name='address' value={data.address} onChange={handleChange} />
+        </form>
+
+      </div>
       <div className='payment-page'>
-      <button>Payment Amount: </button>
-      <h3>${count*hotel.price}</h3>
+        <button>Payment Amount: </button>
+        <h3>${count * hotel.price}</h3>
       </div>
     </DIV>
   )
 }
 
-/*
-
-*/
-export {Cart}
+export { Cart }
 
 const DIV = styled.div`
   width: 95%;
@@ -152,7 +152,7 @@ const DIV = styled.div`
     height: auto;
   }
   img{
-    width: 400px;
+    width: 100%;
     height: 400px;
     border-radius: 15px;
     margin: auto;
@@ -193,6 +193,7 @@ const DIV = styled.div`
   .quantity{
     display: flex;
     justify-content:space-evenly;
+    gap: 10px;
     
   }
   .quantity button{
@@ -226,5 +227,30 @@ const DIV = styled.div`
     border-radius: 15px;
     padding: 30px;
     
+  }
+
+  @media (max-width: 700px) {
+    .cart-item{
+      flex-direction: column;
+      margin: auto;
+      width: 95%;
+      align-items: center;
+    }
+    .payment-page{
+      width: 80%;
+    }
+    img{
+      width: 100%;
+    }
+    .quantity{
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: column;
+    gap: 10px;
+    
+  }
+  .delete{
+    align-items: center;
+  }
   }
 `
