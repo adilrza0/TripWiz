@@ -6,7 +6,7 @@ import {AiFillCar} from "react-icons/ai"
 import {LiaHotelSolid} from "react-icons/lia"
 import {MdFlight} from "react-icons/md"
 import Navbar from './Navbar'
-import Footer from './Footer'
+
 import { Link } from 'react-router-dom'
 import turkey from "./images/fatih-yurur-kNSREmtaGOE-unsplash.jpg"
 
@@ -27,6 +27,8 @@ import canada from "./images/mwangi-gatheca-qlKaN7eqay8-unsplash.jpg"
 import brazil from "./images/artists-eyes-zxztWY2Qq-4-unsplash.jpg"
 
 import tor from "./images/christian-lambert-ycyXpdhCnp8-unsplash.jpg"
+import { Footer } from '../Components/Footer'
+import { ChakraProvider } from '@chakra-ui/react'
 
 const Home = () => {
     const [activeButton, setActiveButton] = useState('flights');
@@ -377,7 +379,9 @@ const Home = () => {
 </div>
 <br />
 <br />
-<Footer/>
+      <ChakraProvider>
+        <Footer/>
+      </ChakraProvider>
     </div>
   )
 }
