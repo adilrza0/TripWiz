@@ -20,9 +20,12 @@ const DIV=styled.div`
         background-color: #1071DB;
         border-radius: 50%;
         color: white;
+        border:1px solid white;
 
     }
     .currPage{
-        background-color: #fb9216;
+        background-color: #ffffff;
+        color: #1071DB;
+        border: 1px solid #1071DB;
     }
 `
