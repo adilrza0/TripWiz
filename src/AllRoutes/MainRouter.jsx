@@ -7,6 +7,8 @@ import { Cart } from '../Pages/Cart'
 import Signup from '../Pages/Signup'
 import Blogs from '../Pages/Blogs'
 import FlightPage from '../Pages/FlightPage'
+import Admin from '../Pages/Admin'
+import AddHotel from '../Pages/AddHotel'
 
 
 export default function MainRouter() {
@@ -18,6 +20,8 @@ export default function MainRouter() {
         <Route path='/cart/:id' element={<Cart />}/>
         <Route path='/signup' element={<Signup />}/>
         <Route path='/flight' element={<FlightPage />}/>
+        <Route path='/admin' element={<Admin />}/>
+        <Route path='/addhotel' element={<AddHotel />}/>
 
         
 
