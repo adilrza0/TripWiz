@@ -1081,7 +1081,15 @@
         "famous": "Some of the famous attractions in Paris include the Eiffel Tower, Louvre Museum, Notre-Dame Cathedral, and Montmartre. Strolling along the Seine River and enjoying a café au lait at a sidewalk café are quintessential Parisian experiences.",
         "history": "Paris has a rich history dating back to the Roman era. It played a pivotal role in the Renaissance, Enlightenment, and French Revolution. The city has been a hub for intellectuals, artists, and writers, making it a center of innovation and creativity.",
         "rating": 4.7,
-        "placeImages": ["", "", "", "", ""]
+        "placeImages": [
+          "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+        ],
+        "price": 41000,
+        "type": "beach"
       },
       {
         "id": 2,
@@ -1092,7 +1100,15 @@
         "famous": "Kyoto is famous for its numerous temples, including Kinkaku-ji (the Golden Pavilion), Ginkaku-ji (the Silver Pavilion), and Fushimi Inari Taisha. The city is also renowned for its tea ceremonies, kimonos, and cherry blossom festivals.",
         "history": "Kyoto served as the imperial capital of Japan for over a thousand years. It played a central role in Japanese history and culture, witnessing the rise and fall of samurai clans, the development of tea ceremony traditions, and the preservation of traditional arts.",
         "rating": 4.8,
-        "placeImages": ["", "", "", "", ""]
+        "placeImages": [
+          "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+        ],
+        "price": 45000,
+        "type": "beach"
       },
       {
         "id": 3,
@@ -1103,7 +1119,15 @@
         "famous": "The island's iconic blue-domed churches in Oia and the dramatic caldera views are famous attractions. Santorini is also celebrated for its delicious Greek cuisine, including fresh seafood and traditional dishes.",
         "history": "Santorini has a unique history tied to the Minoan civilization. It's believed to be the inspiration for the legend of Atlantis. The island's volcanic eruption in antiquity shaped its landscape and contributed to its unique beauty.",
         "rating": 4.9,
-        "placeImages": ["", "", "", "", ""]
+        "placeImages": [
+          "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+        ],
+        "price": 33000,
+        "type": "beach"
       },
       {
         "id": 4,
@@ -1114,7 +1138,15 @@
         "famous": "Some of the famous attractions in NYC include Times Square, Central Park, Statue of Liberty, and Broadway. The city is a hub for finance, fashion, and the arts, making it a cultural melting pot.",
         "history": "New York City has a rich history dating back to its Dutch colonial origins. It played a pivotal role in the American Revolution and has been a center of immigration, leading to its incredible cultural diversity.",
         "rating": 4.6,
-        "placeImages": ["", "", "", "", ""]
+        "placeImages": [
+          "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+        ],
+        "price": 43000,
+        "type": "beach"
       },
       {
         "id": 5,
@@ -1125,7 +1157,15 @@
         "famous": "Rome's famous landmarks include the Colosseum, Roman Forum, Pantheon, and Vatican City, home to St. Peter's Basilica and the Sistine Chapel. The city is also renowned for its delicious pasta and gelato.",
         "history": "Rome was once the heart of the Roman Empire, with a legacy that shaped the Western world. It was a center of power, art, and innovation during antiquity and continues to be a living museum of history.",
         "rating": 4.7,
-        "placeImages": ["", "", "", "", ""]
+        "placeImages": [
+          "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+        ],
+        "price": 35000,
+        "type": "beach"
       },
       {
         "id": 6,
@@ -1136,7 +1176,15 @@
         "famous": "Some of the famous attractions in Bali include Uluwatu Temple, Ubud Monkey Forest, and the terraced rice fields of Tegallalang. The island is also celebrated for its traditional dance performances and vibrant nightlife.",
         "history": "Bali has a rich cultural heritage rooted in Hinduism. Its temples, rituals, and festivals are an integral part of daily life. The island's history is intertwined with its stunning natural beauty.",
         "rating": 4.8,
-        "placeImages": ["", "", "", "", ""]
+        "placeImages": [
+          "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+        ],
+        "price": 25000,
+        "type": "beach"
       },
       {
         "id": 7,
@@ -1147,7 +1195,15 @@
         "famous": "Barcelona is famous for Antoni Gaudí's architectural masterpieces like Sagrada Família and Park Güell. The city's Gothic Quarter, La Rambla, and vibrant food scene are also popular among visitors.",
         "history": "Barcelona has a history dating back to Roman times. It has a distinct Catalan identity and played a significant role in the Spanish Civil War. Its culture, language, and traditions are proudly preserved.",
         "rating": 4.7,
-        "placeImages": ["", "", "", "", ""]
+        "placeImages": [
+          "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+        ],
+        "price": 50000,
+        "type": "beach"
       },
       {
         "id": 8,
@@ -1158,7 +1214,15 @@
         "famous": "Table Mountain, Robben Island, Boulders Beach with its penguins, and the Cape Winelands are famous attractions. Cape Town is also known for its vibrant arts scene and delicious cuisine.",
         "history": "Cape Town has a complex history, from indigenous Khoikhoi and San settlements to European colonization and apartheid. Sites like Robben Island hold significant historical importance.",
         "rating": 4.8,
-        "placeImages": ["", "", "", "", ""]
+        "placeImages": [
+          "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+        ],
+        "price": 35000,
+        "type": "beach"
       },
       {
         "id": 9,
@@ -1169,7 +1233,9 @@
         "famous": "Sydney's famous landmarks include the Sydney Opera House, Sydney Harbour Bridge, and Bondi Beach. The city's multicultural neighborhoods and vibrant arts scene make it a diverse and exciting destination.",
         "history": "Sydney's history is tied to British colonization, with Indigenous Australian heritage dating back thousands of years. The city has evolved into a thriving metropolis while preserving its natural beauty.",
         "rating": 4.9,
-        "placeImages": ["", "", "", "", ""]
+        "placeImages": ["", "", "", "", ""],
+        "price": 35000,
+        "type": "beach"
       },
       {
         "id": 10,
@@ -1180,7 +1246,9 @@
         "famous": "Some of the famous attractions in Istanbul include the Hagia Sophia, Blue Mosque, Topkapi Palace, and the Grand Bazaar. The city's rich cuisine, including baklava and kebabs, is also renowned.",
         "history": "Istanbul, formerly Byzantium and Constantinople, has a history dating back to ancient times. It was the capital of the Byzantine and Ottoman Empires, leaving a legacy of diverse cultures, religions, and traditions.",
         "rating": 4.6,
-        "placeImages": ["", "", "", "", ""]
+        "placeImages": ["", "", "", "", ""],
+        "price": 40000,
+        "type": "beach"
       },
       {
         "id": 11,
@@ -1191,7 +1259,9 @@
         "famous": "Machu Picchu is famous for its precisely cut stone structures, terraced fields, and its strategic location amidst the mountains. The site is also a testament to Inca engineering and astronomical achievements.",
         "history": "Machu Picchu was built in the 15th century but abandoned during the Spanish conquest. It remained hidden until its rediscovery in 1911 by Hiram Bingham. Today, it's a UNESCO World Heritage Site and a symbol of Inca civilization.",
         "rating": 4.9,
-        "placeImages": ["", "", "", "", ""]
+        "placeImages": ["", "", "", "", ""],
+        "price": 30000,
+        "type": "beach"
       },
       {
         "id": 12,
@@ -1202,7 +1272,9 @@
         "famous": "Some of the famous attractions in Amsterdam include the Anne Frank House, Rijksmuseum, Van Gogh Museum, and the iconic canal belt. Bicycling along the city's canals is a popular activity.",
         "history": "Amsterdam's history is closely tied to its canals, which were constructed in the 17th century. It played a significant role in the Dutch Golden Age and has a legacy of commerce, art, and liberalism.",
         "rating": 4.8,
-        "placeImages": ["", "", "", "", ""]
+        "placeImages": ["", "", "", "", ""],
+        "price": 35000,
+        "type": "beach"
       },
       {
         "id": 13,
@@ -1213,7 +1285,9 @@
         "famous": "Some of the famous attractions in Rio include Copacabana Beach, Sugarloaf Mountain, Christ the Redeemer statue atop Corcovado, and the lively Sambadrome during carnival.",
         "history": "Rio de Janeiro has a history dating back to Portuguese colonization. It was the capital of Brazil before Brasília and played a crucial role in the country's independence and cultural heritage.",
         "rating": 4.7,
-        "placeImages": ["", "", "", "", ""]
+        "placeImages": ["", "", "", "", ""],
+        "price": 25000,
+        "type": "beach"
       },
       {
         "id": 14,
@@ -1224,7 +1298,9 @@
         "famous": "Some of the famous attractions in Toronto include the CN Tower, Royal Ontario Museum, Distillery District, and Toronto Islands. The city's diverse food scene reflects its multiculturalism.",
         "history": "Toronto's history includes Indigenous peoples, European settlers, and waves of immigration. It's a reflection of Canada's multicultural identity, and its historic sites showcase this rich heritage.",
         "rating": 4.6,
-        "placeImages": ["", "", "", "", ""]
+        "placeImages": ["", "", "", "", ""],
+        "price": 38000,
+        "type": "beach"
       },
       {
         "id": 15,
@@ -1235,7 +1311,9 @@
         "famous": "Some of the famous attractions in Mumbai include the Gateway of India, Chhatrapati Shivaji Terminus, Marine Drive, and the vibrant markets of Colaba. Bollywood, India's film industry, is also centered in Mumbai.",
         "history": "Mumbai has a history dating back to ancient times and was shaped by Portuguese and British colonization. It's a city of contrasts, with historic architecture alongside modern skyscrapers.",
         "rating": 4.8,
-        "placeImages": ["", "", "", "", ""]
+        "placeImages": ["", "", "", "", ""],
+        "price": 15000,
+        "type": "beach"
       },
       {
         "id": 16,
@@ -1246,7 +1324,9 @@
         "famous": "Some of the famous attractions in Seoul include Gyeongbokgung Palace, Bukchon Hanok Village, Myeongdong shopping district, and the futuristic Dongdaemun Design Plaza. K-food is a highlight of Korean cuisine.",
         "history": "Seoul has a history that spans over 2,000 years, with a legacy of dynasties, invasions, and the Korean War. Historic sites reflect this rich heritage, while the city is also a hub for innovation and modernity.",
         "rating": 4.7,
-        "placeImages": ["", "", "", "", ""]
+        "placeImages": ["", "", "", "", ""],
+        "price": 30000,
+        "type": "beach"
       },
       {
         "id": 17,
@@ -1257,7 +1337,9 @@
         "famous": "Some of the famous attractions in Moscow include Red Square, St. Basil's Cathedral, the Kremlin, and the Bolshoi Theatre. The city's metro stations are also architectural marvels.",
         "history": "Moscow's history is intertwined with that of Russia itself, from its medieval origins to the rise of the Russian Empire and the Soviet era. It's a city where history and modernity coexist.",
         "rating": 4.9,
-        "placeImages": ["", "", "", "", ""]
+        "placeImages": ["", "", "", "", ""],
+        "price": 34000,
+        "type": "beach"
       },
       {
         "id": 18,
@@ -1268,7 +1350,9 @@
         "famous": "Some of the famous attractions in Cairo include the Pyramids of Giza, the Sphinx, the Egyptian Museum, and the bustling Khan el-Khalili bazaar. The city is a gateway to exploring ancient Egypt.",
         "history": "Cairo's history dates back to ancient times, and it has been a center of Egyptian civilization for millennia. It played a key role in the Pharaonic, Islamic, and Ottoman eras, leaving behind a rich tapestry of history.",
         "rating": 4.7,
-        "placeImages": ["", "", "", "", ""]
+        "placeImages": ["", "", "", "", ""],
+        "price": 45000,
+        "type": "beach"
       },
       {
         "id": 19,
@@ -1279,7 +1363,9 @@
         "famous": "Some of the famous attractions in Copenhagen include Tivoli Gardens, the Little Mermaid statue, Nyhavn canal district, and the Rosenborg Castle. Danish pastries and cuisine are also highlights.",
         "history": "Copenhagen's history spans centuries, from its Viking origins to becoming the capital of Denmark. The city has played a significant role in the cultural and political development of Denmark.",
         "rating": 4.6,
-        "placeImages": ["", "", "", "", ""]
+        "placeImages": ["", "", "", "", ""],
+        "price": 25000,
+        "type": "beach"
       },
       {
         "id": 20,
@@ -1290,7 +1376,15 @@
         "famous": "Some of the famous attractions in Berlin include the Berlin Wall, Brandenburg Gate, Museum Island, and the East Side Gallery. The city's diverse cultural offerings and nightlife are renowned.",
         "history": "Berlin's history is marked by its role in World War II, the Cold War, and its subsequent reunification. It's a city where history is palpable, with memorials and museums that tell its story.",
         "rating": 4.8,
-        "placeImages": ["", "", "", "", ""]
+        "placeImages": [
+          "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+        ],
+        "price": 35000,
+        "type": "beach"
       },
       {
         "id": 21,
@@ -1301,7 +1395,9 @@
         "famous": "Some of the famous attractions in Prague include Prague Castle, Charles Bridge, Old Town Square, and the Astronomical Clock. The city is also famous for its beer and classical music.",
         "history": "Prague's history dates back to the Middle Ages and the reign of Charles IV. It was a hub of European culture during the Renaissance and has played a pivotal role in Central European history.",
         "rating": 4.9,
-        "placeImages": ["", "", "", "", ""]
+        "placeImages": ["", "", "", "", ""],
+        "price": 25000,
+        "type": "beach"
       },
       {
         "id": 22,
@@ -1312,7 +1408,9 @@
         "famous": "Some of the famous attractions in Dubai include the Burj Khalifa, Palm Jumeirah, Dubai Mall, and the Dubai Fountain. The city's luxury hotels and shopping are renowned.",
         "history": "Dubai's history is rooted in its role as a trading port and pearl diving center. It has transformed into a modern metropolis in recent decades, with rapid development and urban planning.",
         "rating": 4.7,
-        "placeImages": ["", "", "", "", ""]
+        "placeImages": ["", "", "", "", ""],
+        "price": 38000,
+        "type": "beach"
       },
       {
         "id": 23,
@@ -1323,7 +1421,9 @@
         "famous": "Some of the famous attractions in Vienna include Schönbrunn Palace, St. Stephen's Cathedral, Belvedere Palace, and the Vienna State Opera. The city's coffeehouse culture is also iconic.",
         "history": "Vienna has a rich history as the former capital of the Habsburg Empire. It was a center of art and culture during the Renaissance and Baroque periods, leaving behind magnificent architecture and art.",
         "rating": 4.8,
-        "placeImages": ["", "", "", "", ""]
+        "placeImages": ["", "", "", "", ""],
+        "price": 27000,
+        "type": "beach"
       },
       
     {
@@ -1335,7 +1435,9 @@
       "famous": "Some of the famous attractions in Dubrovnik include the City Walls, Stradun promenade, Rector's Palace, and the crystal-clear waters of the Adriatic Sea. The city's beauty has made it a popular filming location.",
       "history": "Dubrovnik has a rich history as a maritime city-state and trading hub. It has withstood sieges and played a key role in the Mediterranean trade. Today, it's a UNESCO World Heritage Site.",
       "rating": 4.6,
-      "placeImages": ["", "", "", "", ""]
+      "placeImages": ["", "", "", "", ""],
+      "price": 25000,
+      "type": "beach"
     },
     {
       "id": 25,
@@ -1346,7 +1448,9 @@
       "famous": "Some of the famous attractions in Bangkok include Wat Phra Kaew (Temple of the Emerald Buddha), Wat Pho, the Grand Palace, and the bustling street markets of Khao San Road. Thai cuisine is a highlight.",
       "history": "Bangkok has a history that dates back to the 15th century when it was a small trading post. It later became the capital of Siam (now Thailand) and has witnessed the country's modernization.",
       "rating": 4.7,
-      "placeImages": ["", "", "", "", ""]
+      "placeImages": ["", "", "", "", ""],
+      "price": 30000,
+      "type": "beach"
     },
     {
       "id": 26,
@@ -1357,7 +1461,9 @@
       "famous": "Some of the famous attractions in Cusco include Sacsayhuaman, Coricancha, Plaza de Armas, and the vibrant San Pedro Market. It's also the gateway to the iconic Machu Picchu.",
       "history": "Cusco was the capital of the Inca Empire and has a rich history that combines Inca and Spanish colonial influences. Its streets and buildings reflect this unique blend.",
       "rating": 4.8,
-      "placeImages": ["", "", "", "", ""]
+      "placeImages": ["", "", "", "", ""],
+      "price": 29000,
+      "type": "beach"
     },
     {
       "id": 27,
@@ -1368,7 +1474,9 @@
       "famous": "Some of the famous attractions in Venice include St. Mark's Square, Doge's Palace, Rialto Bridge, and the Grand Canal. Venetian cuisine, including seafood dishes, is a delight.",
       "history": "Venice was once a powerful maritime republic and a major center of trade and art during the Renaissance. Its architecture and art reflect its golden age of wealth and creativity.",
       "rating": 4.9,
-      "placeImages": ["", "", "", "", ""]
+      "placeImages": ["", "", "", "", ""],
+      "price": 42000,
+      "type": "beach"
     },
     {
       "id": 28,
@@ -1379,7 +1487,9 @@
       "famous": "Some of the famous attractions in Reykjavik include the Blue Lagoon, Hallgrímskirkja Church, Harpa Concert Hall, and the chance to witness the Northern Lights. Icelandic cuisine features local ingredients.",
       "history": "Reykjavik is a relatively young city, but Iceland itself has a rich history dating back to the Viking age. The city has become a hub for creativity and innovation.",
       "rating": 4.7,
-      "placeImages": ["", "", "", "", ""]
+      "placeImages": ["", "", "", "", ""],
+      "price": 47000,
+      "type": "beach"
     },
     {
       "id": 29,
@@ -1390,7 +1500,9 @@
       "famous": "Some of the famous attractions in Rio include Copacabana Beach, Sugarloaf Mountain, Christ the Redeemer statue atop Corcovado, and the lively Sambadrome during carnival.",
       "history": "Rio de Janeiro has a history dating back to Portuguese colonization. It was the capital of Brazil before Brasília and played a crucial role in the country's independence and cultural heritage.",
       "rating": 4.8,
-      "placeImages": ["", "", "", "", ""]
+      "placeImages": ["", "", "", "", ""],
+      "price": 45000,
+      "type": "beach"
     },
     {
       "id": 30,
@@ -1401,7 +1513,9 @@
       "famous": "Sydney's famous landmarks include the Sydney Opera House, Sydney Harbour Bridge, and Bondi Beach. The city's multicultural neighborhoods and vibrant arts scene make it a diverse and exciting destination.",
       "history": "Sydney's history is tied to British colonization, with Indigenous Australian heritage dating back thousands of years. The city has evolved into a thriving metropolis while preserving its natural beauty.",
       "rating": 4.9,
-      "placeImages": ["", "", "", "", ""]
+      "placeImages": ["", "", "", "", ""],
+      "price": 37000,
+      "type": "beach"
     },
     {
       "id": 31,
@@ -1412,7 +1526,9 @@
       "famous": "Some of the famous attractions in Dubai include the Burj Khalifa, Palm Jumeirah, Dubai Mall, and the Dubai Fountain. The city's luxury hotels and shopping are renowned.",
       "history": "Dubai's history is rooted in its role as a trading port and pearl diving center. It has transformed into a modern metropolis in recent decades, with rapid development and urban planning.",
       "rating": 4.7,
-      "placeImages": ["", "", "", "", ""]
+      "placeImages": ["", "", "", "", ""],
+      "price": 27000,
+      "type": "beach"
     },
     {
       "id": 32,
@@ -1423,7 +1539,15 @@
       "famous": "Table Mountain, Robben Island, Boulders Beach with its penguins, and the Cape Winelands are famous attractions. Cape Town is also known for its vibrant arts scene and delicious cuisine.",
       "history": "Cape Town has a complex history, from indigenous Khoikhoi and San settlements to European colonization and apartheid. Sites like Robben Island hold significant historical importance.",
       "rating": 4.8,
-      "placeImages": ["", "", "", "", ""]
+      "placeImages": [
+        "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+      ],
+      "price": 29000,
+      "type": "beach"
     },
     
 
@@ -1436,7 +1560,15 @@
       "famous": "Some of the famous attractions in Budapest include Buda Castle, Parliament Building, Széchenyi Thermal Bath, and the Chain Bridge. Hungarian cuisine and goulash are popular dishes.",
       "history": "Budapest was formed by the merger of three separate cities: Buda, Pest, and Óbuda. It has a history dating back to Roman times and has been a cultural and economic center in Europe.",
       "rating": 4.7,
-      "placeImages": ["", "", "", "", ""]
+      "placeImages": [
+        "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+      ],
+      "price": 30000,
+      "type": "beach"
     },
     {
       "id": 34,
@@ -1447,7 +1579,15 @@
       "famous": "Some of the famous attractions in Santiago include Plaza de Armas, La Moneda Palace, San Cristóbal Hill, and visits to nearby wineries. Chilean cuisine features seafood and empanadas.",
       "history": "Santiago has a colonial history that dates back to the Spanish conquest. It played a key role in Chile's struggle for independence and has evolved into a modern and dynamic city.",
       "rating": 4.6,
-      "placeImages": ["", "", "", "", ""]
+      "placeImages": [
+        "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+      ],
+      "price": 36000,
+      "type": "beach"
     },
     {
       "id": 35,
@@ -1458,7 +1598,15 @@
       "famous": "Some of the famous attractions in Krakow include Wawel Castle, St. Mary's Basilica, the Main Market Square, and visits to Auschwitz-Birkenau. Polish cuisine includes pierogi and kielbasa.",
       "history": "Krakow was once the capital of Poland and has a history dating back to the 7th century. It played a significant role in Polish culture, art, and academia.",
       "rating": 4.8,
-      "placeImages": ["", "", "", "", ""]
+      "placeImages": [
+        "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+      ],
+      "price": 25000,
+      "type": "beach"
     },
     {
       "id": 36,
@@ -1469,7 +1617,15 @@
       "famous": "Some of the famous attractions in San Francisco include the Golden Gate Bridge, Alcatraz Island, Fisherman's Wharf, and the historic cable cars. The city's cuisine features clam chowder and sourdough bread.",
       "history": "San Francisco has a history tied to the Gold Rush and the development of the American West. It has been a center of counterculture movements and technological advancements.",
       "rating": 4.9,
-      "placeImages": ["", "", "", "", ""]
+      "placeImages": [
+        "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+      ],
+      "price": 55000,
+      "type": "beach"
     },
     {
       "id": 37,
@@ -1480,7 +1636,15 @@
       "famous": "Some of the famous attractions in Vienna include Schönbrunn Palace, St. Stephen's Cathedral, Belvedere Palace, and the Vienna State Opera. The city's coffeehouses offer a taste of Viennese tradition.",
       "history": "Vienna has a history as the capital of the Habsburg Empire, which left a legacy of art, music, and architecture. It was a center of European culture during the Enlightenment and continues to be a hub of creativity.",
       "rating": 4.9,
-      "placeImages": ["", "", "", "", ""]
+      "placeImages": [
+        "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+      ],
+      "price": 27000,
+      "type": "beach"
     },
     {
       "id": 38,
@@ -1491,7 +1655,15 @@
       "famous": "Some of the famous attractions in Seoul include Gyeongbokgung Palace, Bukchon Hanok Village, Myeongdong shopping district, and the futuristic Dongdaemun Design Plaza. K-food is a highlight of Korean cuisine.",
       "history": "Seoul has a history that spans over 2,000 years, with a legacy of dynasties, invasions, and the Korean War. Historic sites reflect this rich heritage, while the city is also a hub for innovation and modernity.",
       "rating": 4.8,
-      "placeImages": ["", "", "", "", ""]
+      "placeImages": [
+        "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+      ],
+      "price": 40000,
+      "type": "beach"
     },
     {
       "id": 39,
@@ -1502,7 +1674,15 @@
       "famous": "Some of the famous attractions in Amsterdam include the Anne Frank House, Rijksmuseum, Van Gogh Museum, and the iconic canal belt. Bicycling along the city's canals is a popular activity.",
       "history": "Amsterdam's history is closely tied to its canals, which were constructed in the 17th century. It played a significant role in the Dutch Golden Age and has a legacy of commerce, art, and liberalism.",
       "rating": 4.7,
-      "placeImages": ["", "", "", "", ""]
+      "placeImages": [
+        "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+      ],
+      "price": 35000,
+      "type": "beach"
     },
     {
       "id": 40,
@@ -1513,7 +1693,15 @@
       "famous": "Kyoto is famous for its numerous temples, including Kinkaku-ji (the Golden Pavilion), Ginkaku-ji (the Silver Pavilion), and Fushimi Inari Taisha. The city is also renowned for its tea ceremonies, kimonos, and cherry blossom festivals.",
       "history": "Kyoto served as the imperial capital of Japan for over a thousand years. It played a central role in Japanese history and culture, witnessing the rise and fall of samurai clans, the development of tea ceremony traditions, and the preservation of traditional arts.",
       "rating": 4.9,
-      "placeImages": ["", "", "", "", ""]
+      "placeImages": [
+        "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+      ],
+      "price": 35000,
+      "type": "beach"
     },
     {
       "id": 41,
@@ -1524,7 +1712,15 @@
       "famous": "Some of the famous attractions in Rio include Copacabana Beach, Sugarloaf Mountain, Christ the Redeemer statue atop Corcovado, and the lively Sambadrome during carnival.",
       "history": "Rio de Janeiro has a history dating back to Portuguese colonization. It was the capital of Brazil before Brasília and played a crucial role in the country's independence and cultural heritage.",
       "rating": 4.8,
-      "placeImages": ["", "", "", "", ""]
+      "placeImages": [
+        "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+      ],
+      "price": 33000,
+      "type": "beach"
     }
  
   
