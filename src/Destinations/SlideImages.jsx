@@ -22,21 +22,22 @@ export const SlideImage = ({prop}) => {
   const images = prop || []
 
   return (
-    <Box maxWidth="50%" mx="auto" mt="150px">
-      <Slider {...sliderSettings}>
+      <Box maxWidth={{ base: '100%', md: '50%' }} mt={{ base: '50px', md: '150px' }}>
+        <Slider {...sliderSettings}>
+          {images.length > 0 && images.map((image, index) => (
+            <Box key={index}>
+              <Image
+                w={{ base: '100%', md: '700px' }} // Adjust the width for different screen sizes
+                h={{ base: '100%', md: '400px' }}
+                mx="auto"
+                borderRadius="lg"
+                boxShadow="lg"
+                src={image} alt={`Slide ${index + 1}`} />
+            </Box>
+          ))}
+        </Slider>
+      </Box>
 
-        {images.length>0 && images.map((image, index) => (
-          <Box key={index}>
-            <Image 
-            w="700px"
-            h="400px"
-            mx="auto"
-            borderRadius="lg"
-            boxShadow="lg"
-            src={image} alt={`Slide ${index + 1}`} />
-          </Box>
-        ))}
-      </Slider>
-    </Box>
+
   );
 }

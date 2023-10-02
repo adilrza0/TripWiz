@@ -47,11 +47,36 @@ export const Payment = () => {
     <Box w="85%" m="auto" mt="30px" mb="30px">
       <Text fontSize="3xl" fontWeight="bold" textAlign="left" mb="50px">Payment </Text>
 
-      <Flex gap="5%" justifyContent="space-around">
+      <Flex gap="5%" justifyContent="space-around" direction={["column", "row"]}>
+
+        <Box bg="#1071DB"  p={{ base: '2%', md: '3%' }} w={{ base: '100%', md: '70%' }} borderRadius="10px" mb="30px">
+
       
-      <Box  p={20}   w="100%" borderWidth="2px" borderRadius="10px" borderColor="#1071DB">
+
+            <Box w="100%" m="auto" backgroundColor="white" mt={{ base: '20px', md: '50px' }} borderRadius="10px" p="20px" mb="30px">
+              <Heading as="h4" fontSize="xl" pt="20px" textAlign="left" mb="30px">Payment Details</Heading>
+              <Text fontSize="2xl" textAlign="left" mt="20px" ><span style={{fontWeight:"bold"}}>Destination to:</span> <span style={{color:"red"}}>{data.place}</span></Text>
+              {/* <Text fontSize="xl" textAlign="left" mt="20px" color="red">{data.place}</Text> */}
+              {data.date && <Text fontSize="lg" textAlign="left" mt="20px" >A Trip of 5 Days starting from <span style={{color:"red"}}>{data.date}</span></Text>}
+              <Text fontSize="lg" textAlign="left" mt="20px" ><span style={{fontWeight:"bold"}}>Total Number :</span> <span style={{color:"#1071BD"}}>{data.noOfPeople}</span></Text> 
+              <Text fontSize="lg" textAlign="left" mt="20px" ><span style={{fontWeight:"bold"}}>Contact Number :</span> <span style={{color:"#1071BD"}}>{data.mobileNo}</span></Text>
+              <Text fontSize="lg" textAlign="left" mt="20px" ><span style={{fontWeight:"bold"}}>Email Id :</span> <span style={{color:"#1071BD"}}>{data.email}</span></Text>
+              <Text fontSize="lg" textAlign="left" mt="20px" ><span style={{fontWeight:"bold"}}>Total Price for {data.noOfPeople} :</span> <span style={{color:"green", fontSize:"24px"}}> {data.totalPrice}/-</span></Text>       
+            </Box>
+
+            <Cards
+              number={state.number}
+              expiry={state.expiry}
+              cvc={state.cvc}
+              name={state.name}
+              focused={state.focus}
+            />
+
+         </Box>
+      
+      <Box  p={{ base: '5%', md: '5%' }}   w="100%" borderWidth="2px" borderRadius="10px" borderColor="#1071DB">
       <Text fontSize="xl" fontWeight="bold" textAlign="left">Payment Methods  </Text>
-      <Box justifyContent="left" w="30%" gap="5%" mt="30px">
+      <Box justifyContent="left" w={{ base: '100%', md: '30%' }} gap="5%" mt="30px">
        <Icon alignItem="left" cursor={'pointer'} ml={2} w={12} h={12} as={BiCreditCardAlt}></Icon>
        <Icon alignItem="left" cursor={'pointer'} ml={2} w={12} h={12} as={PiContactlessPaymentLight}></Icon>
       </Box>
@@ -61,11 +86,11 @@ export const Payment = () => {
           
           <Box mt="50px" >
             
-            <Flex justifyContent="space-between" gap="5%">
+            <Flex justifyContent="space-between" gap="5%" direction={["column", "row"]}>
 
               <Box w="100%">
 
-              <FormLabel fontWeight="bold">Card Number</FormLabel>
+              <FormLabel fontWeight="bold" mt="10px">Card Number</FormLabel>
               <Input
                 //css
                 display="inline"
@@ -86,7 +111,7 @@ export const Payment = () => {
               </Box>
               <Box w="100%">
 
-              <FormLabel>Card Holder Name</FormLabel>
+              <FormLabel mt="10px">Card Holder Name</FormLabel>
               <Input
                 //css
                 boxShadow= "rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px"
@@ -107,10 +132,10 @@ export const Payment = () => {
 
           <Box mt="50px">
             
-            <Flex justifyContent="space-between" gap="5%">
+            <Flex justifyContent="space-between" gap="5%" direction={["column", "row"]}>
 
               <Box w="100%">
-                <FormLabel>Expiry MM/YY</FormLabel>
+                <FormLabel mt="10px">Expiry MM/YY</FormLabel>
                 <Input
                   //css
                   boxShadow= "rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px"
@@ -127,7 +152,7 @@ export const Payment = () => {
 
               <Box w="100%">
                   
-                <FormLabel>CVV</FormLabel>
+                <FormLabel mt="10px">CVV</FormLabel>
                 <Input
                   //css
                   boxShadow= "rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px"
@@ -157,7 +182,7 @@ export const Payment = () => {
               and acknowledging our <span style={{color:"blue"}}>Privacy Policy</span>  Your Payment information and </Text>
 
               <Box>
-                <Flex justifyContent="space-between">
+                <Flex justifyContent="space-between" direction={["column", "row"]}>
 
                 
                   <Button
@@ -165,7 +190,7 @@ export const Payment = () => {
                     loadingText='Submitting'
                     colorScheme='red'
                     variant='outline'
-                    w="30%"
+                    w={{ base: '100%', md: '30%' }}
                     borderRadius="20px"
                     h="60px"
                     onClick={()=>navigate(-1)}
@@ -178,7 +203,7 @@ export const Payment = () => {
                     loadingText='Submitting'
                     colorScheme='green'
                     variant='outline'
-                    w="40%"
+                    w={{ base: '100%', md: '30%' }}
                     borderRadius="20px"
                     h="60px"
                   >
@@ -196,27 +221,9 @@ export const Payment = () => {
 
       </Box>
 
-      <Box bg="#1071DB"  p={10} w="70%" borderRadius="10px">
 
-      <Cards
-        number={state.number}
-        expiry={state.expiry}
-        cvc={state.cvc}
-        name={state.name}
-        focused={state.focus}
-      />
 
-      <Box w="100%" m="auto" backgroundColor="white" mt="50px" borderRadius="10px" p="20px">
-        <Heading as="h4" fontSize="xl" pt="20px" textAlign="left" mb="30px">Payment Details</Heading>
-        <Text fontSize="2xl" textAlign="left" mt="20px" ><span style={{fontWeight:"bold"}}>Destination to:</span> <span style={{color:"red"}}>{data.place}</span></Text>
-        {/* <Text fontSize="xl" textAlign="left" mt="20px" color="red">{data.place}</Text> */}
-        {data.date && <Text fontSize="lg" textAlign="left" mt="20px" >A Trip of 5 Days starting from <span style={{color:"red"}}>{data.date}</span></Text>}
-        <Text fontSize="lg" textAlign="left" mt="20px" ><span style={{fontWeight:"bold"}}>Total Number :</span> <span style={{color:"#1071BD"}}>{data.noOfPeople}</span></Text> 
-        <Text fontSize="lg" textAlign="left" mt="20px" ><span style={{fontWeight:"bold"}}>Contact Number :</span> <span style={{color:"#1071BD"}}>{data.mobileNo}</span></Text>
-        <Text fontSize="lg" textAlign="left" mt="20px" ><span style={{fontWeight:"bold"}}>Email Id :</span> <span style={{color:"#1071BD"}}>{data.email}</span></Text>
-        <Text fontSize="lg" textAlign="left" mt="20px" ><span style={{fontWeight:"bold"}}>Total Price for {data.noOfPeople} :</span> <span style={{color:"green", fontSize:"24px"}}> {data.totalPrice}/-</span></Text>       
-      </Box>
-      </Box>
+      
       </Flex>
     </Box>
   );
