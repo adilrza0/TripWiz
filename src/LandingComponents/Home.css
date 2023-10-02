@@ -309,6 +309,10 @@ margin: auto;
 }
 .star{
     color: #FB9216;
+    display:flex ;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .subscribe{
     color: white;
