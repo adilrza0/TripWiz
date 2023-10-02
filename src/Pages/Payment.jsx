@@ -15,6 +15,13 @@ export const Payment = () => {
     focus: '',
   });
 
+  const price = localStorage.getItem("flight")
+  const hotelprice = localStorage.getItem("hotelprice")
+
+
+  console.log(price, hotelprice)
+
+
   const handleInputChange = (evt) => {
     const { name, value } = evt.target;
     

@@ -26,8 +26,8 @@ export const Destinations = () => {
 
   return (
     <div>
-    <Box p={4} w="90%" m="auto">
-      <Box>
+    <Box p={4} w="90%" m="auto" >
+      <Box mt="50px">
         <Flex justifyContent="space-between" alignContent="center">
 
         
