@@ -4,6 +4,7 @@ import { getFlights } from '../Redux/flightReducer/action'
 import Pagination from '../Components/Pagination'
 import FlightList from '../Components/FlightList'
 import { ChakraProvider } from '@chakra-ui/react'
+import styled from 'styled-components'
 
 export default function FlightPage() {
     const dispatch=useDispatch()
@@ -19,12 +20,34 @@ export default function FlightPage() {
     },[page])
   return (
     <ChakraProvider>
-    <div>
+        
+    <DIV>
+        
+    <div style={{"height":"80px","backgroundColor":"#00375C"}}>
+
+    </div>
+        <div>
         {flights.map((ele)=>{
             return <FlightList key={ele.id} {...ele} />
         })}
         <Pagination updatePage={setPage} totalPages={totalPages} currentpage={page} />
-    </div>
+        </div>
+        
+    </DIV>
     </ChakraProvider>
   )
 }
+const DIV=styled.div`
+>div:nth-child(2){
+    padding-top: 100px;
+
+}
+>div:first-child{
+    
+    width: 3500px;
+    height: 200px;
+    position: fixed;
+}
+
+    
+`
