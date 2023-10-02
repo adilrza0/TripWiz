@@ -1,14 +1,16 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import styled from 'styled-components';
 import logo from "./images/logo-no-background.png";
 import { FaSearch } from "react-icons/fa";
 import { BsFillPersonFill } from "react-icons/bs";
 import "./Navbar.css"
 
+
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const location=useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -35,12 +37,13 @@ const Navbar = () => {
         <input type="text" placeholder='Search for destinations' className="search-input" />
         {/* <FaSearch className="search-icon" /> */}
         <div className="nav-links">
-          <Link to={"/"}> Home</Link>
-          <Link to={"/destination"}>Destinations</Link>
-          <Link to={"/booking"}>Booking</Link>
-          <Link to={"/review"}>Review</Link>
-          <Link to={"/contact"}>Contact Us</Link>
-          <Link to={"/login"}> <BsFillPersonFill className="search-login" /></Link>
+        <NavLink to={"/"}>Home</NavLink>
+          <NavLink to={"/destination"}>Destinations</NavLink>
+          <NavLink to={"/booking"}>Booking</NavLink>
+          <NavLink to={"/review"}>Review</NavLink>
+          <NavLink to={"/contact"}>Contact Us</NavLink>
+        
+          <NavLink to={"/login"}> <BsFillPersonFill className="search-login" /></NavLink>
         </div>
         <div className="mobile-menu-button" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
           <div className={`menu-icon ${isMobileMenuOpen ? 'open' : ''}`}></div>
@@ -49,12 +52,12 @@ const Navbar = () => {
       </DIV>
       {isMobileMenuOpen && (
         <MobileMenu>
-          <Link to={"/"}>Home</Link>
-          <Link to={"/destination"}>Destinations</Link>
-          <Link to={"/booking"}>Booking</Link>
-          <Link to={"/review"}>Review</Link>
-          <Link to={"/contact"}>Contact Us</Link>
-          <Link to={"/login"}>Login</Link>
+              <NavLink to={"/"}>Home</NavLink>
+          <NavLink to={"/destination"}>Destinations</NavLink>
+          <NavLink to={"/booking"}>Booking</NavLink>
+          <NavLink to={"/review"}>Review</NavLink>
+          <NavLink to={"/contact"}>Contact Us</NavLink>
+          <NavLink to={"/login"}>Login</NavLink>
         </MobileMenu>
       )}
     </MAIN_DIV>
@@ -87,9 +90,11 @@ const DIV = styled.div`
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 17px;
-  align-items: center;
-  position: relative;
-  //margin-top:8px;
+  align-items: center !important;
+  /* position: relative; */
+  
+
+  margin-top:-6px;
 
   a {
     text-decoration: none;
@@ -203,6 +208,20 @@ const DIV = styled.div`
       display: flex;
     }
   }
+`;
+
+const NavLink = styled(Link)`
+  text-decoration: none;
+  color: white;
+  position: relative;
+  margin-left: 20px;
+  transition: color 0.3s ease-in-out;
+
+  &:hover {
+    color: #ff6600; /* Change to your desired hover color */
+  }
+
+ 
 `;
 
 const MobileMenu = styled.div`
