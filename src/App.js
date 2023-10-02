@@ -4,12 +4,12 @@ import MainRouter from './AllRoutes/MainRouter';
 import Navbar  from './LandingComponents/Navbar';
 //import { ChakraProvider } from '@chakra-ui/react';
 //import { Footer } from './Components/Footer';
-//import { Navbar } from './AllRoutes/Navbar';
+// import { Navbar } from './AllRoutes/Navbar';
 
 function App() {
   return (
     <div className="App">
-      {/* <Navbar />*/}
+      {/* <Navbar /> */}
       <Navbar />
       <MainRouter/>
       {/* <ChakraProvider>

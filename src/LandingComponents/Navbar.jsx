@@ -65,12 +65,13 @@ export default Navbar;
 
 const MAIN_DIV = styled.div`
   width: 100%;
-  background-color: ${(props) => (props.isScrolled ? '#00375c' : 'transparent')};
   transition: background-color 0.3s ease-in-out;
   z-index: 1000;
-  position: fixed;
+  //position: fixed;
   display: flex;
   height: 80px;
+
+  background-color: #00375c;
   align-items:center !important;
 `;
 
@@ -88,7 +89,7 @@ const DIV = styled.div`
   font-size: 17px;
   align-items: center;
   position: relative;
-  margin-top:8px;
+  //margin-top:8px;
 
   a {
     text-decoration: none;
