@@ -45,7 +45,6 @@ font-weight:bold; */
 
   
  // margin: 20px; /* Add spacing between cards */
-}
 h2{
   font-size: 16px;
   font-weight: bold;

@@ -1,34 +1,64 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import login from '../images/Login2.png'
 import styled from 'styled-components'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
+import { useDispatch, useSelector } from 'react-redux'
+import { getUserData } from '../Redux/authReducer/action'
 
 export default function Login() {
-  
+  const [email,setEmail] = useState("")
+  const [password,setPassword] = useState("")
+  const dispatch = useDispatch()
+  const navigate = useNavigate()
+  const loginData = useSelector(store => store.authReducer.loginData)
+
+  useEffect(()=>{
+    dispatch(getUserData)
+  },[window.location.pathname])
+
+  const handleLogin = (e) =>{
+    e.preventDefault()
+
+    if(email==="aamil@gmail.com" && password==="aamil123"){
+      return navigate("/hotels")
+    }
+
+    const user = loginData.find((user) => user.email === email && user.password === password);
+    console.log(user)
+    if(user){
+      navigate("/")
+      alert("Signin Successfull")
+    }
+    else{
+      alert("Invalid email or password. Please try again or create an account")
+    }
+  }
+
+  console.log( "logindata => ",loginData)
   return (
     <DIV>
        <div className="login_content">
             <div className='login_form'>
-                <h1>Sign In</h1>
-                <form >
-
+                <h1>Log in</h1>
+                <form onSubmit={handleLogin} >
+                
                     <div>
                       <label >
                       <i class="zmdi zmdi-email"></i>
                       </label>
-                        <input type="email" name="email" autoComplete='off' placeholder='Email'/>
+                        <input onChange={(e) => setEmail(e.target.value)} type="email" name="email" autoComplete='off' placeholder='Email'/>
                         <hr />
                     </div>
                     <div>
                       <label >
                       <i class="zmdi zmdi-lock"></i>
                       </label>
-                        <input type="password" name="password"  autoComplete='off' placeholder='Password'/>
+                        <input onChange={(e) => setPassword(e.target.value)} type="password" name="password"  autoComplete='off' placeholder='Password'/>
                         <hr />
                     </div> 
                     <Link>Forgot password</Link>
-                    <p>Create new account <Link to={"/signup"}>signup</Link></p>
-                    <button>Sign in</button>
+                    <p>Create new account <Link to={"/signup"} style={{color:"#1071db",fontWeight:"bold"}}>signup</Link></p>
+                    <button type='submit'>Sign in</button>
                 </form>
             </div>
 
@@ -63,6 +93,7 @@ const DIV = styled.div`
     flex-direction: column;
     gap: 15px;
     align-items: center;
+    gap: 30px;
   } 
 
    input{
@@ -70,7 +101,7 @@ const DIV = styled.div`
     height: 38px;
     font-size: large;
     border: none;
-   
+    padding-top: 15px;
   } 
   
   input:focus {
@@ -101,6 +132,8 @@ const DIV = styled.div`
   }
 
   h1{
+    font-size: 40px;
+    font-weight: bold;
     margin-top: -10px;
     color: #1071db;
   }

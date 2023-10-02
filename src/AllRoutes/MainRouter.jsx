@@ -7,6 +7,11 @@ import Signup from '../Pages/Signup'
 import FlightPage from '../Pages/FlightPage'
 import Home from "../LandingComponents/Home"
 import FlightCart from '../Pages/FlightCart'
+import { Destinations } from '../Destinations/Destinations'
+import { Explore } from '../Destinations/Explore'
+import { ChakraProvider } from '@chakra-ui/react'
+import { Payment } from '../Pages/Payment'
+
 
 
 export default function MainRouter() {
@@ -20,6 +25,10 @@ export default function MainRouter() {
         <Route path='/flight' element={<FlightPage />}/>
         <Route path='/flightcart/:id' element={<FlightCart />} />
         
+        <Route path='/destination' element={<ChakraProvider><Destinations/></ChakraProvider>}/>
+        <Route path='/Payment' element={<ChakraProvider><Payment/></ChakraProvider>}/>
+        
+        <Route path={`/Destinations/:id`} element={<ChakraProvider><Explore/></ChakraProvider>}/>
 
 
     </Routes>
