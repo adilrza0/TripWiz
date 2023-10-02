@@ -14,7 +14,7 @@ export default function HotelCard({ category, description, id, image, location, 
           
           
           
-          
+           
           {/* <p>{description}</p> */}
           
           <div className='book-section'><p>${price}</p> 
