@@ -5,6 +5,8 @@ import HotelPage from '../Pages/HotelPage'
 import { Cart } from '../Pages/Cart'
 import Signup from '../Pages/Signup'
 import FlightPage from '../Pages/FlightPage'
+import Admin from '../Pages/Admin'
+import AddHotel from '../Pages/AddHotel'
 import Home from "../LandingComponents/Home"
 import FlightCart from '../Pages/FlightCart'
 import { Destinations } from '../Destinations/Destinations'
@@ -23,10 +25,15 @@ export default function MainRouter() {
         <Route path='/cart/:id' element={<Cart />}/>
         <Route path='/signup' element={<Signup />}/>
         <Route path='/flight' element={<FlightPage />}/>
+
+        <Route path='/admin' element={<Admin />}/>
+        <Route path='/addhotel' element={<AddHotel />}/>
+
         <Route path='/flightcart/:id' element={<FlightCart />} />
         
         <Route path='/destination' element={<ChakraProvider><Destinations/></ChakraProvider>}/>
         <Route path='/Payment' element={<ChakraProvider><Payment/></ChakraProvider>}/>
+
         
         <Route path={`/Destinations/:id`} element={<ChakraProvider><Explore/></ChakraProvider>}/>
 
