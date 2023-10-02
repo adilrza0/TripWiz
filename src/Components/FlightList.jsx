@@ -148,7 +148,7 @@ export default function FlightList({
             ${price}
           </Heading>
           <Link to={`/flightcart/${id}`}>
-            <Button color="white" bg="#fb9216">
+            <Button colorScheme="blue">
               BOOK NOW
             </Button>
           </Link>

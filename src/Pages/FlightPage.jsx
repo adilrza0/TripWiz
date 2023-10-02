@@ -6,18 +6,28 @@ import FlightList from '../Components/FlightList'
 import { ChakraProvider } from '@chakra-ui/react'
 import styled from 'styled-components'
 
+import FlightSide from '../Components/FlightSide'
+import { useSearchParams } from 'react-router-dom'
+
 export default function FlightPage() {
+    const [searchParams]=useSearchParams()
+    const [page,setPage]=useState(1)
     const dispatch=useDispatch()
     const {flights,totalPages}=useSelector((store)=>store.flightReducer)
-    const [page,setPage]=useState(1)
+    
     let paramObj={
+        airline:searchParams.getAll("airline"),
+        price_gte:searchParams.get("min"),
+        price_lte:searchParams.get("max"),
         _page:page,
-        _limit:9
+        _limit:9,
+        _sort:"price",
+        _order:searchParams.get("order")
     }
 
     useEffect(()=>{
         dispatch(getFlights(paramObj))
-    },[page])
+    },[page,searchParams])
   return (
     <ChakraProvider>
         
@@ -26,11 +36,21 @@ export default function FlightPage() {
     <div style={{"height":"80px","backgroundColor":"#00375C"}}>
 
     </div>
-        <div>
-        {flights.map((ele)=>{
-            return <FlightList key={ele.id} {...ele} />
-        })}
-        <Pagination updatePage={setPage} totalPages={totalPages} currentpage={page} />
+        
+        <div className='mainContainer'>  
+            
+            
+            <FlightSide />
+            <div>
+            <div className='flightList'>
+            {flights.map((ele)=>{
+                return <FlightList key={ele.id} {...ele} />
+            })}
+            
+            </div>
+            <Pagination updatePage={setPage} totalPages={totalPages} currentpage={page} />
+            
+            </div>
         </div>
         
     </DIV>
@@ -38,6 +58,7 @@ export default function FlightPage() {
   )
 }
 const DIV=styled.div`
+
 >div:nth-child(2){
     padding-top: 100px;
 
@@ -47,6 +68,19 @@ const DIV=styled.div`
     width: 3500px;
     height: 200px;
     position: fixed;
+}
+>.mainContainer{
+   display: flex;
+    flex-direction:row;
+    
+}
+.flightList{
+    height: 600px;
+   overflow-y: scroll;
+   
+}
+.flightList::-webkit-scrollbar{
+    display: none;
 }
 
     
