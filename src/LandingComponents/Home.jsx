@@ -6,8 +6,8 @@ import {AiFillCar} from "react-icons/ai"
 import {LiaHotelSolid} from "react-icons/lia"
 import {MdFlight} from "react-icons/md"
 import Navbar from './Navbar'
-import Footer from './Footer'
-import { Link } from 'react-router-dom'
+
+import { Link, Navigate } from 'react-router-dom'
 import turkey from "./images/fatih-yurur-kNSREmtaGOE-unsplash.jpg"
 
 import dubai from "./images/christoph-schulz-7tb-b37yHx4-unsplash.jpg"
@@ -27,6 +27,8 @@ import canada from "./images/mwangi-gatheca-qlKaN7eqay8-unsplash.jpg"
 import brazil from "./images/artists-eyes-zxztWY2Qq-4-unsplash.jpg"
 
 import tor from "./images/christian-lambert-ycyXpdhCnp8-unsplash.jpg"
+import { Footer } from '../Components/Footer'
+import { ChakraProvider } from '@chakra-ui/react'
 
 const Home = () => {
     const [activeButton, setActiveButton] = useState('flights');
@@ -49,10 +51,11 @@ const Home = () => {
 <div className="main-homecard">
 
     <div className="btn">
+      
     <button
           className={activeButton === 'flights' ? 'btn1' : 'btn2'}
           onClick={() => setActiveButton('flights')}
-        > <MdFlight/>  Flights</button> <hr />
+        > <MdFlight/>  Flights</button><hr />
          <button
           className={activeButton === 'hotels' ? 'btn1' : 'btn2'}
           onClick={() => setActiveButton('hotels')}
@@ -96,7 +99,7 @@ const Home = () => {
     <br />
   
     <span className='span3'>From historical cities to natural slendours,come see the best of the world.</span>
-    <Link  to={"/destination"}>View All → </Link>
+    <Link  to={'/destination'}>View All → </Link>
     <div className='dest-pics'>
     <div className='image-container'>
       <img src={uk} alt='UK' />
@@ -377,7 +380,9 @@ const Home = () => {
 </div>
 <br />
 <br />
-<Footer/>
+      <ChakraProvider>
+        <Footer/>
+      </ChakraProvider>
     </div>
   )
 }

@@ -13,7 +13,7 @@
     background-repeat: no-repeat;
     position: relative;
     margin-top: -70px;
-    height: 110vh;
+    height: 130vh;
   
  
 }
@@ -309,6 +309,10 @@ margin: auto;
 }
 .star{
     color: #FB9216;
+    display:flex ;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .subscribe{
     color: white;

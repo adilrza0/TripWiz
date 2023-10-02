@@ -57,6 +57,7 @@ export default function HotelPage() {
 }
 const DIV=styled.div`
 display: flex;
+padding-top:100px;
 
 
 .Hotel-Container{
@@ -66,7 +67,7 @@ display: flex;
   grid-template-columns:repeat(3,1fr) ;
   gap: 30px;
   overflow-y: scroll;
-  height: 900px;
+  height: 600px;
   scrollbar-width: none;
   
   

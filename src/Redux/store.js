@@ -5,6 +5,8 @@ import { reducer as authReducer } from "./authReducer/reducer";
 import { reducer as flightReducer } from "./flightReducer/reducer";
 import {reducer as adminReducer} from "./adminReducer/reducer"
 import {reducer as addhotelReducer} from "./AddhotelReducer/reducer"
+import { paymentReducer } from "./PaymentReducer/paymentreducer";
+
 
 
 const rootReducer=combineReducers({
@@ -12,7 +14,11 @@ const rootReducer=combineReducers({
    hotelReducer,
    authReducer,
    flightReducer,
+
    adminReducer,
    addhotelReducer,
+
+   paymentReducer, 
+
 })
 export const store=legacy_createStore(rootReducer,applyMiddleware(thunk))

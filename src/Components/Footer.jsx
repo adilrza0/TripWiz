@@ -7,8 +7,8 @@ import { SiAmericanexpress } from "react-icons/si";
 
 export const Footer = () => {
   return (
-    <Box>
-    <Box   w="90%" m="auto" borderBottom="1px solid">
+    <Box  borderTop="1px solid" mt={10}>
+    <Box   w="90%" m="auto" borderBottom="1px solid" mt={10}>
       <Flex
         maxW="1200px"
         mx="auto"
@@ -23,7 +23,7 @@ export const Footer = () => {
               <Image src="https://i.ibb.co/DVQLYVm/logo-color.png" alt="" w="100%" />
             </Box>
             <Text fontSize="2xl" fontWeight="bold">
-              Outdoor Life
+              TripWiz
             </Text>
           </Flex>
           <Text mt="4" textAlign="justify" fontSize="sm">
@@ -112,7 +112,7 @@ export const Footer = () => {
       </Flex>
     </Box>
 
-    <Box w="90%" m="auto" >
+    <Box w="90%" m="auto" mb="20px">
       <Flex justifyContent="space-between" gap="10%" pt="5px">
         <Box>
           <Text>Copyright @ Outdoot Life. All rights Reserved</Text>

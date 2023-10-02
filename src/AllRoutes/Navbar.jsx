@@ -17,21 +17,6 @@ const Navbar = () => {
         path: "/hotels"
       },
       {
-        id: 3,
-        title: "Blogs",
-        path: "/blogs"
-      },
-      {
-        id: 4,
-        title: "Abouts",
-        path: "/about"
-      },
-      {
-        id: 5,
-        title: "Contact",
-        path: "/contact"
-      },
-      {
         id: 6,
         title: "Login",
         path: "/login"
@@ -40,6 +25,11 @@ const Navbar = () => {
         id: 7,
         title: "Cart",
         path: "/cart"
+      },
+      {
+        id: 8,
+        title: "Flights",
+        path: "/flight"
       },
     ];
   
