@@ -98,7 +98,7 @@ const Home = () => {
     <br />
   
     <span className='span3'>From historical cities to natural slendours,come see the best of the world.</span>
-    <Link  to={"/destination"}>View All → </Link>
+    <Link  to={'/destination'}>View All → </Link>
     <div className='dest-pics'>
     <div className='image-container'>
       <img src={uk} alt='UK' />
