@@ -7,7 +7,7 @@ import {LiaHotelSolid} from "react-icons/lia"
 import {MdFlight} from "react-icons/md"
 import Navbar from './Navbar'
 
-import { Link } from 'react-router-dom'
+import { Link, Navigate } from 'react-router-dom'
 import turkey from "./images/fatih-yurur-kNSREmtaGOE-unsplash.jpg"
 
 import dubai from "./images/christoph-schulz-7tb-b37yHx4-unsplash.jpg"
@@ -51,10 +51,11 @@ const Home = () => {
 <div className="main-homecard">
 
     <div className="btn">
+      
     <button
           className={activeButton === 'flights' ? 'btn1' : 'btn2'}
           onClick={() => setActiveButton('flights')}
-        > <MdFlight/>  Flights</button> <hr />
+        > <MdFlight/>  Flights</button><hr />
          <button
           className={activeButton === 'hotels' ? 'btn1' : 'btn2'}
           onClick={() => setActiveButton('hotels')}

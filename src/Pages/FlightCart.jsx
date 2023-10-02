@@ -22,11 +22,8 @@ const FlightCart = () => {
   const [flightData, setflightData] = useState({})
   const [count, setCount] = useState(1)
   const [data, setData] = useState(inital)
-  let price = localStorage.getItem("flight") || flightData.price
-  const handleCount = (val) => {
-    setCount((prev) => prev + val)
-  }
-
+  let priceStore = localStorage.getItem("flight") || flightData.price
+ 
   const handleChange = (e) => {
     const { name, value } = e.target;
 
@@ -37,7 +34,7 @@ const FlightCart = () => {
 
   }
   let amount = flightData.price
-  price = localStorage.setItem("flight", amount)
+  priceStore = localStorage.setItem("flight", amount)
   useEffect(() => {
     const flight = flights.find((el) => el.id == id)
     setflightData(flight);
@@ -89,46 +86,63 @@ const FlightCart = () => {
       <br />
       <div id="guest">
         <form>
-          <div>
-            <label>First name: </label>
-            <input type='text' placeholder='Enter first name' name="firstname" value={flightData.firstname} onChange={handleChange} />
-            <br />
-            <label>Last name: </label>
-            <input type='text' placeholder='Enter last name' name='lastname' value={flightData.lastname} onChange={handleChange} />
+          <div className='name'>
+            <div>
+
+              <label>First name: </label>
+              <input type='text' 
+              placeholder='Enter first name' 
+              className='name' 
+              name="firstname" 
+              value={flightData.firstname} 
+              onChange={handleChange} />
+            </div>
+            <div>
+
+              <label>Last name: </label>
+              <input type='text' 
+              placeholder='Enter last name' 
+              className='name' 
+              name='lastname' 
+              value={flightData.lastname} 
+              onChange={handleChange} />
+            </div>
           </div>
           <br />
           <hr />
 
 
-          <div>
+          <div className='gender'>
             <select name="gender" value={flightData.gender} onChange={handleChange}>
               <option value="">Select Gender</option>
               <option value="male">Male</option>
               <option value="female">Female</option>
             </select>
+
+
+            <select name="adult" value={flightData.adult} onChange={handleChange}>
+              <option value="">Adult</option>
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select>
           </div>
           <br />
-          <hr />
-          <select name="adult" value={flightData.adult} onChange={handleChange}>
-            <option value="">Adult</option>
-            <option value="yes">Yes</option>
-            <option value="no">No</option>
-          </select>
-          <br />
-          <hr />
+
           <label>Email id : </label>
           <input type='email' placeholder='email' name='email' value={flightData.email} onChange={handleChange} />
           <label>Mobile No : </label>
           <input type='number' placeholder='mobile number' name='mobile' value={flightData.mobile} onChange={handleChange} />
-          <hr />
+
           <br />
           <label>Address: </label>
-          <input type="textarea" placeholder='Address' name='address' value={flightData.address} onChange={handleChange} />
+          <textarea type="text" placeholder='Address' name='address' value={flightData.address} onChange={handleChange} />
         </form>
 
       </div>
       <div className='payment-page'>
+        <Link to={"/Payment"}>
         <button>Payment Amount: </button>
+        </Link>
         <h1>${count * flightData.price}</h1>
       </div>
     </DIV>
@@ -160,13 +174,13 @@ margin: auto;
     margin: auto;
     padding: 20px;
     border-radius: 15px;
-    border: 5px solid #abd0f7;
+    border: 2px solid #abd0f7;
     margin-top: 50px;
     margin-bottom: 50px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   }
-  .payment-page>button{
-    width: 50%;
+  .payment-page button{
+    width: 100%;
     padding: 20px;
     border: none;
     background-color: #a9faf6;
@@ -181,7 +195,7 @@ margin: auto;
     margin: auto;
     font-size: x-large;
   }
-  .quantity{
+  /* .quantity{
     display: flex;
     justify-content:space-evenly;
     gap: 10px;
@@ -196,13 +210,15 @@ margin: auto;
     background-color: #b86705;
     font-size: 30px;
     color: #ffefdb;
-  }
+  } */
   #delete{
     margin: auto;
     padding: 7px;
     border-radius: 18px;
     border: none;
     color: red;
+    background:none;
+    font-size: 25px;
   }
   #guest{
     width: 95%;
@@ -212,16 +228,60 @@ margin: auto;
     width:85%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin: auto;
-    align-items: center;
     align-items: start;
+
+    margin: auto;
     border-radius: 15px;
     padding: 30px;
-    border: 5px solid #a9faf6;
-
+    border: 1px solid #a9faf6;
+    font-size: 20px;
     
   }
+  .name{
+  width: 80%;
+  display:grid;
+ grid-template-columns:auto auto;
+ margin: auto;
+ gap:10px;
+}
+.name div{
+  width:100%;
+  
+}
+input {
+  width: 60%;
+  height: 40px;
+  border-radius: 10px;
+  border-color:#BCDCFF;
+}
+
+textarea{
+  width: 60%;
+  border-radius: 10px;
+  border-color:#BCDCFF;
+}
+
+.name input{
+  margin-left: 20px;
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  border-color:#BCDCFF;
+}
+.gender{
+width: 80%;
+display: flex;
+flex-wrap: wrap;
+}
+select{
+  width: 25%;
+  height: 33px;
+  border-radius: 10px;
+  border-color:#BCDCFF ;
+}
+.gender> :nth-child(2){
+  margin-left: 5%;
+}
 input,select,label {
   font-size:25px;
 }
