@@ -17,6 +17,8 @@ export default function FlightPage() {
     useEffect(()=>{
         dispatch(getFlights(paramObj))
     },[page])
+
+    console.log(flights)
   return (
     <ChakraProvider>
     <div>
