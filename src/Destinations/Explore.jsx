@@ -2,18 +2,31 @@ import { ArrowBackIcon, ArrowForwardIcon } from '@chakra-ui/icons';
 import { Box, Heading, Image, Text, Flex, Button, FormLabel, Input, Select } from '@chakra-ui/react';
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
-import {  useParams, Link } from 'react-router-dom';
+import {  useParams, Link, useNavigate } from 'react-router-dom';
 import { SlideImage } from './SlideImages';
+//import { PAYMENT_DATA } from '../Redux/PaymentReducer/actionType';
+import { paymentData } from '../Redux/PaymentReducer/action';
+import { useDispatch, useSelector } from 'react-redux';
 
 export const Explore = () => {
   const [state, setState] = useState({
-    number: '',
-    expiry: '',
-    cvc: '',
     name: '',
-    focus: '',
+    mobileNo: '',
+    email: '',
+    gender: '',
+    noOfPeople: 1,
+    national:'',
+    totalPrice:'',
+    date:'',
+    place:''
   });
 
+  const dispatch = useDispatch()
+  const data = useSelector((store)=> store.paymentReducer.userData)
+
+  const navigate = useNavigate()
+
+  console.log(data,"pay")
   const { id } = useParams();
   const [destination, setDestination] = useState(null);
   const [allDestinations, setAllDestinations] = useState([]);
@@ -21,6 +34,8 @@ export const Explore = () => {
   useEffect(() => {
     getData(id);
   }, [id]);
+
+
 
   
 
@@ -36,6 +51,24 @@ export const Explore = () => {
   const findDestinationIndexById = (id) => {
     return allDestinations.findIndex((destination) => destination.id === id);
   };
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setState({ ...state, [name]:name=="noOfPeople"? +value : value });
+  };
+
+  const handleSubmit =(e)=>{
+    e.preventDefault()
+    const place = destination.name
+    state.place = place
+    const newData = {...state}
+    newData.totalPrice = state.noOfPeople*destination.price
+    
+    console.log(state)
+    console.log(newData)
+    dispatch(paymentData(newData))
+    navigate('/Payment')
+  }
 
   
   
@@ -117,7 +150,7 @@ export const Explore = () => {
       <Box  p={20}   w="100%" borderWidth="2px" borderRadius="10px" borderColor="#1071DB">
       <Text fontSize="3xl" fontWeight="bold" textAlign="left">Traveler Details  </Text>
 
-        <form>
+        <form onSubmit={handleSubmit}>
           
           <Box mt="50px" >
             
@@ -139,8 +172,8 @@ export const Explore = () => {
                 type="text" // Use type="tel" for card numbers
                 name="name"
                 placeholder="Name"
-                value={state.number}
-                
+                value={state.name}
+                onChange={handleChange}
               />
               </Box>
               <Box w="100%">
@@ -152,10 +185,10 @@ export const Explore = () => {
 
                 //css
                 type="number"
-                name="number"
+                name="mobileNo"
                 placeholder="Mobile Number"
-                value={state.name}
-                
+                value={state.mobileNo}
+                onChange={handleChange}
               />
               </Box>
 
@@ -170,8 +203,8 @@ export const Explore = () => {
                 type="email"
                 name="email"
                 placeholder="Email"
-                value={state.name}
-                
+                value={state.email}
+                onChange={handleChange}
               />
               </Box>
 
@@ -179,82 +212,66 @@ export const Explore = () => {
 
           </Box>
 
-          <Box mt="50px" w="70%">
+          <Box mt="50px" w="100%">
             
             <Flex justifyContent="space-between" gap="5%">
 
               <Box w="100%">
                 <FormLabel>Gender</FormLabel>
-                  <Select placeholder='Select option' colorScheme='blue' variant='outline' border="2px" borderColor="#1071BD">
-                    <option value='option1'>Male</option>
-                    <option value='option2'>Female</option>
+                  <Select placeholder='Select option' colorScheme='blue' variant='outline' border="2px" borderColor="#1071BD"
+                  name="gender"
+                  value={state.gender}
+                  onChange={handleChange}
+                  >
+                    <option value='Male'>Male</option>
+                    <option value='Female'>Female</option>
                     
                   </Select>
               </Box>
 
               <Box w="100%">
                 <FormLabel>No. Of Travlers</FormLabel>
-                  <Select placeholder='Select option' colorScheme='blue' variant='outline' border="2px" borderColor="#1071BD">
-                    <option value='option1'>1</option>
-                    <option value='option2'>2</option>
-                    <option value='option1'>3</option>
-                    <option value='option2'>4</option>
+                  <Select 
+                  //placeholder='Select option' 
+                  colorScheme='blue' 
+                  variant='outline' 
+                  border="2px" 
+                  borderColor="#1071BD"
+                  name="noOfPeople"
+                  value={state.noOfPeople}
+                  onChange={handleChange}
+                  >
+                    <option value='1'>1</option>
+                    <option value='2'>2</option>
+                    <option value='3'>3</option>
+                    <option value='4'>4</option>
                     
                   </Select>
+
+
               </Box>
+
+              <Box w="40%" >
+                  
+                <FormLabel>Choose Date</FormLabel>
+                <Input
+                  //css
+                  boxShadow= "rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px"
+                  //css
+                  type="date" // Use type="tel" for CVC
+                  name="date"
+                  placeholder="Date"
+                  value={state.date}
+                  onChange={handleChange}
+                />
+              </Box>
+
               
               
 
             </Flex>
 
-            <Box mt="50px">
-                <Flex alignItems="center">
-                  <Box flex="1">
-                  <FormLabel>Day</FormLabel>
-                    <Select
-                      placeholder="Day"
-                      //value={day}
-                      //onChange={(e) => onDayChange(e.target.value)}
-                    >
-                      {Array.from({ length: 31 }, (_, index) => (
-                        <option key={index} value={index + 1}>
-                          {index + 1}
-                        </option>
-                      ))}
-                    </Select>
-                  </Box>
-                  <Text mx={2}>/</Text>
-                  <Box flex="1">
-                  <FormLabel>Month</FormLabel>
-                    <Select
-                      placeholder="Month"
-                      //value={month}
-                      //onChange={(e) => onMonthChange(e.target.value)}
-                    >
-                      {Array.from({ length: 12 }, (_, index) => (
-                        <option key={index} value={index + 1}>
-                          {index + 1}
-                        </option>
-                      ))}
-                    </Select>
-                  </Box>
-                  <Text mx={2}>/</Text>
-                  <Box flex="1">
-                  <FormLabel>Year</FormLabel>
-                    <Select
-                      placeholder="Year"
-                      //value={year}
-                      //onChange={(e) => onYearChange(e.target.value)}
-                    >
-                      {Array.from({ length: 100 }, (_, index) => (
-                        <option key={index} value={2023 - index}>
-                          {2023 - index}
-                        </option>
-                      ))}
-                    </Select>
-                  </Box>
-                </Flex>
-            </Box>
+            
 
             <Box w="30%" mt="50px">
                   
@@ -264,20 +281,30 @@ export const Explore = () => {
                   boxShadow= "rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px"
                   //css
                   type="tel" // Use type="tel" for CVC
-                  name="cvc"
+                  name="national"
                   placeholder="Nationality"
-                  value={state.cvc}
-
+                  value={state.national}
+                  onChange={handleChange}
                 />
               </Box>
 
+              
             <Box textAlign="left" mt="50px">
-            <Link to={'/Payment'}>
-              <Button width="30%"  colorScheme='blue' h={50} borderRadius="25px"  backgroundColor="#1071BD" color="white">
+              <Flex justifyContent="space-between">
+                
+             {/* <Link to={'/Payment'}> */}
+               <Button width="30%"  colorScheme='blue' h={50} borderRadius="25px"  backgroundColor="#1071BD" color="white"
+               type='submit'
+               >
                 Book Now
               </Button>
 
-            </Link>
+            {/* </Link> */}
+
+            {destination &&<Text fontSize="3xl" color="green">Total : {state.noOfPeople*destination.price}</Text>}
+              </Flex>
+
+          
             </Box>
            
            

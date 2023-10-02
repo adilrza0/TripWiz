@@ -17,11 +17,10 @@ export const SlideImage = ({prop}) => {
     autoplaySpeed: 3000,
   };
 
-  console.log(prop,"SlideImage")
+
   
   const images = prop || []
-  
-  console.log(images)
+
   return (
     <Box maxWidth="50%" mx="auto" mt="150px">
       <Slider {...sliderSettings}>

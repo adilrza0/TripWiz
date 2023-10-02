@@ -1,10 +1,12 @@
 
-import { Box, Input, Flex, FormLabel, Text, Icon, Button } from '@chakra-ui/react';
+import { Box, Input, Flex, FormLabel, Text, Icon, Button, Heading, } from '@chakra-ui/react';
 import React, { useState } from 'react';
 import Cards from 'react-credit-cards-2';
 import 'react-credit-cards-2/dist/es/styles-compiled.css'; // Import the CSS for styling
 import {BiCreditCardAlt} from 'react-icons/bi'
 import {PiContactlessPaymentLight} from 'react-icons/pi'
+import { useSelector } from 'react-redux';
+import { Link, useNavigate, useParams } from 'react-router-dom';
 
 export const Payment = () => {
   const [state, setState] = useState({
@@ -15,11 +17,20 @@ export const Payment = () => {
     focus: '',
   });
 
+  const { id } = useParams();
+
+  console.log(id)
+
+  const navigate = useNavigate();
+
   const price = localStorage.getItem("flight")
   const hotelprice = localStorage.getItem("hotelprice")
+  const data = useSelector((store)=> store.paymentReducer.userData)
+
+  
 
 
-  console.log(price, hotelprice)
+  console.log(price, hotelprice,data,"pay")
 
 
   const handleInputChange = (evt) => {
@@ -148,6 +159,7 @@ export const Payment = () => {
               <Box>
                 <Flex justifyContent="space-between">
 
+                
                   <Button
                     mt="30px"
                     loadingText='Submitting'
@@ -155,10 +167,12 @@ export const Payment = () => {
                     variant='outline'
                     w="30%"
                     borderRadius="20px"
+                    h="60px"
+                    onClick={()=>navigate(-1)}
                   >
                     Cancel
                   </Button>
-
+              
                   <Button
                     mt="30px"
                     loadingText='Submitting'
@@ -166,8 +180,9 @@ export const Payment = () => {
                     variant='outline'
                     w="40%"
                     borderRadius="20px"
+                    h="60px"
                   >
-                    Pay
+                    Pay {data.totalPrice}/-
                   </Button>
                   </Flex>
               </Box>
@@ -190,6 +205,17 @@ export const Payment = () => {
         name={state.name}
         focused={state.focus}
       />
+
+      <Box w="100%" m="auto" backgroundColor="white" mt="50px" borderRadius="10px" p="20px">
+        <Heading as="h4" fontSize="xl" pt="20px" textAlign="left" mb="30px">Payment Details</Heading>
+        <Text fontSize="2xl" textAlign="left" mt="20px" ><span style={{fontWeight:"bold"}}>Destination to:</span> <span style={{color:"red"}}>{data.place}</span></Text>
+        {/* <Text fontSize="xl" textAlign="left" mt="20px" color="red">{data.place}</Text> */}
+        {data.date && <Text fontSize="lg" textAlign="left" mt="20px" >A Trip of 5 Days starting from <span style={{color:"red"}}>{data.date}</span></Text>}
+        <Text fontSize="lg" textAlign="left" mt="20px" ><span style={{fontWeight:"bold"}}>Total Number :</span> <span style={{color:"#1071BD"}}>{data.noOfPeople}</span></Text> 
+        <Text fontSize="lg" textAlign="left" mt="20px" ><span style={{fontWeight:"bold"}}>Contact Number :</span> <span style={{color:"#1071BD"}}>{data.mobileNo}</span></Text>
+        <Text fontSize="lg" textAlign="left" mt="20px" ><span style={{fontWeight:"bold"}}>Email Id :</span> <span style={{color:"#1071BD"}}>{data.email}</span></Text>
+        <Text fontSize="lg" textAlign="left" mt="20px" ><span style={{fontWeight:"bold"}}>Total Price for {data.noOfPeople} :</span> <span style={{color:"green", fontSize:"24px"}}> {data.totalPrice}/-</span></Text>       
+      </Box>
       </Box>
       </Flex>
     </Box>

@@ -1,0 +1,1 @@
+export const PAYMENT_DATA = 'PAYMENT_DATA'
