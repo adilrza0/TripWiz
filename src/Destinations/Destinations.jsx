@@ -28,17 +28,17 @@ export const Destinations = () => {
     <div>
     <Box p={4} w="90%" m="auto" >
       <Box mt="50px">
-        <Flex justifyContent="space-between" alignContent="center">
+        <Flex justifyContent="space-between" alignContent="center" direction={["column", "row"]} gap="10%">
 
         
         <Heading as="h1" size="2xl" mb={10} mt={10} textAlign="left">
         Popular <span style={{color:"#1071BD"}}>Destinations</span>
         </Heading>
 
-        <Select placeholder='Select option' mb={10} mt={10} colorScheme='blue' variant='outline' w="20%" border="2px" borderColor="#1071BD">
-          <option value='option1'>Option 1</option>
-          <option value='option2'>Option 2</option>
-          <option value='option3'>Option 3</option>
+        <Select placeholder='Select option' mb={10} mt={10} colorScheme='blue' variant='outline' w={{ base:'100%', md:'25%'}} border="2px" borderColor="#1071BD">
+          <option value='beach'>Beach</option>
+          <option value='city'>City</option>
+          <option value='hills'>Hills</option>
         </Select>
 
         </Flex>

@@ -86,8 +86,8 @@ export const Explore = () => {
       <Heading as="h1" size="2xl" textAlign="left" mt="50px"><span style={{color:"#0C246C"}}>Holiday Package</span> to</Heading>
       {destination && (
         <Box p={6} w="100%" m="auto" mb="30px" mt="50px"  borderBottom="2px" borderRadius="20px" borderColor="#1071DB">
-          <Flex gap="5%">
-            <Box textAlign="left" w="100%" >
+          <Flex gap={{ base: '15%', md: '5%' }} direction={["column", "row"]}>
+            <Box textAlign="left" w="100%" mb="20px">
               <Heading as="h1" size="4xl">
               <span style={{color:"#1071DB"}}>{destination.name}</span>
               </Heading>
@@ -103,7 +103,7 @@ export const Explore = () => {
               <Image
                 src={destination.image}
                 alt="TravelWorld Team"
-                maxW="500px"
+                w="100%"
                 mx="auto"
                 borderRadius="lg"
                 boxShadow="lg"
@@ -122,12 +122,12 @@ export const Explore = () => {
       )}
 
       <Box>
-        <Flex gap="5%">
-
-        {destination && <SlideImage prop={destination.placeImages} />}
+        <Flex gap={{ base: '15%', md: '5%' }} direction={["column", "row"]}>
+          
+           {destination && <SlideImage prop={destination.placeImages} />}
 
          
-          <Box>
+          <Box w="100%">
           {destination && (
             <Box w="90%" m="auto" mb="50px">
               <Heading as="h3" size="3xl" mt="50px" textAlign="left">
@@ -147,14 +147,14 @@ export const Explore = () => {
       </Box>
 
       {/* Traveler Form Details */}
-      <Box  p={20}   w="100%" borderWidth="2px" borderRadius="10px" borderColor="#1071DB">
+      <Box  p="5%"   w="100%" borderWidth="2px" borderRadius="10px" borderColor="#1071DB">
       <Text fontSize="3xl" fontWeight="bold" textAlign="left">Traveler Details  </Text>
 
         <form onSubmit={handleSubmit}>
           
           <Box mt="50px" >
             
-            <Flex justifyContent="space-between" gap="5%">
+            <Flex justifyContent="space-between" gap={{ base: '15%', md: '5%' }} direction={["column", "row"]}>
 
               <Box w="100%">
 
@@ -214,7 +214,7 @@ export const Explore = () => {
 
           <Box mt="50px" w="100%">
             
-            <Flex justifyContent="space-between" gap="5%">
+            <Flex justifyContent="space-between" gap={{ base: '15%', md: '5%' }} direction={["column", "row"]}>
 
               <Box w="100%">
                 <FormLabel>Gender</FormLabel>
@@ -251,7 +251,7 @@ export const Explore = () => {
 
               </Box>
 
-              <Box w="40%" >
+              <Box w={{ base: '100%', md: '30%' }} >
                   
                 <FormLabel>Choose Date</FormLabel>
                 <Input
@@ -273,7 +273,7 @@ export const Explore = () => {
 
             
 
-            <Box w="30%" mt="50px">
+            <Box w={{ base: '100%', md: '30%' }} mt="50px">
                   
                 <FormLabel>Nationality</FormLabel>
                 <Input
@@ -289,11 +289,11 @@ export const Explore = () => {
               </Box>
 
               
-            <Box textAlign="left" mt="50px">
-              <Flex justifyContent="space-between">
+            <Box textAlign={{ base: 'center', md: 'left' }} mt="50px">
+              <Flex justifyContent="space-between" gap={{ base: '15%', md: '5%' }} direction={["column", "row"]}>
                 
              {/* <Link to={'/Payment'}> */}
-               <Button width="30%"  colorScheme='blue' h={50} borderRadius="25px"  backgroundColor="#1071BD" color="white"
+               <Button   colorScheme='blue' h={50} borderRadius="25px"  backgroundColor="#1071BD" color="white"
                type='submit'
                >
                 Book Now
@@ -301,7 +301,7 @@ export const Explore = () => {
 
             {/* </Link> */}
 
-            {destination &&<Text fontSize="3xl" color="green">Total : {state.noOfPeople*destination.price}</Text>}
+            {destination &&<Text fontSize={{ base: 'xl', md: '3xl' }} color="green" mt="30px">Total : {state.noOfPeople*destination.price}</Text>}
               </Flex>
 
           
