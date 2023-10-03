@@ -26,7 +26,7 @@ export default function MainRouter() {
         <Route path='/flightcart/:id' element={<FlightCart />} />
         
         <Route path='/destination' element={<ChakraProvider><Destinations/></ChakraProvider>}/>
-        <Route path='/Payment/:price' element={<ChakraProvider><Payment/></ChakraProvider>}/>
+        <Route path='/Payment/' element={<ChakraProvider><Payment/></ChakraProvider>}/>
         
         <Route path={`/Destinations/:id`} element={<ChakraProvider><Explore/></ChakraProvider>}/>
 

@@ -16,7 +16,7 @@ export const Payment = () => {
     focus: '',
   });
 
-  const [paid, setPaid] = useState(true)
+  const [paid, setPaid] = useState()
 
   const { id } = useParams();
 
