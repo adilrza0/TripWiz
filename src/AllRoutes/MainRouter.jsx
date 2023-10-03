@@ -13,6 +13,9 @@ import { Destinations } from '../Destinations/Destinations'
 import { Explore } from '../Destinations/Explore'
 import { ChakraProvider } from '@chakra-ui/react'
 import { Payment } from '../Pages/Payment'
+
+import Review from '../LandingComponents/Review'
+import Contact from '../Pages/Contact'
 import {HotelBookingPage} from '../Components/demo'
 
 
@@ -22,6 +25,8 @@ export default function MainRouter() {
     <Routes>
         <Route path='/' element={<Home />}/>
         <Route path='/login' element={<Login />}/>
+        <Route path='/review' element={<Review />}/>
+        <Route path='/contact' element={<Contact />}/>
         <Route path='/booking' element={<HotelPage />}/>
         <Route path='/cart/:id' element={<Cart />}/>
         <Route path='/signup' element={<Signup />}/>

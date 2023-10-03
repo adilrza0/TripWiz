@@ -240,7 +240,7 @@ const Home = () => {
 <div className='nights3'>
     <div className='main-night3'>
     <div className='first-night3'>
-    <p> <CiLocationOn/>  Suthern Angean Sea, Santorini, Greece</p>
+    <p> Suthern Angean Sea, Santorini, Greece</p>
 <h1>3 Nights Oasis Hotel</h1>
 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum iure qui voluptas dolorum non quibusdam consectetur esse? Ipsam, necessitatibus quibusdam.
 </p>
@@ -368,7 +368,7 @@ const Home = () => {
     </div>
 
 <div className='subscribe'>
-<h1>Subscribe To Our Newsletter</h1>
+<h1 >Subscribe To Our Newsletter</h1>
     <p>We will keep your information secret & will send you the offer updates.</p>
     <input 
     
