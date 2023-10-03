@@ -25,12 +25,7 @@ export const Payment = () => {
 
   const price = localStorage.getItem("flight")
   const hotelprice = localStorage.getItem("hotelprice")
-  const data = useSelector((store)=> store.paymentReducer.userData)
-
-  
-
-
-  console.log(price, hotelprice,data,"pay")
+  const data = useSelector((store)=> store.paymentReducer.userData);
 
 
   const handleInputChange = (evt) => {
