@@ -36,7 +36,7 @@ export default function HotelCard({
 
           <div className="book-section">
             <p>${price}</p>
-            <Link to={`/cart/${id}`}>
+            <Link to={`/hotelcart/${id}`}>
               <button>Reserve</button>
             </Link>
           </div>
