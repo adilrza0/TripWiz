@@ -249,6 +249,7 @@ width: 95%;
 text-align: start;
 margin: auto;
 padding-bottom: 50px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 .container{
   display: flex;
