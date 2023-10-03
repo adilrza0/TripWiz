@@ -84,6 +84,7 @@ const DIV = styled.div`
     width: 720px;
     margin: auto;
     margin-top: 80px;
+    margin-bottom: 70px;
     gap: 20px;
    
   }
@@ -150,6 +151,7 @@ const DIV = styled.div`
     width: 700px;
     margin: auto;
     margin-top: 80px;
+    margin-bottom: 70px;
     gap: 20px;
     padding: 10px;
   }

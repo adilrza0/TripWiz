@@ -2,39 +2,36 @@ import React, { useEffect, useState } from 'react'
 import login from '../images/Login2.png'
 import styled from 'styled-components'
 import { Link, useNavigate } from 'react-router-dom'
-import { useDispatch, useSelector } from 'react-redux'
-import { getUserData } from '../Redux/authReducer/action'
+import { shallowEqual, useDispatch, useSelector } from 'react-redux'
+import { checkLogin, getUserData } from '../Redux/authReducer/action'
+// import { Button, useToast } from '@chakra-ui/react'
 
 export default function Login() {
   const [email,setEmail] = useState("")
   const [password,setPassword] = useState("")
   const dispatch = useDispatch()
   const navigate = useNavigate()
-  const loginData = useSelector(store => store.authReducer.loginData)
+  let {loginData,isAuth} = useSelector((store) => {
+    return{
+    loginData : store.authReducer.loginData,
+    isAuth : store.authReducer.isAuth
+    }
+  },shallowEqual)
 
+  
   useEffect(()=>{
+    console.log(isAuth)
     dispatch(getUserData)
   },[window.location.pathname])
 
   const handleLogin = (e) =>{
     e.preventDefault()
-
-    if(email==="aamil@gmail.com" && password==="aamil123"){
-      return navigate("/hotels")
-    }
-
-    const user = loginData.find((user) => user.email === email && user.password === password);
-    console.log(user)
-    if(user){
-      navigate("/")
-      alert("Signin Successfull")
-    }
-    else{
-      alert("Invalid email or password. Please try again or create an account")
-    }
+ 
+    dispatch(checkLogin(email,password,navigate,loginData))
   }
 
-  console.log( "logindata => ",loginData)
+  // console.log( "logindata => ",loginData)
+
   return (
     <DIV>
        <div className="login_content">
@@ -79,6 +76,7 @@ const DIV = styled.div`
     width: 700px;
     margin: auto;
     margin-top: 80px;
+    margin-bottom: 100px;
     gap: 20px;
    
   }
@@ -146,6 +144,7 @@ const DIV = styled.div`
     width: 700px;
     margin: auto;
     margin-top: 80px;
+    margin-bottom: 70px;
     gap: 20px;
     padding: 10px;
   }
