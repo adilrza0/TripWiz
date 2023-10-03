@@ -2,16 +2,18 @@ import { Box, ChakraProvider,Checkbox,HStack, Heading, Image, Stack, Text, VStac
 import React, { useState,useEffect } from 'react'
 import styled from 'styled-components'
 import InputHotel from './InputHotel'
-import { shallowEqual, useSelector } from 'react-redux'
+import { shallowEqual, useDispatch, useSelector } from 'react-redux'
 import { useNavigate, useParams } from 'react-router-dom'
 import {Icon} from "@chakra-ui/icons"
 import { FaLocationDot,FaStar } from "react-icons/fa6";
 import axios from 'axios'
 import { calculateDaysNights } from '../FunctionalComponent/difference'
+import { PAYMENT_DATA } from '../Redux/PaymentReducer/actionType'
 
 
 export  const HotelBookingPage=() =>{
     const {id}=useParams()
+    const dispatch=useDispatch()
     const [hotel,setHotel]=useState({})
     const [star,setStar]=useState([])
     const {checkin,checkout,guestDeatails}=useSelector(((store)=>store.hotelSearchReducer),shallowEqual)
@@ -90,7 +92,7 @@ in Himachal Pradesh.</Text>
                         <Text>$ {hotel.price}</Text>
                     </HStack>
                 </VStack> */}
-                <HStack onClick={()=>navigate("/payment")} borderRadius="10px" m="10px" mt="60px" p="20px" color="white" backgroundColor="#0071db" w="90%" justifyContent="space-between">
+                <HStack onClick={()=>{dispatch({type:PAYMENT_DATA,payload:{type:"STAY",totalPrice:hotel.price*guestDeatails.rooms*(days+1)-641+341}});navigate("/payment")}} borderRadius="10px" m="10px" mt="60px" p="20px" color="white" backgroundColor="#0071db" w="90%" justifyContent="space-between">
                     <Heading size="md">
                         Total Amoun to be Paid
                     </Heading>

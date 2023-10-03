@@ -6,10 +6,11 @@ import { FaRegCircle } from 'react-icons/fa'
 import { PiArrowsVerticalDuotone } from 'react-icons/pi'
 import { AiOutlinePlusCircle } from 'react-icons/ai'
 
-import { useSelector } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
 import { Link, useParams } from 'react-router-dom'
 import styled from 'styled-components'
 import Footer from '../LandingComponents/Footer'
+import { PAYMENT_DATA } from '../Redux/PaymentReducer/actionType'
 
 const inital = {
   firstname: "",
@@ -25,6 +26,7 @@ const inital = {
 const FlightCart = () => {
   const flights = useSelector((store) => store.flightReducer.flights)
   const { id } = useParams()
+  const dispatch=useDispatch()
   const [flightData, setflightData] = useState({})
   const [count, setCount] = useState(1)
   const [data, setData] = useState(inital)
@@ -167,7 +169,7 @@ const FlightCart = () => {
               <h2>₹ {total}</h2>
             </div>
           </div>
-          <Link to="/payment">
+          <Link onClick={()=>dispatch({type:PAYMENT_DATA,payload:{type:"FLIGHT",totalPrice:total}})} to="/payment">
           <Button display="block" p="15px" color="white"  border="none" bg="blue" borderRadius="15px" m="auto" mt="20px">Make Paymetn</Button>
           </Link>
         </Box>
