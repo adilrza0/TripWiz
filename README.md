@@ -1,7 +1,7 @@
 # adaptable-oven-8035
 # Trip Wiz
 
-![Trip Wiz Logo](https://example.com/trip-wiz-logo.png)
+![Trip Wiz Logo](https://651c18d20d00eb2955753db9--verdant-madeleine-13b102.netlify.app/)
 
 ## Table of Contents
 
@@ -79,7 +79,7 @@ Enjoy a hassle-free trip planning experience with Trip Wiz!
 
 ## Deployment
 
-You can access Trip Wiz by visiting the following deployment URL: [https://www.tripwiz.com](https://www.tripwiz.com)
+You can access Trip Wiz by visiting the following deployment URL: [https://www.tripwiz.com](https://651c18d20d00eb2955753db9--verdant-madeleine-13b102.netlify.app/)
 
 ## Contributing
 
