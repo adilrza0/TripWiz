@@ -1085,14 +1085,9 @@
       "email": "test2@gmail.com",
       "password": "12345",
       "id": 4
-    },
-    {
-      "userName": "test3",
-      "email": "test3@gmail.com",
-      "password": "12345",
-      "id": 5
     }
   ],
+
 
   
 
@@ -1536,6 +1531,7 @@
         "type": "city"
       },
       
+
     {
       "id": 24,
       "name": "Dubrovnik, Croatia",
@@ -1551,9 +1547,11 @@
         "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
         "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
         "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+
       ],        
     "price": 25000,
       "type": "hills"
+
     },
     {
       "id": 25,
@@ -1570,8 +1568,8 @@
         "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
         "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
         "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
-      ],        
-    "price": 30000,
+      ],
+      "price": 30000,
       "type": "beach"
     },
     {
@@ -1589,9 +1587,11 @@
         "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
         "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
         "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+
       ],        
     "price": 29000,
       "type": "hills"
+
     },
     {
       "id": 27,
@@ -1608,8 +1608,8 @@
         "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
         "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
         "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
-      ],        
-    "price": 42000,
+      ],
+      "price": 42000,
       "type": "beach"
     },
     {
@@ -1627,9 +1627,11 @@
         "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
         "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
         "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+
       ],        
     "price": 47000,
       "type": "hills"
+
     },
     {
       "id": 29,
@@ -1646,9 +1648,11 @@
         "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
         "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
         "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+
       ],        
     "price": 45000,
       "type": "hills"
+
     },
     {
       "id": 30,
@@ -1665,8 +1669,8 @@
         "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
         "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
         "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
-      ],        
-    "price": 37000,
+      ],
+      "price": 37000,
       "type": "beach"
     },
     {
@@ -1684,8 +1688,8 @@
         "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
         "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
         "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
-      ],        
-    "price": 27000,
+      ],
+      "price": 27000,
       "type": "beach"
     },
     {
@@ -1707,8 +1711,6 @@
       "price": 29000,
       "type": "hills"
     },
-    
-
     {
       "id": 33,
       "name": "Budapest, Hungary",
@@ -1880,12 +1882,5 @@
       "price": 33000,
       "type": "hills"
     }
- 
-  
-
-    ]
-  
-  
-
-
+  ]
 }

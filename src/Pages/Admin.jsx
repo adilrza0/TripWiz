@@ -33,13 +33,7 @@ export default function Admin() {
         }
       },shallowEqual)
     
-    ///console.log(isAuth)
-      useEffect(()=>{
-        console.log("yes")
-        dispatch(getUserData)
-      },[isAuth,loginData])
-
-
+   
     const handleLogout = () => {
         
     }
@@ -62,6 +56,14 @@ export default function Admin() {
     const handleSearchInputChange = (e) => {
     setSearchQuery(e.target.value);
     };
+
+     ///console.log(isAuth)
+     useEffect(()=>{
+        console.log("yes")
+        dispatch(getUserData)
+      },[isAuth,loginData])
+
+
 
     return (
     <div className="main-outer-container">
@@ -90,7 +92,7 @@ export default function Admin() {
                 <div className="destination-icon">
                 <FontAwesomeIcon color='black' icon={faArrowLeft} /> 
                 </div>
-                <button onClick={handleLogout}><Link to={"/"}> Back to home page</Link></button>
+                <button onClick={handleLogout}><Link style={ {fontSize:"20px",color:"gray",textDecoration:"none"}} to={"/"}> Back to home page</Link></button>
             </div>
             
         </div>
@@ -106,7 +108,7 @@ export default function Admin() {
             leftIcon={<FontAwesomeIcon icon={faPlus} />}
             >
             <div className="inside-button">
-               <Link to={"/addhotel"}> <p>Add New Hotel</p></Link>
+               <Link style={ {color:"white",textDecoration:"none"}} to={"/addhotel"}> <p>Add New Hotel</p></Link>
             </div>
             </Button>
         </div>

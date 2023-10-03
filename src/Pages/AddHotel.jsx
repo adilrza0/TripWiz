@@ -125,17 +125,21 @@ export default function AddHotel() {
         </button>
       </form>
       </div>
-      <div className='btn' style={{marginLeft:"-400px"}} >
+      <div className='btn'  >
+       
         <button
             style={{marginRight:"350px",backgroundColor:" #007bff",padding:"20px"}} 
         >
-            <Link style={{color:"white"}} to={"/admin"}>Back to Admin Page</Link>
+           <Link style={{color:"white",textDecoration:"none"}} to={"/admin"}> Back to Admin Page</Link>
         </button>
+        
      </div>
       </div>
     </DIV>
   );
 }
+
+
 
 const DIV = styled.div`
 /* Container styling */
@@ -145,6 +149,18 @@ const DIV = styled.div`
 
 .cont{
  display: flex;
+}
+
+.btn{
+  /* border:1px solid green; */
+  height: 70px;
+}
+
+.btn button{
+  width: 200px;
+  font-size: 15px;
+  /* text-decoration: none; */
+  color: white;
 }
 
 .container {
@@ -157,6 +173,7 @@ const DIV = styled.div`
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-bottom: 50px;
+    margin-left: 35%;
     /* border: 1px solid #007bff; */
   }
 
@@ -216,16 +233,41 @@ const DIV = styled.div`
 
   @media screen and (max-width: 800px){
     .cont{
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
     display: flex;
     flex-direction: column;
     /* margin: auto; */
     gap: 20px;
     margin-bottom: 50px;
+
   }
   .btn button{
-    margin-left: 530px;
+    /* margin-left: 100px; */
+    /* width: 200%; */
+    /* margin-left: 200px; */
   }
+  
+  .btn {
+    /* width: 200px; */
+    /* margin: auto; */
+    /* border: 1px solid green; */
+    margin-left: 270px
+  }
+
+  .container {
+    /* width: 100%; */
+    max-width: 350px;
+    /* margin: 0 auto; */
+    /* padding: 20px; */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    margin-bottom: 50px;
+    /* margin-left: 35%; */
+    /* border: 1px solid #007bff; */
+  }
+
   
 }
 `
