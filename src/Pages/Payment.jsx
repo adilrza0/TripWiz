@@ -117,7 +117,7 @@ export const Payment = () => {
 
   if(paid){
     navigateHome()
-    return <Box mt="300px">
+    return <Box>
       <Alert
         status='success'
         variant='subtle'
@@ -125,13 +125,13 @@ export const Payment = () => {
         alignItems='center'
         justifyContent='center'
         textAlign='center'
-        height='200px'
+        height='100vh'
       >
-        <AlertIcon boxSize='40px' mr={0} />
-        <AlertTitle mt={4} mb={1} fontSize='lg'>
+        <AlertIcon boxSize='60px' mr={0} />
+        <AlertTitle mt={10} mb={5} fontSize='3xl'>
           Congratulations!
         </AlertTitle>
-        <AlertDescription maxWidth='sm'>
+        <AlertDescription maxWidth='md' mt={4}>
         Your booking has been completed successfully.
         </AlertDescription>
       </Alert>
