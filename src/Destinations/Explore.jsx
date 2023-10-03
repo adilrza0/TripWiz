@@ -1,10 +1,9 @@
 import { ArrowBackIcon, ArrowForwardIcon } from '@chakra-ui/icons';
-import { Box, Heading, Image, Text, Flex, Button, FormLabel, Input, Select } from '@chakra-ui/react';
+import { Box, Heading, Image, Text, Flex, Button, FormLabel, Input, Select, useToast } from '@chakra-ui/react';
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
-import {  useParams, Link, useNavigate } from 'react-router-dom';
+import { useParams, Link, useNavigate } from 'react-router-dom';
 import { SlideImage } from './SlideImages';
-//import { PAYMENT_DATA } from '../Redux/PaymentReducer/actionType';
 import { paymentData } from '../Redux/PaymentReducer/action';
 import { useDispatch, useSelector } from 'react-redux';
 
@@ -15,18 +14,18 @@ export const Explore = () => {
     email: '',
     gender: '',
     noOfPeople: 1,
-    national:'',
-    totalPrice:'',
-    date:'',
-    place:''
+    national: '',
+    totalPrice: '',
+    date: '',
+    place: '',
+    type: 'Destination Package',
   });
 
-  const dispatch = useDispatch()
-  const data = useSelector((store)=> store.paymentReducer.userData)
+  const dispatch = useDispatch();
+  const data = useSelector((store) => store.paymentReducer.userData);
 
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
-  console.log(data,"pay")
   const { id } = useParams();
   const [destination, setDestination] = useState(null);
   const [allDestinations, setAllDestinations] = useState([]);
@@ -34,10 +33,6 @@ export const Explore = () => {
   useEffect(() => {
     getData(id);
   }, [id]);
-
-
-
-  
 
   const getData = async (id) => {
     try {
@@ -54,40 +49,66 @@ export const Explore = () => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setState({ ...state, [name]:name=="noOfPeople"? +value : value });
+    setState({ ...state, [name]: name === 'noOfPeople' ? +value : value });
   };
 
-  const handleSubmit =(e)=>{
-    e.preventDefault()
-    const place = destination.name
-    state.place = place
-    const newData = {...state}
-    newData.totalPrice = state.noOfPeople*destination.price
-    
-    console.log(state)
-    console.log(newData)
-    dispatch(paymentData(newData))
-    navigate('/Payment')
-  }
+  // Chakra UI toast for displaying messages
+  const toast = useToast();
 
-  
-  
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const place = destination.name;
+    state.place = place;
+    const newData = { ...state };
+    newData.totalPrice = state.noOfPeople * destination.price;
+
+    if (!isValidForm(newData)) {
+      // Show an error toast if form data is not valid
+      toast({
+        title: 'Error',
+        description: 'Please enter all required details.',
+        status: 'error',
+        duration: 5000,
+        isClosable: true,
+      });
+    } else {
+      // All details are provided, show a success toast and save the data
+      toast({
+        title: 'Success',
+        description: 'Your details have been saved.',
+        status: 'success',
+        duration: 5000,
+        isClosable: true,
+      });
+
+      dispatch(paymentData(newData));
+      navigate(`/Payment/`);
+    }
+  };
+
+  const isValidForm = (formData) => {
+    return (
+      formData.name.trim() !== '' &&
+      formData.mobileNo.length === 10 &&
+      formData.email.trim() !== '' &&
+      formData.gender.trim() !== '' &&
+      formData.date.trim() !== '' &&
+      formData.national.trim() !== ''
+    );
+  };
 
   const currentIndex = findDestinationIndexById(parseInt(id));
-
   const previousIndex = currentIndex - 1;
   const nextIndex = currentIndex + 1;
 
-  //const previousDestination = allDestinations[previousIndex];
-  //const nextDestination = allDestinations[nextIndex];
-
   return (
-    <div style={{width:"90%", margin:"auto"}}>
+    <div style={{ width: '90%', margin: 'auto' }}>
+      {/* ... (other code) */}
       <Heading as="h1" size="2xl" textAlign="left" mt="50px"><span style={{color:"#0C246C"}}>Holiday Package</span> to</Heading>
       {destination && (
         <Box p={6} w="100%" m="auto" mb="30px" mt="50px"  borderBottom="2px" borderRadius="20px" borderColor="#1071DB">
-          <Flex gap="5%">
-            <Box textAlign="left" w="100%" >
+          <Flex gap={{ base: '15%', md: '5%' }} direction={{base:'column' , lg:'row'}}>
+            <Box textAlign="left" w="100%" mb="20px">
               <Heading as="h1" size="4xl">
               <span style={{color:"#1071DB"}}>{destination.name}</span>
               </Heading>
@@ -103,7 +124,7 @@ export const Explore = () => {
               <Image
                 src={destination.image}
                 alt="TravelWorld Team"
-                maxW="500px"
+                w="100%"
                 mx="auto"
                 borderRadius="lg"
                 boxShadow="lg"
@@ -122,12 +143,12 @@ export const Explore = () => {
       )}
 
       <Box>
-        <Flex gap="5%">
-
-        {destination && <SlideImage prop={destination.placeImages} />}
+        <Flex gap={{ base: '15%', md: '5%' }} direction={{base:'column' , lg:'row'}}>
+          
+           {destination && <SlideImage prop={destination.placeImages} />}
 
          
-          <Box>
+          <Box w="100%">
           {destination && (
             <Box w="90%" m="auto" mb="50px">
               <Heading as="h3" size="3xl" mt="50px" textAlign="left">
@@ -147,14 +168,16 @@ export const Explore = () => {
       </Box>
 
       {/* Traveler Form Details */}
-      <Box  p={20}   w="100%" borderWidth="2px" borderRadius="10px" borderColor="#1071DB">
-      <Text fontSize="3xl" fontWeight="bold" textAlign="left">Traveler Details  </Text>
+      <Box p="5%" w="100%" borderWidth="2px" borderRadius="10px" borderColor="#1071DB">
+        <Text fontSize="3xl" fontWeight="bold" textAlign="left">
+          Traveler Details{' '}
+        </Text>
 
         <form onSubmit={handleSubmit}>
-          
+          {/* ... (other form fields) */}
           <Box mt="50px" >
             
-            <Flex justifyContent="space-between" gap="5%">
+            <Flex justifyContent="space-between" gap={{ base: '15%', md: '5%' }} direction={["column", "row"]}>
 
               <Box w="100%">
 
@@ -214,7 +237,7 @@ export const Explore = () => {
 
           <Box mt="50px" w="100%">
             
-            <Flex justifyContent="space-between" gap="5%">
+            <Flex justifyContent="space-between" gap={{ base: '15%', md: '5%' }} direction={["column", "row"]}>
 
               <Box w="100%">
                 <FormLabel>Gender</FormLabel>
@@ -251,7 +274,7 @@ export const Explore = () => {
 
               </Box>
 
-              <Box w="40%" >
+              <Box w={{ base: '100%', md: '30%' }} >
                   
                 <FormLabel>Choose Date</FormLabel>
                 <Input
@@ -273,7 +296,7 @@ export const Explore = () => {
 
             
 
-            <Box w="30%" mt="50px">
+            <Box w={{ base: '100%', md: '30%' }} mt="50px">
                   
                 <FormLabel>Nationality</FormLabel>
                 <Input
@@ -288,20 +311,22 @@ export const Explore = () => {
                 />
               </Box>
 
-              
-            <Box textAlign="left" mt="50px">
-              <Flex justifyContent="space-between">
+
+          <Box textAlign={{ base: 'center', md: 'left' }} mt="50px">
+              <Flex justifyContent="space-between" gap={{ base: '15%', md: '5%' }} direction={["column", "row"]}>
                 
-             {/* <Link to={'/Payment'}> */}
-               <Button width="30%"  colorScheme='blue' h={50} borderRadius="25px"  backgroundColor="#1071BD" color="white"
-               type='submit'
-               >
+              <Button
+                colorScheme="blue"
+                h={50}
+                borderRadius="25px"
+                backgroundColor="#1071BD"
+                color="white"
+                type="submit"
+              >
                 Book Now
               </Button>
 
-            {/* </Link> */}
-
-            {destination &&<Text fontSize="3xl" color="green">Total : {state.noOfPeople*destination.price}</Text>}
+            {destination &&<Text fontSize={{ base: 'xl', md: '3xl' }} color="green" mt="30px">Total : {state.noOfPeople*destination.price}</Text>}
               </Flex>
 
           
@@ -310,33 +335,35 @@ export const Explore = () => {
            
 
           </Box>
-
-          
-
         </form>
-
-
       </Box>
-
 
       {/* Traveler Form Details */}
 
-
       <Box mb="50px" mt="50px">
         <Flex justifyContent="space-around">
-          
-            <Link to={`/Destinations/${+id-1}`}>
-              <Button leftIcon={<ArrowBackIcon />} colorScheme='blue' borderRadius="20px" variant='outline'>
-                Previous
-              </Button>
-            </Link>
-          
-            <Link to={`/Destinations/${+id+1}`}>
-              <Button rightIcon={<ArrowForwardIcon />} colorScheme='blue' borderRadius="20px" variant='outline'>
-                Next
-              </Button>
-            </Link>
-            
+          <Link to={`/Destinations/${+id - 1}`}>
+            <Button
+              leftIcon={<ArrowBackIcon />}
+              colorScheme="blue"
+              borderRadius="20px"
+              variant="outline"
+              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+            >
+              Previous
+            </Button>
+          </Link>
+          <Link to={`/Destinations/${+id + 1}`}>
+            <Button
+              rightIcon={<ArrowForwardIcon />}
+              colorScheme="blue"
+              borderRadius="20px"
+              variant="outline"
+              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+            >
+              Next
+            </Button>
+          </Link>
         </Flex>
       </Box>
     </div>

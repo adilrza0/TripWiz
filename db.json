@@ -1,584 +1,582 @@
 {
-  
-  "flights":[
+  "flights": [
     {
-    "id": 1,
-    "flight_number": "AI101",
-    "image": "https://www.nicepng.com/png/full/250-2508376_air-india-logo-air-india-airlines-logo.png",
-    "airline": "Air India",
-    "from_city": "Delhi",
-    "from_code": "DEL",
-    "to_city": "Mumbai",
-    "to_code": "BOM",
-    "arrival": "10:45",
-    "departure": "08:15",
-    "duration": "2h 30m",
-    "price": 5000,
-    "seats_available": 50,
-    "layovers": []
+      "id": 1,
+      "flight_number": "AI101",
+      "image": "https://www.nicepng.com/png/full/250-2508376_air-india-logo-air-india-airlines-logo.png",
+      "airline": "Air India",
+      "from_city": "Delhi",
+      "from_code": "DEL",
+      "to_city": "Mumbai",
+      "to_code": "BOM",
+      "arrival": "10:45",
+      "departure": "08:15",
+      "duration": "2h 30m",
+      "price": 5000,
+      "seats_available": 50,
+      "layovers": []
     },
     {
-    "id": 2,
-    "flight_number": "6E502",
-    "image": "https://images.crunchbase.com/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1454732177/hngzxxk0aqqla5fjwqm4.png",
-    "airline": "IndiGo",
-    "from_city": "Bangalore",
-    "from_code": "BLR",
-    "to_city": "Hyderabad",
-    "to_code": "HYD",
-    "arrival": "13:00",
-    "departure": "10:30",
-    "duration": "2h 30m",
-    "price": 4000,
-    "seats_available": 80,
-    "layovers": []
+      "id": 2,
+      "flight_number": "6E502",
+      "image": "https://images.crunchbase.com/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1454732177/hngzxxk0aqqla5fjwqm4.png",
+      "airline": "IndiGo",
+      "from_city": "Bangalore",
+      "from_code": "BLR",
+      "to_city": "Hyderabad",
+      "to_code": "HYD",
+      "arrival": "13:00",
+      "departure": "10:30",
+      "duration": "2h 30m",
+      "price": 4000,
+      "seats_available": 80,
+      "layovers": []
     },
     {
-    "id": 3,
-    "flight_number": "SG298",
-    "image": "https://i.pinimg.com/564x/a3/7c/d6/a37cd657621e9faf0f793bb9e5093f58.jpg",
-    "airline": "SpiceJet",
-    "from_city": "Delhi",
-    "from_code": "DEL",
-    "to_city": "Chennai",
-    "to_code": "MAA",
-    "arrival": "17:25",
-    "departure": "14:45",
-    "duration": "2h 40m",
-    "price": 5500,
-    "seats_available": 40,
-    "layovers": []
+      "id": 3,
+      "flight_number": "SG298",
+      "image": "https://i.pinimg.com/564x/a3/7c/d6/a37cd657621e9faf0f793bb9e5093f58.jpg",
+      "airline": "SpiceJet",
+      "from_city": "Delhi",
+      "from_code": "DEL",
+      "to_city": "Chennai",
+      "to_code": "MAA",
+      "arrival": "17:25",
+      "departure": "14:45",
+      "duration": "2h 40m",
+      "price": 5500,
+      "seats_available": 40,
+      "layovers": []
     },
     {
-    "id": 4,
-    "flight_number": "UK859",
-    "image": "https://seeklogo.com/images/V/vistara-logo-C07710BC2B-seeklogo.com.png",
-    "airline": "Vistara",
-    "from_city": "Mumbai",
-    "from_code": "BOM",
-    "to_city": "Ahmedabad",
-    "to_code": "AMD",
-    "arrival": "16:30",
-    "departure": "14:10",
-    "duration": "2h 20m",
-    "price": 4500,
-    "seats_available": 60,
-    "layovers": []
+      "id": 4,
+      "flight_number": "UK859",
+      "image": "https://seeklogo.com/images/V/vistara-logo-C07710BC2B-seeklogo.com.png",
+      "airline": "Vistara",
+      "from_city": "Mumbai",
+      "from_code": "BOM",
+      "to_city": "Ahmedabad",
+      "to_code": "AMD",
+      "arrival": "16:30",
+      "departure": "14:10",
+      "duration": "2h 20m",
+      "price": 4500,
+      "seats_available": 60,
+      "layovers": []
     },
     {
-    "id": 5,
-    "flight_number": "AI302",
-    "image": "https://www.nicepng.com/png/full/250-2508376_air-india-logo-air-india-airlines-logo.png",
-    "airline": "Air India",
-    "from_city": "Mumbai",
-    "from_code": "BOM",
-    "to_city": "Kolkata",
-    "to_code": "CCU",
-    "arrival": "16:50",
-    "departure": "14:15",
-    "duration": "2h 35m",
-    "price": 6000,
-    "seats_available": 45,
-    "layovers": []
+      "id": 5,
+      "flight_number": "AI302",
+      "image": "https://www.nicepng.com/png/full/250-2508376_air-india-logo-air-india-airlines-logo.png",
+      "airline": "Air India",
+      "from_city": "Mumbai",
+      "from_code": "BOM",
+      "to_city": "Kolkata",
+      "to_code": "CCU",
+      "arrival": "16:50",
+      "departure": "14:15",
+      "duration": "2h 35m",
+      "price": 6000,
+      "seats_available": 45,
+      "layovers": []
     },
     {
-    "id": 6,
-    "flight_number": "6E310",
-    "image": "https://images.crunchbase.com/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1454732177/hngzxxk0aqqla5fjwqm4.png",
-    "airline": "IndiGo",
-    "from_city": "Hyderabad",
-    "from_code": "HYD",
-    "to_city": "Bengaluru",
-    "to_code": "BLR",
-    "arrival": "19:40",
-    "departure": "17:10",
-    "duration": "2h 30m",
-    "price": 4500,
-    "seats_available": 70,
-    "layovers": []
+      "id": 6,
+      "flight_number": "6E310",
+      "image": "https://images.crunchbase.com/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1454732177/hngzxxk0aqqla5fjwqm4.png",
+      "airline": "IndiGo",
+      "from_city": "Hyderabad",
+      "from_code": "HYD",
+      "to_city": "Bengaluru",
+      "to_code": "BLR",
+      "arrival": "19:40",
+      "departure": "17:10",
+      "duration": "2h 30m",
+      "price": 4500,
+      "seats_available": 70,
+      "layovers": []
     },
     {
-    "id": 7,
-    "flight_number": "SG856",
-    "image": "https://i.pinimg.com/564x/a3/7c/d6/a37cd657621e9faf0f793bb9e5093f58.jpg",
-    "airline": "SpiceJet",
-    "from_city": "Chennai",
-    "from_code": "MAA",
-    "to_city": "Mumbai",
-    "to_code": "BOM",
-    "arrival": "21:30",
-    "departure": "19:10",
-    "duration": "2h 20m",
-    "price": 5000,
-    "seats_available": 55,
-    "layovers": []
+      "id": 7,
+      "flight_number": "SG856",
+      "image": "https://i.pinimg.com/564x/a3/7c/d6/a37cd657621e9faf0f793bb9e5093f58.jpg",
+      "airline": "SpiceJet",
+      "from_city": "Chennai",
+      "from_code": "MAA",
+      "to_city": "Mumbai",
+      "to_code": "BOM",
+      "arrival": "21:30",
+      "departure": "19:10",
+      "duration": "2h 20m",
+      "price": 5000,
+      "seats_available": 55,
+      "layovers": []
     },
     {
-    "id": 8,
-    "flight_number": "UK128",
-    "image": "https://seeklogo.com/images/V/vistara-logo-C07710BC2B-seeklogo.com.png",
-    "airline": "Vistara",
-    "from_city": "Ahmedabad",
-    "from_code": "AMD",
-    "to_city": "Delhi",
-    "to_code": "DEL",
-    "arrival": "19:00",
-    "departure": "16:25",
-    "duration": "2h 35m",
-    "price": 5500,
-    "seats_available": 50,
-    "layovers": []
+      "id": 8,
+      "flight_number": "UK128",
+      "image": "https://seeklogo.com/images/V/vistara-logo-C07710BC2B-seeklogo.com.png",
+      "airline": "Vistara",
+      "from_city": "Ahmedabad",
+      "from_code": "AMD",
+      "to_city": "Delhi",
+      "to_code": "DEL",
+      "arrival": "19:00",
+      "departure": "16:25",
+      "duration": "2h 35m",
+      "price": 5500,
+      "seats_available": 50,
+      "layovers": []
     },
     {
-    "id": 9,
-    "flight_number": "AI202",
-    "image": "https://www.nicepng.com/png/full/250-2508376_air-india-logo-air-india-airlines-logo.png",
-    "airline": "Air India",
-    "from_city": "Kolkata",
-    "from_code": "CCU",
-    "to_city": "Bangalore",
-    "to_code": "BLR",
-    "arrival": "20:30",
-    "departure": "16:45",
-    "duration": "3h 45m",
-    "price": 7000,
-    "seats_available": 30,
-    "layovers": [
-    "Mumbai"
-    ]
+      "id": 9,
+      "flight_number": "AI202",
+      "image": "https://www.nicepng.com/png/full/250-2508376_air-india-logo-air-india-airlines-logo.png",
+      "airline": "Air India",
+      "from_city": "Kolkata",
+      "from_code": "CCU",
+      "to_city": "Bangalore",
+      "to_code": "BLR",
+      "arrival": "20:30",
+      "departure": "16:45",
+      "duration": "3h 45m",
+      "price": 7000,
+      "seats_available": 30,
+      "layovers": [
+        "Mumbai"
+      ]
     },
     {
-    "id": 10,
-    "flight_number": "6E912",
-    "image": "https://images.crunchbase.com/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1454732177/hngzxxk0aqqla5fjwqm4.png",
-    "airline": "IndiGo",
-    "from_city": "Hyderabad",
-    "from_code": "HYD",
-    "to_city": "Delhi",
-    "to_code": "DEL",
-    "arrival": "21:45",
-    "departure": "18:30",
-    "duration": "3h 15m",
-    "price": 5500,
-    "seats_available": 70,
-    "layovers": []
+      "id": 10,
+      "flight_number": "6E912",
+      "image": "https://images.crunchbase.com/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1454732177/hngzxxk0aqqla5fjwqm4.png",
+      "airline": "IndiGo",
+      "from_city": "Hyderabad",
+      "from_code": "HYD",
+      "to_city": "Delhi",
+      "to_code": "DEL",
+      "arrival": "21:45",
+      "departure": "18:30",
+      "duration": "3h 15m",
+      "price": 5500,
+      "seats_available": 70,
+      "layovers": []
     },
     {
-    "id": 11,
-    "flight_number": "G8125",
-    "image": "https://images.crunchbase.com/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1502865823/tnmj7h4bzec4ge8vygha.png",
-    "airline": "GoAir",
-    "from_city": "Mumbai",
-    "from_code": "BOM",
-    "to_city": "Kolkata",
-    "to_code": "CCU",
-    "arrival": "14:30",
-    "departure": "11:45",
-    "duration": "2h 45m",
-    "price": 5000,
-    "seats_available": 55,
-    "layovers": []
+      "id": 11,
+      "flight_number": "G8125",
+      "image": "https://images.crunchbase.com/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1502865823/tnmj7h4bzec4ge8vygha.png",
+      "airline": "GoAir",
+      "from_city": "Mumbai",
+      "from_code": "BOM",
+      "to_city": "Kolkata",
+      "to_code": "CCU",
+      "arrival": "14:30",
+      "departure": "11:45",
+      "duration": "2h 45m",
+      "price": 5000,
+      "seats_available": 55,
+      "layovers": []
     },
     {
-    "id": 12,
-    "flight_number": "UK115",
-    "image": "https://seeklogo.com/images/V/vistara-logo-C07710BC2B-seeklogo.com.png",
-    "airline": "Vistara",
-    "from_city": "Delhi",
-    "from_code": "DEL",
-    "to_city": "Mumbai",
-    "to_code": "BOM",
-    "arrival": "20:45",
-    "departure": "18:00",
-    "duration": "2h 45m",
-    "price": 6500,
-    "seats_available": 45,
-    "layovers": []
+      "id": 12,
+      "flight_number": "UK115",
+      "image": "https://seeklogo.com/images/V/vistara-logo-C07710BC2B-seeklogo.com.png",
+      "airline": "Vistara",
+      "from_city": "Delhi",
+      "from_code": "DEL",
+      "to_city": "Mumbai",
+      "to_code": "BOM",
+      "arrival": "20:45",
+      "departure": "18:00",
+      "duration": "2h 45m",
+      "price": 6500,
+      "seats_available": 45,
+      "layovers": []
     },
     {
-    "id": 17,
-    "flight_number": "SG201",
-    "image": "https://i.pinimg.com/564x/a3/7c/d6/a37cd657621e9faf0f793bb9e5093f58.jpg",
-    "airline": "SpiceJet",
-    "from_city": "Kolkata",
-    "from_code": "CCU",
-    "to_city": "Delhi",
-    "to_code": "DEL",
-    "arrival": "21:10",
-    "departure": "18:30",
-    "duration": "2h 40m",
-    "price": 6000,
-    "seats_available": 30,
-    "layovers": []
+      "id": 17,
+      "flight_number": "SG201",
+      "image": "https://i.pinimg.com/564x/a3/7c/d6/a37cd657621e9faf0f793bb9e5093f58.jpg",
+      "airline": "SpiceJet",
+      "from_city": "Kolkata",
+      "from_code": "CCU",
+      "to_city": "Delhi",
+      "to_code": "DEL",
+      "arrival": "21:10",
+      "departure": "18:30",
+      "duration": "2h 40m",
+      "price": 6000,
+      "seats_available": 30,
+      "layovers": []
     },
     {
-    "id": 18,
-    "flight_number": "UK735",
-    "image": "https://seeklogo.com/images/V/vistara-logo-C07710BC2B-seeklogo.com.png",
-    "airline": "Vistara",
-    "from_city": "Ahmedabad",
-    "from_code": "AMD",
-    "to_city": "Mumbai",
-    "to_code": "BOM",
-    "arrival": "12:00",
-    "departure": "09:40",
-    "duration": "2h 20m",
-    "price": 5500,
-    "seats_available": 70,
-    "layovers": []
+      "id": 18,
+      "flight_number": "UK735",
+      "image": "https://seeklogo.com/images/V/vistara-logo-C07710BC2B-seeklogo.com.png",
+      "airline": "Vistara",
+      "from_city": "Ahmedabad",
+      "from_code": "AMD",
+      "to_city": "Mumbai",
+      "to_code": "BOM",
+      "arrival": "12:00",
+      "departure": "09:40",
+      "duration": "2h 20m",
+      "price": 5500,
+      "seats_available": 70,
+      "layovers": []
     },
     {
-    "id": 19,
-    "flight_number": "6E711",
-    "image": "https://images.crunchbase.com/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1454732177/hngzxxk0aqqla5fjwqm4.png",
-    "airline": "IndiGo",
-    "from_city": "Delhi",
-    "from_code": "DEL",
-    "to_city": "Jaipur",
-    "to_code": "JAI",
-    "arrival": "16:00",
-    "departure": "14:00",
-    "duration": "2h 00m",
-    "price": 3500,
-    "seats_available": 100,
-    "layovers": []
+      "id": 19,
+      "flight_number": "6E711",
+      "image": "https://images.crunchbase.com/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1454732177/hngzxxk0aqqla5fjwqm4.png",
+      "airline": "IndiGo",
+      "from_city": "Delhi",
+      "from_code": "DEL",
+      "to_city": "Jaipur",
+      "to_code": "JAI",
+      "arrival": "16:00",
+      "departure": "14:00",
+      "duration": "2h 00m",
+      "price": 3500,
+      "seats_available": 100,
+      "layovers": []
     },
     {
-    "id": 20,
-    "flight_number": "AI812",
-    "image": "https://www.nicepng.com/png/full/250-2508376_air-india-logo-air-india-airlines-logo.png",
-    "airline": "Air India",
-    "from_city": "Mumbai",
-    "from_code": "BOM",
-    "to_city": "Kolkata",
-    "to_code": "CCU",
-    "arrival": "22:50",
-    "departure": "19:20",
-    "duration": "3h 30m",
-    "price": 7500,
-    "seats_available": 20,
-    "layovers": []
+      "id": 20,
+      "flight_number": "AI812",
+      "image": "https://www.nicepng.com/png/full/250-2508376_air-india-logo-air-india-airlines-logo.png",
+      "airline": "Air India",
+      "from_city": "Mumbai",
+      "from_code": "BOM",
+      "to_city": "Kolkata",
+      "to_code": "CCU",
+      "arrival": "22:50",
+      "departure": "19:20",
+      "duration": "3h 30m",
+      "price": 7500,
+      "seats_available": 20,
+      "layovers": []
     },
     {
-    "id": 21,
-    "flight_number": "6E735",
-    "image": "https://cloudfront-us-east-2.images.arcpublishing.com/reuters/63A5PJW3XNJ7DHI3LONSY5VVUY.jpg",
-    "airline": "IndiGo",
-    "from_city": "Chennai",
-    "from_code": "MAA",
-    "to_city": "Kolkata",
-    "to_code": "CCU",
-    "arrival": "18:35",
-    "departure": "16:05",
-    "duration": "2h 30m",
-    "price": 6000,
-    "seats_available": 20,
-    "layovers": []
+      "id": 21,
+      "flight_number": "6E735",
+      "image": "https://cloudfront-us-east-2.images.arcpublishing.com/reuters/63A5PJW3XNJ7DHI3LONSY5VVUY.jpg",
+      "airline": "IndiGo",
+      "from_city": "Chennai",
+      "from_code": "MAA",
+      "to_city": "Kolkata",
+      "to_code": "CCU",
+      "arrival": "18:35",
+      "departure": "16:05",
+      "duration": "2h 30m",
+      "price": 6000,
+      "seats_available": 20,
+      "layovers": []
     },
     {
-    "id": 22,
-    "flight_number": "SG609",
-    "image": "https://i.pinimg.com/564x/a3/7c/d6/a37cd657621e9faf0f793bb9e5093f58.jpg",
-    "airline": "SpiceJet",
-    "from_city": "Kolkata",
-    "from_code": "CCU",
-    "to_city": "Delhi",
-    "to_code": "DEL",
-    "arrival": "22:00",
-    "departure": "19:15",
-    "duration": "2h 45m",
-    "price": 5500,
-    "seats_available": 35,
-    "layovers": []
+      "id": 22,
+      "flight_number": "SG609",
+      "image": "https://i.pinimg.com/564x/a3/7c/d6/a37cd657621e9faf0f793bb9e5093f58.jpg",
+      "airline": "SpiceJet",
+      "from_city": "Kolkata",
+      "from_code": "CCU",
+      "to_city": "Delhi",
+      "to_code": "DEL",
+      "arrival": "22:00",
+      "departure": "19:15",
+      "duration": "2h 45m",
+      "price": 5500,
+      "seats_available": 35,
+      "layovers": []
     },
     {
-    "id": 23,
-    "flight_number": "AI202",
-    "image": "https://www.nicepng.com/png/full/250-2508376_air-india-logo-air-india-airlines-logo.png",
-    "airline": "Air India",
-    "from_city": "Delhi",
-    "from_code": "DEL",
-    "to_city": "Bangalore",
-    "to_code": "BLR",
-    "arrival": "08:50",
-    "departure": "06:10",
-    "duration": "2h 40m",
-    "price": 7000,
-    "seats_available": 25,
-    "layovers": []
+      "id": 23,
+      "flight_number": "AI202",
+      "image": "https://www.nicepng.com/png/full/250-2508376_air-india-logo-air-india-airlines-logo.png",
+      "airline": "Air India",
+      "from_city": "Delhi",
+      "from_code": "DEL",
+      "to_city": "Bangalore",
+      "to_code": "BLR",
+      "arrival": "08:50",
+      "departure": "06:10",
+      "duration": "2h 40m",
+      "price": 7000,
+      "seats_available": 25,
+      "layovers": []
     },
     {
-    "id": 24,
-    "flight_number": "UK302",
-    "image": "https://seeklogo.com/images/V/vistara-logo-C07710BC2B-seeklogo.com.png",
-    "airline": "Vistara",
-    "from_city": "Bangalore",
-    "from_code": "BLR",
-    "to_city": "Hyderabad",
-    "to_code": "HYD",
-    "arrival": "13:00",
-    "departure": "10:30",
-    "duration": "2h 30m",
-    "price": 5500,
-    "seats_available": 40,
-    "layovers": []
+      "id": 24,
+      "flight_number": "UK302",
+      "image": "https://seeklogo.com/images/V/vistara-logo-C07710BC2B-seeklogo.com.png",
+      "airline": "Vistara",
+      "from_city": "Bangalore",
+      "from_code": "BLR",
+      "to_city": "Hyderabad",
+      "to_code": "HYD",
+      "arrival": "13:00",
+      "departure": "10:30",
+      "duration": "2h 30m",
+      "price": 5500,
+      "seats_available": 40,
+      "layovers": []
     },
     {
-    "id": 25,
-    "flight_number": "AI902",
-    "image": "https://www.nicepng.com/png/full/250-2508376_air-india-logo-air-india-airlines-logo.png",
-    "airline": "Air India",
-    "from_city": "Chennai",
-    "from_code": "MAA",
-    "to_city": "Delhi",
-    "to_code": "DEL",
-    "arrival": "12:30",
-    "departure": "09:10",
-    "duration": "3h 20m",
-    "price": 5300,
-    "seats_available": 25,
-    "layovers": []
+      "id": 25,
+      "flight_number": "AI902",
+      "image": "https://www.nicepng.com/png/full/250-2508376_air-india-logo-air-india-airlines-logo.png",
+      "airline": "Air India",
+      "from_city": "Chennai",
+      "from_code": "MAA",
+      "to_city": "Delhi",
+      "to_code": "DEL",
+      "arrival": "12:30",
+      "departure": "09:10",
+      "duration": "3h 20m",
+      "price": 5300,
+      "seats_available": 25,
+      "layovers": []
     },
     {
-    "id": 26,
-    "flight_number": "6E204",
-    "image": "https://images.crunchbase.com/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1454732177/hngzxxk0aqqla5fjwqm4.png",
-    "airline": "IndiGo",
-    "from_city": "Hyderabad",
-    "from_code": "HYD",
-    "to_city": "Kolkata",
-    "to_code": "CCU",
-    "arrival": "13:55",
-    "departure": "11:25",
-    "duration": "2h 30m",
-    "price": 4600,
-    "seats_available": 65,
-    "layovers": []
+      "id": 26,
+      "flight_number": "6E204",
+      "image": "https://images.crunchbase.com/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1454732177/hngzxxk0aqqla5fjwqm4.png",
+      "airline": "IndiGo",
+      "from_city": "Hyderabad",
+      "from_code": "HYD",
+      "to_city": "Kolkata",
+      "to_code": "CCU",
+      "arrival": "13:55",
+      "departure": "11:25",
+      "duration": "2h 30m",
+      "price": 4600,
+      "seats_available": 65,
+      "layovers": []
     },
     {
-    "id": 27,
-    "flight_number": "SG462",
-    "image": "https://i.pinimg.com/564x/a3/7c/d6/a37cd657621e9faf0f793bb9e5093f58.jpg",
-    "airline": "SpiceJet",
-    "from_city": "Ahmedabad",
-    "from_code": "AMD",
-    "to_city": "Mumbai",
-    "to_code": "BOM",
-    "arrival": "13:15",
-    "departure": "11:00",
-    "duration": "2h 15m",
-    "price": 3700,
-    "seats_available": 50,
-    "layovers": []
+      "id": 27,
+      "flight_number": "SG462",
+      "image": "https://i.pinimg.com/564x/a3/7c/d6/a37cd657621e9faf0f793bb9e5093f58.jpg",
+      "airline": "SpiceJet",
+      "from_city": "Ahmedabad",
+      "from_code": "AMD",
+      "to_city": "Mumbai",
+      "to_code": "BOM",
+      "arrival": "13:15",
+      "departure": "11:00",
+      "duration": "2h 15m",
+      "price": 3700,
+      "seats_available": 50,
+      "layovers": []
     },
     {
-    "id": 28,
-    "flight_number": "G8432",
-    "image": "https://images.crunchbase.com/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1502865823/tnmj7h4bzec4ge8vygha.png",
-    "airline": "GoAir",
-    "from_city": "Mumbai",
-    "from_code": "BOM",
-    "to_city": "Kolkata",
-    "to_code": "CCU",
-    "arrival": "15:45",
-    "departure": "12:25",
-    "duration": "3h 20m",
-    "price": 6200,
-    "seats_available": 35,
-    "layovers": []
+      "id": 28,
+      "flight_number": "G8432",
+      "image": "https://images.crunchbase.com/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1502865823/tnmj7h4bzec4ge8vygha.png",
+      "airline": "GoAir",
+      "from_city": "Mumbai",
+      "from_code": "BOM",
+      "to_city": "Kolkata",
+      "to_code": "CCU",
+      "arrival": "15:45",
+      "departure": "12:25",
+      "duration": "3h 20m",
+      "price": 6200,
+      "seats_available": 35,
+      "layovers": []
     },
     {
-    "id": 29,
-    "flight_number": "6E650",
-    "image": "https://images.crunchbase.com/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1454732177/hngzxxk0aqqla5fjwqm4.png",
-    "airline": "IndiGo",
-    "from_city": "Kolkata",
-    "from_code": "CCU",
-    "to_city": "Mumbai",
-    "to_code": "BOM",
-    "arrival": "15:20",
-    "departure": "12:40",
-    "duration": "2h 40m",
-    "price": 5500,
-    "seats_available": 35,
-    "layovers": []
+      "id": 29,
+      "flight_number": "6E650",
+      "image": "https://images.crunchbase.com/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1454732177/hngzxxk0aqqla5fjwqm4.png",
+      "airline": "IndiGo",
+      "from_city": "Kolkata",
+      "from_code": "CCU",
+      "to_city": "Mumbai",
+      "to_code": "BOM",
+      "arrival": "15:20",
+      "departure": "12:40",
+      "duration": "2h 40m",
+      "price": 5500,
+      "seats_available": 35,
+      "layovers": []
     },
     {
-    "id": 30,
-    "flight_number": "AI905",
-    "image": "https://www.nicepng.com/png/full/250-2508376_air-india-logo-air-india-airlines-logo.png",
-    "airline": "Air India",
-    "from_city": "Delhi",
-    "from_code": "DEL",
-    "to_city": "Chennai",
-    "to_code": "MAA",
-    "arrival": "09:10",
-    "departure": "06:40",
-    "duration": "2h 30m",
-    "price": 6000,
-    "seats_available": 20,
-    "layovers": []
+      "id": 30,
+      "flight_number": "AI905",
+      "image": "https://www.nicepng.com/png/full/250-2508376_air-india-logo-air-india-airlines-logo.png",
+      "airline": "Air India",
+      "from_city": "Delhi",
+      "from_code": "DEL",
+      "to_city": "Chennai",
+      "to_code": "MAA",
+      "arrival": "09:10",
+      "departure": "06:40",
+      "duration": "2h 30m",
+      "price": 6000,
+      "seats_available": 20,
+      "layovers": []
     },
     {
-    "id": 31,
-    "flight_number": "G8307",
-    "image": "https://images.crunchbase.com/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1502865823/tnmj7h4bzec4ge8vygha.png",
-    "airline": "GoAir",
-    "from_city": "Hyderabad",
-    "from_code": "HYD",
-    "to_city": "Kolkata",
-    "to_code": "CCU",
-    "arrival": "17:00",
-    "departure": "14:20",
-    "duration": "2h 40m",
-    "price": 5500,
-    "seats_available": 50,
-    "layovers": []
+      "id": 31,
+      "flight_number": "G8307",
+      "image": "https://images.crunchbase.com/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1502865823/tnmj7h4bzec4ge8vygha.png",
+      "airline": "GoAir",
+      "from_city": "Hyderabad",
+      "from_code": "HYD",
+      "to_city": "Kolkata",
+      "to_code": "CCU",
+      "arrival": "17:00",
+      "departure": "14:20",
+      "duration": "2h 40m",
+      "price": 5500,
+      "seats_available": 50,
+      "layovers": []
     },
     {
-    "id": 32,
-    "flight_number": "I517",
-    "image": "https://cdn.businesstraveller.com/wp-content/uploads/fly-images/840956/AirAsia-916x516.jpg",
-    "airline": "AirAsia India",
-    "from_city": "Mumbai",
-    "from_code": "BOM",
-    "to_city": "Bangalore",
-    "to_code": "BLR",
-    "arrival": "13:50",
-    "departure": "11:10",
-    "duration": "2h 40m",
-    "price": 4000,
-    "seats_available": 80,
-    "layovers": []
+      "id": 32,
+      "flight_number": "I517",
+      "image": "https://cdn.businesstraveller.com/wp-content/uploads/fly-images/840956/AirAsia-916x516.jpg",
+      "airline": "AirAsia India",
+      "from_city": "Mumbai",
+      "from_code": "BOM",
+      "to_city": "Bangalore",
+      "to_code": "BLR",
+      "arrival": "13:50",
+      "departure": "11:10",
+      "duration": "2h 40m",
+      "price": 4000,
+      "seats_available": 80,
+      "layovers": []
     },
     {
-    "id": 33,
-    "flight_number": "AI201",
-    "image": "https://www.nicepng.com/png/full/250-2508376_air-india-logo-air-india-airlines-logo.png",
-    "airline": "Air India",
-    "from_city": "Delhi",
-    "from_code": "DEL",
-    "to_city": "Kolkata",
-    "to_code": "CCU",
-    "arrival": "16:20",
-    "departure": "13:40",
-    "duration": "2h 40m",
-    "price": 5500,
-    "seats_available": 30,
-    "layovers": []
+      "id": 33,
+      "flight_number": "AI201",
+      "image": "https://www.nicepng.com/png/full/250-2508376_air-india-logo-air-india-airlines-logo.png",
+      "airline": "Air India",
+      "from_city": "Delhi",
+      "from_code": "DEL",
+      "to_city": "Kolkata",
+      "to_code": "CCU",
+      "arrival": "16:20",
+      "departure": "13:40",
+      "duration": "2h 40m",
+      "price": 5500,
+      "seats_available": 30,
+      "layovers": []
     },
     {
-    "id": 34,
-    "flight_number": "6E712",
-    "image": "https://images.crunchbase.com/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1454732177/hngzxxk0aqqla5fjwqm4.png",
-    "airline": "IndiGo",
-    "from_city": "Mumbai",
-    "from_code": "BOM",
-    "to_city": "Jaipur",
-    "to_code": "JAI",
-    "arrival": "18:00",
-    "departure": "15:15",
-    "duration": "2h 45m",
-    "price": 4500,
-    "seats_available": 50,
-    "layovers": []
+      "id": 34,
+      "flight_number": "6E712",
+      "image": "https://images.crunchbase.com/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1454732177/hngzxxk0aqqla5fjwqm4.png",
+      "airline": "IndiGo",
+      "from_city": "Mumbai",
+      "from_code": "BOM",
+      "to_city": "Jaipur",
+      "to_code": "JAI",
+      "arrival": "18:00",
+      "departure": "15:15",
+      "duration": "2h 45m",
+      "price": 4500,
+      "seats_available": 50,
+      "layovers": []
     },
     {
-    "id": 35,
-    "flight_number": "SG891",
-    "image": "https://i.pinimg.com/564x/a3/7c/d6/a37cd657621e9faf0f793bb9e5093f58.jpg",
-    "airline": "SpiceJet",
-    "from_city": "Chennai",
-    "from_code": "MAA",
-    "to_city": "Bangalore",
-    "to_code": "BLR",
-    "arrival": "20:00",
-    "departure": "18:00",
-    "duration": "2h 00m",
-    "price": 3500,
-    "seats_available": 70,
-    "layovers": []
+      "id": 35,
+      "flight_number": "SG891",
+      "image": "https://i.pinimg.com/564x/a3/7c/d6/a37cd657621e9faf0f793bb9e5093f58.jpg",
+      "airline": "SpiceJet",
+      "from_city": "Chennai",
+      "from_code": "MAA",
+      "to_city": "Bangalore",
+      "to_code": "BLR",
+      "arrival": "20:00",
+      "departure": "18:00",
+      "duration": "2h 00m",
+      "price": 3500,
+      "seats_available": 70,
+      "layovers": []
     },
     {
-    "id": 36,
-    "flight_number": "UK107",
-    "image": "https://seeklogo.com/images/V/vistara-logo-C07710BC2B-seeklogo.com.png",
-    "airline": "Vistara",
-    "from_city": "Hyderabad",
-    "from_code": "HYD",
-    "to_city": "Delhi",
-    "to_code": "DEL",
-    "arrival": "13:50",
-    "departure": "11:10",
-    "duration": "2h 40m",
-    "price": 6000,
-    "seats_available": 25,
-    "layovers": []
+      "id": 36,
+      "flight_number": "UK107",
+      "image": "https://seeklogo.com/images/V/vistara-logo-C07710BC2B-seeklogo.com.png",
+      "airline": "Vistara",
+      "from_city": "Hyderabad",
+      "from_code": "HYD",
+      "to_city": "Delhi",
+      "to_code": "DEL",
+      "arrival": "13:50",
+      "departure": "11:10",
+      "duration": "2h 40m",
+      "price": 6000,
+      "seats_available": 25,
+      "layovers": []
     },
     {
-    "id": 37,
-    "flight_number": "AI306",
-    "image": "https://www.nicepng.com/png/full/250-2508376_air-india-logo-air-india-airlines-logo.png",
-    "airline": "Air India",
-    "from_city": "Hyderabad",
-    "from_code": "HYD",
-    "to_city": "Delhi",
-    "to_code": "DEL",
-    "arrival": "16:25",
-    "departure": "14:00",
-    "duration": "2h 25m",
-    "price": 6000,
-    "seats_available": 30,
-    "layovers": []
+      "id": 37,
+      "flight_number": "AI306",
+      "image": "https://www.nicepng.com/png/full/250-2508376_air-india-logo-air-india-airlines-logo.png",
+      "airline": "Air India",
+      "from_city": "Hyderabad",
+      "from_code": "HYD",
+      "to_city": "Delhi",
+      "to_code": "DEL",
+      "arrival": "16:25",
+      "departure": "14:00",
+      "duration": "2h 25m",
+      "price": 6000,
+      "seats_available": 30,
+      "layovers": []
     },
     {
-    "id": 38,
-    "flight_number": "6E263",
-    "image": "https://images.crunchbase.com/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1454732177/hngzxxk0aqqla5fjwqm4.png",
-    "airline": "IndiGo",
-    "from_city": "Chennai",
-    "from_code": "MAA",
-    "to_city": "Mumbai",
-    "to_code": "BOM",
-    "arrival": "20:20",
-    "departure": "17:45",
-    "duration": "2h 35m",
-    "price": 5500,
-    "seats_available": 70,
-    "layovers": []
+      "id": 38,
+      "flight_number": "6E263",
+      "image": "https://images.crunchbase.com/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1454732177/hngzxxk0aqqla5fjwqm4.png",
+      "airline": "IndiGo",
+      "from_city": "Chennai",
+      "from_code": "MAA",
+      "to_city": "Mumbai",
+      "to_code": "BOM",
+      "arrival": "20:20",
+      "departure": "17:45",
+      "duration": "2h 35m",
+      "price": 5500,
+      "seats_available": 70,
+      "layovers": []
     },
     {
-    "id": 39,
-    "flight_number": "SG852",
-    "image": "https://i.pinimg.com/564x/a3/7c/d6/a37cd657621e9faf0f793bb9e5093f58.jpg",
-    "airline": "SpiceJet",
-    "from_city": "Jaipur",
-    "from_code": "JAI",
-    "to_city": "Delhi",
-    "to_code": "DEL",
-    "arrival": "11:50",
-    "departure": "10:10",
-    "duration": "1h 40m",
-    "price": 4000,
-    "seats_available": 20,
-    "layovers": []
+      "id": 39,
+      "flight_number": "SG852",
+      "image": "https://i.pinimg.com/564x/a3/7c/d6/a37cd657621e9faf0f793bb9e5093f58.jpg",
+      "airline": "SpiceJet",
+      "from_city": "Jaipur",
+      "from_code": "JAI",
+      "to_city": "Delhi",
+      "to_code": "DEL",
+      "arrival": "11:50",
+      "departure": "10:10",
+      "duration": "1h 40m",
+      "price": 4000,
+      "seats_available": 20,
+      "layovers": []
     },
     {
-    "id": 40,
-    "flight_number": "UK492",
-    "image": "https://seeklogo.com/images/V/vistara-logo-C07710BC2B-seeklogo.com.png",
-    "airline": "Vistara",
-    "from_city": "Mumbai",
-    "from_code": "BOM",
-    "to_city": "Chennai",
-    "to_code": "MAA",
-    "arrival": "13:40",
-    "departure": "11:20",
-    "duration": "2h 20m",
-    "price": 6500,
-    "seats_available": 10,
-    "layovers": []
-
+      "id": 40,
+      "flight_number": "UK492",
+      "image": "https://seeklogo.com/images/V/vistara-logo-C07710BC2B-seeklogo.com.png",
+      "airline": "Vistara",
+      "from_city": "Mumbai",
+      "from_code": "BOM",
+      "to_city": "Chennai",
+      "to_code": "MAA",
+      "arrival": "13:40",
+      "departure": "11:20",
+      "duration": "2h 20m",
+      "price": 6500,
+      "seats_available": 10,
+      "layovers": []
     }
   ],
   "hotels": [
@@ -1011,24 +1009,70 @@
       "category": "Vilas",
       "image": "https://tse4.mm.bing.net/th?id=OIP.iyW9ySvgMI_50clbsFZ2zQHaDt&pid=Api&P=0",
       "rating": 2.4
+    },
+    {
+      "name": "Hotel Ae Barham",
+      "location": "Dubai",
+      "price": 2000,
+      "description": "A budget hotel in the heart of Chennai offering comfortable rooms with basic amenities.",
+      "category": "Hotel",
+      "image": "https://tse4.mm.bing.net/th?id=OIP.iyW9ySvgMI_50clbsFZ2zQHaDt&pid=Api&P=0",
+      "rating": 5,
+      "id": "44"
+    },
+    {
+      "name": "Hotel 7 start",
+      "location": "Dubai",
+      "price": 2500,
+      "description": "A budget hotel in the heart of Chennai offering comfortable rooms with basic amenities.",
+      "category": "Hotel",
+      "image": "https://tse4.mm.bing.net/th?id=OIP.iyW9ySvgMI_50clbsFZ2zQHaDt&pid=Api&P=0",
+      "rating": 7,
+      "id": 45
+    },
+    {
+      "name": "Resort",
+      "location": "Delhi",
+      "price": 1500,
+      "description": "A budget hotel in the heart of Chennai offering comfortable rooms with basic amenities.",
+      "category": "Resort",
+      "image": "https://tse4.mm.bing.net/th?id=OIP.iyW9ySvgMI_50clbsFZ2zQHaDt&pid=Api&P=0",
+      "rating": "3",
+      "id": 46
+    },
+    {
+      "name": "Homestay",
+      "location": "Banglore",
+      "price": 1800,
+      "description": "A budget hotel in the heart of Chennai offering comfortable rooms with basic amenities.",
+      "category": "Homestay",
+      "image": "https://tse4.mm.bing.net/th?id=OIP.iyW9ySvgMI_50clbsFZ2zQHaDt&pid=Api&P=0",
+      "rating": 3,
+      "id": 47
+    },
+    {
+      "name": "Hotel Cafe",
+      "location": "Delhi",
+      "price": 1500,
+      "description": "A budget cafe good quality coffee and better envorment.",
+      "category": "Hotel",
+      "image": "https://r1imghtlak.mmtcdn.com/66c3efee862511ea873e0242ac110003.png?&output-quality=75&downsize=910:612&crop=910:612;58,0&output-format=jpg&downsize=821:550&crop=821:550",
+      "rating": 5,
+      "id": 48
     }
   ],
   "users": [
     {
       "id": 1,
+      "userName": "adil",
       "email": "adil@gmail.com",
       "password": "adil123"
     },
     {
-      "id": 1,
+      "id": 2,
+      "userName": "aamil",
       "email": "aamil@gmail.com",
       "password": "aamil123"
-    },
-    {
-      "userName": "abc",
-      "email": "abc@gmaiil.com",
-      "password": "12345",
-      "id": 2
     },
     {
       "userName": "test1",
@@ -1047,24 +1091,6 @@
       "email": "test3@gmail.com",
       "password": "12345",
       "id": 5
-    },
-    {
-      "userName": "test3",
-      "email": "test3@gmail.com",
-      "password": "12345",
-      "id": 6
-    },
-    {
-      "userName": "xyz",
-      "email": "xyz@gmail.com",
-      "password": "12345",
-      "id": 7
-    },
-    {
-      "userName": "test6",
-      "email": "test6@gmail.com",
-      "password": "12345",
-      "id": 8
     }
   ],
 
@@ -1089,7 +1115,7 @@
           "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
         ],
         "price": 41000,
-        "type": "beach"
+        "type": "city"
       },
       {
         "id": 2,
@@ -1108,7 +1134,7 @@
           "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
         ],
         "price": 45000,
-        "type": "beach"
+        "type": "city"
       },
       {
         "id": 3,
@@ -1146,7 +1172,7 @@
           "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
         ],
         "price": 43000,
-        "type": "beach"
+        "type": "city"
       },
       {
         "id": 5,
@@ -1165,7 +1191,7 @@
           "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
         ],
         "price": 35000,
-        "type": "beach"
+        "type": "city"
       },
       {
         "id": 6,
@@ -1233,9 +1259,15 @@
         "famous": "Sydney's famous landmarks include the Sydney Opera House, Sydney Harbour Bridge, and Bondi Beach. The city's multicultural neighborhoods and vibrant arts scene make it a diverse and exciting destination.",
         "history": "Sydney's history is tied to British colonization, with Indigenous Australian heritage dating back thousands of years. The city has evolved into a thriving metropolis while preserving its natural beauty.",
         "rating": 4.9,
-        "placeImages": ["", "", "", "", ""],
+        "placeImages": [
+          "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+        ],        
         "price": 35000,
-        "type": "beach"
+        "type": "city"
       },
       {
         "id": 10,
@@ -1246,9 +1278,15 @@
         "famous": "Some of the famous attractions in Istanbul include the Hagia Sophia, Blue Mosque, Topkapi Palace, and the Grand Bazaar. The city's rich cuisine, including baklava and kebabs, is also renowned.",
         "history": "Istanbul, formerly Byzantium and Constantinople, has a history dating back to ancient times. It was the capital of the Byzantine and Ottoman Empires, leaving a legacy of diverse cultures, religions, and traditions.",
         "rating": 4.6,
-        "placeImages": ["", "", "", "", ""],
+        "placeImages": [
+          "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+        ],        
         "price": 40000,
-        "type": "beach"
+        "type": "city"
       },
       {
         "id": 11,
@@ -1259,9 +1297,15 @@
         "famous": "Machu Picchu is famous for its precisely cut stone structures, terraced fields, and its strategic location amidst the mountains. The site is also a testament to Inca engineering and astronomical achievements.",
         "history": "Machu Picchu was built in the 15th century but abandoned during the Spanish conquest. It remained hidden until its rediscovery in 1911 by Hiram Bingham. Today, it's a UNESCO World Heritage Site and a symbol of Inca civilization.",
         "rating": 4.9,
-        "placeImages": ["", "", "", "", ""],
+        "placeImages": [
+          "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+        ],        
         "price": 30000,
-        "type": "beach"
+        "type": "hills"
       },
       {
         "id": 12,
@@ -1272,9 +1316,15 @@
         "famous": "Some of the famous attractions in Amsterdam include the Anne Frank House, Rijksmuseum, Van Gogh Museum, and the iconic canal belt. Bicycling along the city's canals is a popular activity.",
         "history": "Amsterdam's history is closely tied to its canals, which were constructed in the 17th century. It played a significant role in the Dutch Golden Age and has a legacy of commerce, art, and liberalism.",
         "rating": 4.8,
-        "placeImages": ["", "", "", "", ""],
+        "placeImages": [
+          "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+        ],        
         "price": 35000,
-        "type": "beach"
+        "type": "hills"
       },
       {
         "id": 13,
@@ -1285,7 +1335,13 @@
         "famous": "Some of the famous attractions in Rio include Copacabana Beach, Sugarloaf Mountain, Christ the Redeemer statue atop Corcovado, and the lively Sambadrome during carnival.",
         "history": "Rio de Janeiro has a history dating back to Portuguese colonization. It was the capital of Brazil before Brasília and played a crucial role in the country's independence and cultural heritage.",
         "rating": 4.7,
-        "placeImages": ["", "", "", "", ""],
+        "placeImages": [
+          "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+        ],        
         "price": 25000,
         "type": "beach"
       },
@@ -1298,9 +1354,15 @@
         "famous": "Some of the famous attractions in Toronto include the CN Tower, Royal Ontario Museum, Distillery District, and Toronto Islands. The city's diverse food scene reflects its multiculturalism.",
         "history": "Toronto's history includes Indigenous peoples, European settlers, and waves of immigration. It's a reflection of Canada's multicultural identity, and its historic sites showcase this rich heritage.",
         "rating": 4.6,
-        "placeImages": ["", "", "", "", ""],
+        "placeImages": [
+          "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+        ],        
         "price": 38000,
-        "type": "beach"
+        "type": "city"
       },
       {
         "id": 15,
@@ -1311,9 +1373,15 @@
         "famous": "Some of the famous attractions in Mumbai include the Gateway of India, Chhatrapati Shivaji Terminus, Marine Drive, and the vibrant markets of Colaba. Bollywood, India's film industry, is also centered in Mumbai.",
         "history": "Mumbai has a history dating back to ancient times and was shaped by Portuguese and British colonization. It's a city of contrasts, with historic architecture alongside modern skyscrapers.",
         "rating": 4.8,
-        "placeImages": ["", "", "", "", ""],
+        "placeImages": [
+          "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+        ],        
         "price": 15000,
-        "type": "beach"
+        "type": "city"
       },
       {
         "id": 16,
@@ -1324,9 +1392,15 @@
         "famous": "Some of the famous attractions in Seoul include Gyeongbokgung Palace, Bukchon Hanok Village, Myeongdong shopping district, and the futuristic Dongdaemun Design Plaza. K-food is a highlight of Korean cuisine.",
         "history": "Seoul has a history that spans over 2,000 years, with a legacy of dynasties, invasions, and the Korean War. Historic sites reflect this rich heritage, while the city is also a hub for innovation and modernity.",
         "rating": 4.7,
-        "placeImages": ["", "", "", "", ""],
+        "placeImages": [
+          "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+        ],        
         "price": 30000,
-        "type": "beach"
+        "type": "city"
       },
       {
         "id": 17,
@@ -1337,9 +1411,15 @@
         "famous": "Some of the famous attractions in Moscow include Red Square, St. Basil's Cathedral, the Kremlin, and the Bolshoi Theatre. The city's metro stations are also architectural marvels.",
         "history": "Moscow's history is intertwined with that of Russia itself, from its medieval origins to the rise of the Russian Empire and the Soviet era. It's a city where history and modernity coexist.",
         "rating": 4.9,
-        "placeImages": ["", "", "", "", ""],
+        "placeImages": [
+          "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+        ],        
         "price": 34000,
-        "type": "beach"
+        "type": "city"
       },
       {
         "id": 18,
@@ -1350,9 +1430,15 @@
         "famous": "Some of the famous attractions in Cairo include the Pyramids of Giza, the Sphinx, the Egyptian Museum, and the bustling Khan el-Khalili bazaar. The city is a gateway to exploring ancient Egypt.",
         "history": "Cairo's history dates back to ancient times, and it has been a center of Egyptian civilization for millennia. It played a key role in the Pharaonic, Islamic, and Ottoman eras, leaving behind a rich tapestry of history.",
         "rating": 4.7,
-        "placeImages": ["", "", "", "", ""],
+        "placeImages": [
+          "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+        ],        
         "price": 45000,
-        "type": "beach"
+        "type": "city"
       },
       {
         "id": 19,
@@ -1363,7 +1449,13 @@
         "famous": "Some of the famous attractions in Copenhagen include Tivoli Gardens, the Little Mermaid statue, Nyhavn canal district, and the Rosenborg Castle. Danish pastries and cuisine are also highlights.",
         "history": "Copenhagen's history spans centuries, from its Viking origins to becoming the capital of Denmark. The city has played a significant role in the cultural and political development of Denmark.",
         "rating": 4.6,
-        "placeImages": ["", "", "", "", ""],
+        "placeImages": [
+          "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+        ],        
         "price": 25000,
         "type": "beach"
       },
@@ -1384,7 +1476,7 @@
           "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
         ],
         "price": 35000,
-        "type": "beach"
+        "type": "city"
       },
       {
         "id": 21,
@@ -1395,9 +1487,15 @@
         "famous": "Some of the famous attractions in Prague include Prague Castle, Charles Bridge, Old Town Square, and the Astronomical Clock. The city is also famous for its beer and classical music.",
         "history": "Prague's history dates back to the Middle Ages and the reign of Charles IV. It was a hub of European culture during the Renaissance and has played a pivotal role in Central European history.",
         "rating": 4.9,
-        "placeImages": ["", "", "", "", ""],
+        "placeImages": [
+          "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+        ],        
         "price": 25000,
-        "type": "beach"
+        "type": "city"
       },
       {
         "id": 22,
@@ -1408,7 +1506,13 @@
         "famous": "Some of the famous attractions in Dubai include the Burj Khalifa, Palm Jumeirah, Dubai Mall, and the Dubai Fountain. The city's luxury hotels and shopping are renowned.",
         "history": "Dubai's history is rooted in its role as a trading port and pearl diving center. It has transformed into a modern metropolis in recent decades, with rapid development and urban planning.",
         "rating": 4.7,
-        "placeImages": ["", "", "", "", ""],
+        "placeImages": [
+          "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+        ],        
         "price": 38000,
         "type": "beach"
       },
@@ -1421,9 +1525,15 @@
         "famous": "Some of the famous attractions in Vienna include Schönbrunn Palace, St. Stephen's Cathedral, Belvedere Palace, and the Vienna State Opera. The city's coffeehouse culture is also iconic.",
         "history": "Vienna has a rich history as the former capital of the Habsburg Empire. It was a center of art and culture during the Renaissance and Baroque periods, leaving behind magnificent architecture and art.",
         "rating": 4.8,
-        "placeImages": ["", "", "", "", ""],
+        "placeImages": [
+          "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+        ],        
         "price": 27000,
-        "type": "beach"
+        "type": "city"
       },
       
     {
@@ -1435,9 +1545,15 @@
       "famous": "Some of the famous attractions in Dubrovnik include the City Walls, Stradun promenade, Rector's Palace, and the crystal-clear waters of the Adriatic Sea. The city's beauty has made it a popular filming location.",
       "history": "Dubrovnik has a rich history as a maritime city-state and trading hub. It has withstood sieges and played a key role in the Mediterranean trade. Today, it's a UNESCO World Heritage Site.",
       "rating": 4.6,
-      "placeImages": ["", "", "", "", ""],
-      "price": 25000,
-      "type": "beach"
+      "placeImages": [
+        "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+      ],        
+    "price": 25000,
+      "type": "hills"
     },
     {
       "id": 25,
@@ -1448,8 +1564,14 @@
       "famous": "Some of the famous attractions in Bangkok include Wat Phra Kaew (Temple of the Emerald Buddha), Wat Pho, the Grand Palace, and the bustling street markets of Khao San Road. Thai cuisine is a highlight.",
       "history": "Bangkok has a history that dates back to the 15th century when it was a small trading post. It later became the capital of Siam (now Thailand) and has witnessed the country's modernization.",
       "rating": 4.7,
-      "placeImages": ["", "", "", "", ""],
-      "price": 30000,
+      "placeImages": [
+        "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+      ],        
+    "price": 30000,
       "type": "beach"
     },
     {
@@ -1461,9 +1583,15 @@
       "famous": "Some of the famous attractions in Cusco include Sacsayhuaman, Coricancha, Plaza de Armas, and the vibrant San Pedro Market. It's also the gateway to the iconic Machu Picchu.",
       "history": "Cusco was the capital of the Inca Empire and has a rich history that combines Inca and Spanish colonial influences. Its streets and buildings reflect this unique blend.",
       "rating": 4.8,
-      "placeImages": ["", "", "", "", ""],
-      "price": 29000,
-      "type": "beach"
+      "placeImages": [
+        "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+      ],        
+    "price": 29000,
+      "type": "hills"
     },
     {
       "id": 27,
@@ -1474,8 +1602,14 @@
       "famous": "Some of the famous attractions in Venice include St. Mark's Square, Doge's Palace, Rialto Bridge, and the Grand Canal. Venetian cuisine, including seafood dishes, is a delight.",
       "history": "Venice was once a powerful maritime republic and a major center of trade and art during the Renaissance. Its architecture and art reflect its golden age of wealth and creativity.",
       "rating": 4.9,
-      "placeImages": ["", "", "", "", ""],
-      "price": 42000,
+      "placeImages": [
+        "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+      ],        
+    "price": 42000,
       "type": "beach"
     },
     {
@@ -1487,9 +1621,15 @@
       "famous": "Some of the famous attractions in Reykjavik include the Blue Lagoon, Hallgrímskirkja Church, Harpa Concert Hall, and the chance to witness the Northern Lights. Icelandic cuisine features local ingredients.",
       "history": "Reykjavik is a relatively young city, but Iceland itself has a rich history dating back to the Viking age. The city has become a hub for creativity and innovation.",
       "rating": 4.7,
-      "placeImages": ["", "", "", "", ""],
-      "price": 47000,
-      "type": "beach"
+      "placeImages": [
+        "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+      ],        
+    "price": 47000,
+      "type": "hills"
     },
     {
       "id": 29,
@@ -1500,9 +1640,15 @@
       "famous": "Some of the famous attractions in Rio include Copacabana Beach, Sugarloaf Mountain, Christ the Redeemer statue atop Corcovado, and the lively Sambadrome during carnival.",
       "history": "Rio de Janeiro has a history dating back to Portuguese colonization. It was the capital of Brazil before Brasília and played a crucial role in the country's independence and cultural heritage.",
       "rating": 4.8,
-      "placeImages": ["", "", "", "", ""],
-      "price": 45000,
-      "type": "beach"
+      "placeImages": [
+        "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+      ],        
+    "price": 45000,
+      "type": "hills"
     },
     {
       "id": 30,
@@ -1513,8 +1659,14 @@
       "famous": "Sydney's famous landmarks include the Sydney Opera House, Sydney Harbour Bridge, and Bondi Beach. The city's multicultural neighborhoods and vibrant arts scene make it a diverse and exciting destination.",
       "history": "Sydney's history is tied to British colonization, with Indigenous Australian heritage dating back thousands of years. The city has evolved into a thriving metropolis while preserving its natural beauty.",
       "rating": 4.9,
-      "placeImages": ["", "", "", "", ""],
-      "price": 37000,
+      "placeImages": [
+        "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+      ],        
+    "price": 37000,
       "type": "beach"
     },
     {
@@ -1526,8 +1678,14 @@
       "famous": "Some of the famous attractions in Dubai include the Burj Khalifa, Palm Jumeirah, Dubai Mall, and the Dubai Fountain. The city's luxury hotels and shopping are renowned.",
       "history": "Dubai's history is rooted in its role as a trading port and pearl diving center. It has transformed into a modern metropolis in recent decades, with rapid development and urban planning.",
       "rating": 4.7,
-      "placeImages": ["", "", "", "", ""],
-      "price": 27000,
+      "placeImages": [
+        "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+      ],        
+    "price": 27000,
       "type": "beach"
     },
     {
@@ -1547,7 +1705,7 @@
         "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
       ],
       "price": 29000,
-      "type": "beach"
+      "type": "hills"
     },
     
 
@@ -1568,7 +1726,7 @@
         "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
       ],
       "price": 30000,
-      "type": "beach"
+      "type": "city"
     },
     {
       "id": 34,
@@ -1587,7 +1745,7 @@
         "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
       ],
       "price": 36000,
-      "type": "beach"
+      "type": "city"
     },
     {
       "id": 35,
@@ -1606,7 +1764,7 @@
         "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
       ],
       "price": 25000,
-      "type": "beach"
+      "type": "hills"
     },
     {
       "id": 36,
@@ -1625,7 +1783,7 @@
         "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
       ],
       "price": 55000,
-      "type": "beach"
+      "type": "city"
     },
     {
       "id": 37,
@@ -1644,7 +1802,7 @@
         "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
       ],
       "price": 27000,
-      "type": "beach"
+      "type": "city"
     },
     {
       "id": 38,
@@ -1663,7 +1821,7 @@
         "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
       ],
       "price": 40000,
-      "type": "beach"
+      "type": "city"
     },
     {
       "id": 39,
@@ -1682,7 +1840,7 @@
         "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
       ],
       "price": 35000,
-      "type": "beach"
+      "type": "city"
     },
     {
       "id": 40,
@@ -1701,7 +1859,7 @@
         "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
       ],
       "price": 35000,
-      "type": "beach"
+      "type": "hills"
     },
     {
       "id": 41,
@@ -1720,7 +1878,7 @@
         "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
       ],
       "price": 33000,
-      "type": "beach"
+      "type": "hills"
     }
  
   
