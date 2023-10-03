@@ -14,6 +14,7 @@ export default function HotelCard({
 }) {
   return (
     <DIV>
+
       <div
         className="Hotel-card-image"
         style={{ backgroundImage: `url(${image})` }}
