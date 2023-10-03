@@ -22,9 +22,10 @@ export const Payment = () => {
 
   const navigate = useNavigate();
 
-  const price = localStorage.getItem('flight');
-  const hotelprice = localStorage.getItem('hotelprice');
-  const data = useSelector((store) => store.paymentReducer.userData);
+
+  const price = localStorage.getItem("flight")
+  const hotelprice = localStorage.getItem("hotelprice")
+  const data = useSelector((store)=> store.paymentReducer.userData);
 
   const toast = useToast();
 

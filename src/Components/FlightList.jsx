@@ -7,9 +7,9 @@ import { Button, HStack, Heading, Image, VStack,Popover,
     ListItem,Text
      } from "@chakra-ui/react";
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
 
 export default function FlightList({
   id,
@@ -27,6 +27,8 @@ export default function FlightList({
   seats_available,
   layovers,
 }) {
+
+  
   return (
     <DIV>
       <Image src={"./images/trip_wiz.png"} alt=""></Image>
