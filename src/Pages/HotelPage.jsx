@@ -8,17 +8,20 @@ import { useSearchParams } from 'react-router-dom'
 
 import { ChakraProvider } from '@chakra-ui/react'
 import Pagination from '../Components/Pagination'
+import InputHotel from '../Components/InputHotel'
 
 
 export default function HotelPage() {
     const [searchParams]=useSearchParams()
+    const [trig,setTrig]=useState(false)
     const [currPage,setCurrPage]=useState(1)
     const dispatch=useDispatch()
-    const {hotels,totalPages}=useSelector((store)=>store.hotelReducer,shallowEqual)
+    const {hotels,totalPages,search}=useSelector((store)=>store.hotelReducer,shallowEqual)
     let paramObj={
       category:searchParams.getAll("category"),
       price_gte:searchParams.get("min"),
       price_lte:searchParams.get("max"),
+      q:search,
       _limit:9,
       _page:currPage,
       _sort:"price",
@@ -30,7 +33,7 @@ export default function HotelPage() {
       console.log("woik")
       
 
-    },[searchParams,currPage])
+    },[searchParams,currPage,trig])
     
 
     
@@ -38,7 +41,7 @@ export default function HotelPage() {
   return (
     <ChakraProvider>
 
-
+    <InputHotel setTrig={setTrig}  />
     <DIV>
       <SideBarHotel/>
       <div>
@@ -57,7 +60,8 @@ export default function HotelPage() {
 }
 const DIV=styled.div`
 display: flex;
-padding-top:100px;
+
+
 
 
 .Hotel-Container{

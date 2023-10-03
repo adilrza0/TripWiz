@@ -14,6 +14,7 @@ export default function HotelCard({
 }) {
   return (
     <DIV>
+
       <div
         className="Hotel-card-image"
         style={{ backgroundImage: `url(${image})` }}
@@ -36,7 +37,7 @@ export default function HotelCard({
 
           <div className="book-section">
             <p>${price}</p>
-            <Link to={`/cart/${id}`}>
+            <Link to={`/hotelcart/${id}`}>
               <button>Reserve</button>
             </Link>
           </div>

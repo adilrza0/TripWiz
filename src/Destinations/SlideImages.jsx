@@ -22,7 +22,7 @@ export const SlideImage = ({prop}) => {
   const images = prop || []
 
   return (
-      <Box maxWidth={{ base: '100%', md: '50%' }} mt={{ base: '50px', md: '150px' }}>
+      <Box maxWidth={{ base: '100%', lg: '50%' }} mt={{ base: '50px', md: '150px' }}>
         <Slider {...sliderSettings}>
           {images.length > 0 && images.map((image, index) => (
             <Box key={index}>

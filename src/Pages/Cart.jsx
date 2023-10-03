@@ -104,6 +104,8 @@ const Cart = () => {
               <option value="yes">Yes</option>
               <option value="no">No</option>
             </select>
+           <br />
+            <input type="date" id='date' />
           </div>
           <br />
           <label>Email id : </label>
@@ -233,7 +235,10 @@ const DIV = styled.div`
     
 
   }
-
+#date{
+  width:50%;
+  margin-top: 20px;
+}
 .name{
   width: 80%;
   display:grid;

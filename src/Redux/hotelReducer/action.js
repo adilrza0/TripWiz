@@ -5,10 +5,10 @@ import { GET_HOTELS_FAILURE, GET_HOTELS_REQUEST, GET_HOTELS_SUCCESS, GET_TOTAL_P
 export const getHotels=(paramObj)=>(dispatch)=>{
    dispatch({type:GET_HOTELS_REQUEST})
    //console.log(paramObj)
-   console.log(paramObj._page)
+   // console.log(paramObj)
    axios.get(`http://localhost:8080/hotels`,{params:paramObj})
    .then((res)=>{
-      
+   
     dispatch({type:GET_HOTELS_SUCCESS,payload:res.data})
    })
    .catch((err)=>{

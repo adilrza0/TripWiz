@@ -7,7 +7,7 @@ import {LiaHotelSolid} from "react-icons/lia"
 import {MdFlight} from "react-icons/md"
 import Navbar from './Navbar'
 
-import { Link, Navigate } from 'react-router-dom'
+import { Link, Navigate, useNavigate } from 'react-router-dom'
 import turkey from "./images/fatih-yurur-kNSREmtaGOE-unsplash.jpg"
 
 import dubai from "./images/christoph-schulz-7tb-b37yHx4-unsplash.jpg"
@@ -32,7 +32,7 @@ import { ChakraProvider } from '@chakra-ui/react'
 
 const Home = () => {
     const [activeButton, setActiveButton] = useState('flights');
-    
+
   return (
     <div >
 
@@ -51,15 +51,18 @@ const Home = () => {
 <div className="main-homecard">
 
     <div className="btn">
-      
+
+     <Link to="/flight">
+
     <button
           className={activeButton === 'flights' ? 'btn1' : 'btn2'}
           onClick={() => setActiveButton('flights')}
-        > <MdFlight/>  Flights</button><hr />
-         <button
+        > <MdFlight/>  Flights</button> </Link> <hr />
+        <Link to={"booking"}>
+         <button    
           className={activeButton === 'hotels' ? 'btn1' : 'btn2'}
           onClick={() => setActiveButton('hotels')}
-        > <LiaHotelSolid/> Hotels</button><hr />
+        > <LiaHotelSolid/> Hotels</button></Link><hr />
          <button
           className={activeButton === 'transport' ? 'btn1' : 'btn2'}
           onClick={() => setActiveButton('transport')}
