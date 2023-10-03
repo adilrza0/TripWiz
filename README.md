@@ -80,7 +80,7 @@ Enjoy a hassle-free trip planning experience with Trip Wiz!
 
 ## Deployment
 
-You can access Trip Wiz by visiting the following deployment URL: [https://www.tripwiz.com](https://651c18d20d00eb2955753db9--verdant-madeleine-13b102.netlify.app/)
+You can access Trip Wiz by visiting the following deployment URL: [https://www.tripwiz.com](https://651c28a7ddc84f33e8a86578--sunny-muffin-f03636.netlify.app/review)
 
 ## Contributing
 
