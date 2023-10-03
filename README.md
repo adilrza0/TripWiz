@@ -64,15 +64,16 @@ Enjoy a hassle-free trip planning experience with Trip Wiz!
 
 ## Screenshots
 
-![Screenshot 1](https://ibb.co/n7SRnCy)
+![Screenshot 1](https://i.ibb.co/Pc8t9Qy/Screenshot-2023-10-03-185550.png)
 
 *Caption: Homepage - Discover New Destinations*
 
-![Screenshot 2](https://ibb.co/4Vp3B4p)
+![Screenshot 2](https://i.ibb.co/6ZHwXv1/Screenshot-2023-10-03-185643.png)
 
+![Screenshot 3](https://i.ibb.co/d5DxnkD/Screenshot-2023-10-03-185620.png)
 *Caption: Trip Planning - Create Detailed Itineraries*
 
-![Screenshot 3](https://ibb.co/vB3qXsQ)
+!https://ibb.co/vB3qXsQ)
 
 *Caption: Accommodation and Dining Recommendations*
 
