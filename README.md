@@ -82,9 +82,9 @@ Enjoy a hassle-free trip planning experience with Trip Wiz!
 
 You can access Trip Wiz by visiting the following deployment URL: [https://www.tripwiz.com](https://651c28a7ddc84f33e8a86578--sunny-muffin-f03636.netlify.app/review)
 
-url https://651c28a7ddc84f33e8a86578--sunny-muffin-f03636.netlify.app/review
+`url` https://651c28a7ddc84f33e8a86578--sunny-muffin-f03636.netlify.app/review
 
-url https://www.tripwiz.com
+`url` https://www.tripwiz.com
 
 ## Contributing
 
