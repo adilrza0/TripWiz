@@ -29,6 +29,7 @@ export const SlideImage = ({prop}) => {
               <Image
                 w={{ base: '100%', md: '700px' }} // Adjust the width for different screen sizes
                 h={{ base: '100%', md: '400px' }}
+                mb={{ base: '50px', md: '50px' }}
                 mx="auto"
                 borderRadius="lg"
                 boxShadow="lg"

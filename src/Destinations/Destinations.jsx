@@ -15,7 +15,7 @@ export const Destinations = () => {
 
   const getData = async (page, perPage, filterType) => {
     try {
-      let url = `http://localhost:8080/destinations?page=${page}&perPage=${perPage}`;
+      let url = `https://tripwizapi.onrender.com/destinations?page=${1}&perPage=${5}`;
       if (filterType) {
         url += `&type=${filterType}`;
       }
@@ -101,7 +101,9 @@ export const Destinations = () => {
                 <Text mt={4}>{destination.description}</Text>
                 <Text mt={4}>{destination.rating}⭐</Text>
                 <Link to={`/Destinations/${destination.id}`}>
-                  <Button mt="30px" loadingText='Submitting' colorScheme='blue' variant='outline' w="50%">
+                  <Button mt="30px" loadingText='Submitting' colorScheme='blue' variant='outline' w="50%"
+                  onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                  >
                     Explore
                   </Button>
                 </Link>

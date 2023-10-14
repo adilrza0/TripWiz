@@ -36,7 +36,7 @@ export const Explore = () => {
 
   const getData = async (id) => {
     try {
-      let res = await axios.get(`http://localhost:8080/destinations/${id}`);
+      let res = await axios.get(`https://tripwizapi.onrender.com/destinations/${id}`);
       setDestination(res.data);
     } catch (error) {
       console.log(error);

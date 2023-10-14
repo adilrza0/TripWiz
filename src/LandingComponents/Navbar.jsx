@@ -8,7 +8,7 @@ import "./Navbar.css"
 
 
 const Navbar = () => {
-  const [isScrolled, setIsScrolled] = useState(false);
+  const [isscrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const location=useLocation();
 
@@ -29,7 +29,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <MAIN_DIV className='eee' isScrolled={isScrolled}>
+    <MAIN_DIV className='eee' isscrolled={isscrolled.toString()}>
       <DIV className='DIV'>
         <Link to={"/"}>
           <img src={logo} alt="Logo" />
