@@ -142,9 +142,7 @@
       "duration": "3h 45m",
       "price": 7000,
       "seats_available": 30,
-      "layovers": [
-        "Mumbai"
-      ]
+      "layovers": ["Mumbai"]
     },
     {
       "id": 10,
@@ -1088,449 +1086,444 @@
     }
   ],
 
-
-  
-
-
-    "destinations": [
-      {
-        "id": 1,
-        "name": "Paris, France",
-        "description": "Explore the romantic streets of Paris and visit iconic landmarks like the Eiffel Tower.",
-        "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGFyaXMlMjBmcmFuY2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=1000&q=60",
-        "about": "Paris, often referred to as the 'City of Love,' is the capital of France and a global center for art, fashion, and culture. It's renowned for its romantic ambiance, exquisite cuisine, and iconic landmarks.",
-        "famous": "Some of the famous attractions in Paris include the Eiffel Tower, Louvre Museum, Notre-Dame Cathedral, and Montmartre. Strolling along the Seine River and enjoying a café au lait at a sidewalk café are quintessential Parisian experiences.",
-        "history": "Paris has a rich history dating back to the Roman era. It played a pivotal role in the Renaissance, Enlightenment, and French Revolution. The city has been a hub for intellectuals, artists, and writers, making it a center of innovation and creativity.",
-        "rating": 4.7,
-        "placeImages": [
-          "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
-        ],
-        "price": 41000,
-        "type": "city"
-      },
-      {
-        "id": 2,
-        "name": "Kyoto, Japan",
-        "description": "Immerse yourself in Kyoto's rich history, from ancient temples to traditional tea ceremonies.",
-        "image": "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGt5b3RvJTIwamFwYW58ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=1000&q=60",
-        "about": "Kyoto, a city in Japan's Kansai region, is known for its well-preserved historical structures, traditional wooden houses, and beautiful gardens. It's a place where ancient traditions seamlessly blend with modern life.",
-        "famous": "Kyoto is famous for its numerous temples, including Kinkaku-ji (the Golden Pavilion), Ginkaku-ji (the Silver Pavilion), and Fushimi Inari Taisha. The city is also renowned for its tea ceremonies, kimonos, and cherry blossom festivals.",
-        "history": "Kyoto served as the imperial capital of Japan for over a thousand years. It played a central role in Japanese history and culture, witnessing the rise and fall of samurai clans, the development of tea ceremony traditions, and the preservation of traditional arts.",
-        "rating": 4.8,
-        "placeImages": [
-          "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
-        ],
-        "price": 45000,
-        "type": "city"
-      },
-      {
-        "id": 3,
-        "name": "Santorini, Greece",
-        "description": "Relax on the pristine beaches of Santorini and enjoy breathtaking sunsets over the caldera.",
-        "image": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjB8fFNhbnRvcmluaSUyQyUyMEdyZWVjZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60",
-        "about": "Santorini is a stunning island in the Aegean Sea, known for its white-washed buildings, crystal-clear waters, and dramatic sunsets. It's often considered one of the most romantic destinations in the world.",
-        "famous": "The island's iconic blue-domed churches in Oia and the dramatic caldera views are famous attractions. Santorini is also celebrated for its delicious Greek cuisine, including fresh seafood and traditional dishes.",
-        "history": "Santorini has a unique history tied to the Minoan civilization. It's believed to be the inspiration for the legend of Atlantis. The island's volcanic eruption in antiquity shaped its landscape and contributed to its unique beauty.",
-        "rating": 4.9,
-        "placeImages": [
-          "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
-        ],
-        "price": 33000,
-        "type": "beach"
-      },
-      {
-        "id": 4,
-        "name": "New York City, USA",
-        "description": "Experience the hustle and bustle of New York City, visit iconic landmarks, and explore diverse neighborhoods.",
-        "image": "https://images.unsplash.com/photo-1486607303850-bc051a4ffad4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG5ldyUyMHlvdWslMjBjaXR5JTIwdXNhfGVufDB8fDB8fHww&auto=format&fit=crop&w=1000&q=60",
-        "about": "New York City, often called the 'Big Apple,' is the largest city in the United States and a global metropolis. It's known for its diverse culture, towering skyscrapers, and vibrant energy.",
-        "famous": "Some of the famous attractions in NYC include Times Square, Central Park, Statue of Liberty, and Broadway. The city is a hub for finance, fashion, and the arts, making it a cultural melting pot.",
-        "history": "New York City has a rich history dating back to its Dutch colonial origins. It played a pivotal role in the American Revolution and has been a center of immigration, leading to its incredible cultural diversity.",
-        "rating": 4.6,
-        "placeImages": [
-          "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
-        ],
-        "price": 43000,
-        "type": "city"
-      },
-      {
-        "id": 5,
-        "name": "Rome, Italy",
-        "description": "Discover the historical treasures of Rome, including the Colosseum, Vatican City, and Roman Forum.",
-        "image": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cm9tZSUyMGl0YWx5fGVufDB8fDB8fHww&auto=format&fit=crop&w=1000&q=60",
-        "about": "Rome, the capital of Italy, is a city that encapsulates centuries of history, art, and culture. It's known for its ancient ruins, Renaissance art, and delectable cuisine.",
-        "famous": "Rome's famous landmarks include the Colosseum, Roman Forum, Pantheon, and Vatican City, home to St. Peter's Basilica and the Sistine Chapel. The city is also renowned for its delicious pasta and gelato.",
-        "history": "Rome was once the heart of the Roman Empire, with a legacy that shaped the Western world. It was a center of power, art, and innovation during antiquity and continues to be a living museum of history.",
-        "rating": 4.7,
-        "placeImages": [
-          "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
-        ],
-        "price": 35000,
-        "type": "city"
-      },
-      {
-        "id": 6,
-        "name": "Bali, Indonesia",
-        "description": "Relax on Bali's stunning beaches, enjoy vibrant nightlife, and explore lush rice terraces.",
-        "image": "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YmFsaSUyMGluZG9uZXNpYXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-        "about": "Bali, an island in Indonesia, is a tropical paradise known for its lush landscapes, vibrant culture, and welcoming locals. It offers a perfect blend of relaxation and adventure.",
-        "famous": "Some of the famous attractions in Bali include Uluwatu Temple, Ubud Monkey Forest, and the terraced rice fields of Tegallalang. The island is also celebrated for its traditional dance performances and vibrant nightlife.",
-        "history": "Bali has a rich cultural heritage rooted in Hinduism. Its temples, rituals, and festivals are an integral part of daily life. The island's history is intertwined with its stunning natural beauty.",
-        "rating": 4.8,
-        "placeImages": [
-          "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
-        ],
-        "price": 25000,
-        "type": "beach"
-      },
-      {
-        "id": 7,
-        "name": "Barcelona, Spain",
-        "description": "Experience the vibrant culture and architecture of Barcelona, from Gaudi's masterpieces to the bustling La Rambla.",
-        "image": "https://images.unsplash.com/photo-1570295030269-aa4f34cb5409?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFyY2Vsb25hJTIwc3BhaW58ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=1000&q=60",
-        "about": "Barcelona, located on the northeastern coast of Spain, is a city known for its unique architecture, artistic heritage, and lively street life. It's the capital of Catalonia.",
-        "famous": "Barcelona is famous for Antoni Gaudí's architectural masterpieces like Sagrada Família and Park Güell. The city's Gothic Quarter, La Rambla, and vibrant food scene are also popular among visitors.",
-        "history": "Barcelona has a history dating back to Roman times. It has a distinct Catalan identity and played a significant role in the Spanish Civil War. Its culture, language, and traditions are proudly preserved.",
-        "rating": 4.7,
-        "placeImages": [
-          "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
-        ],
-        "price": 50000,
-        "type": "beach"
-      },
-      {
-        "id": 8,
-        "name": "Cape Town, South Africa",
-        "description": "Embark on a journey to Cape Town and explore Table Mountain, the Cape Winelands, and stunning beaches.",
-        "image": "https://images.unsplash.com/photo-1612860606900-25b4b0bc79ba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Q2FwZSUyMFRvd24lMkMlMjBTb3V0aCUyMEFmcmljYXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-        "about": "Cape Town, a coastal city in South Africa, is renowned for its natural beauty, diverse landscapes, and rich cultural heritage. It's often called the 'Mother City.'",
-        "famous": "Table Mountain, Robben Island, Boulders Beach with its penguins, and the Cape Winelands are famous attractions. Cape Town is also known for its vibrant arts scene and delicious cuisine.",
-        "history": "Cape Town has a complex history, from indigenous Khoikhoi and San settlements to European colonization and apartheid. Sites like Robben Island hold significant historical importance.",
-        "rating": 4.8,
-        "placeImages": [
-          "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
-        ],
-        "price": 35000,
-        "type": "beach"
-      },
-      {
-        "id": 9,
-        "name": "Sydney, Australia",
-        "description": "Discover the beauty of Sydney, with its iconic Sydney Opera House and picturesque Bondi Beach.",
-        "image": "https://images.unsplash.com/photo-1513343987712-5da15ea2a9bb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c3lkbmV5JTIwYXVzdHJhbGlhfGVufDB8fDB8fHww&auto=format&fit=crop&w=1000&q=60",
-        "about": "Sydney, the largest city in Australia, is known for its stunning harbor, iconic landmarks, and a laid-back beach lifestyle. It's the capital of New South Wales.",
-        "famous": "Sydney's famous landmarks include the Sydney Opera House, Sydney Harbour Bridge, and Bondi Beach. The city's multicultural neighborhoods and vibrant arts scene make it a diverse and exciting destination.",
-        "history": "Sydney's history is tied to British colonization, with Indigenous Australian heritage dating back thousands of years. The city has evolved into a thriving metropolis while preserving its natural beauty.",
-        "rating": 4.9,
-        "placeImages": [
-          "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
-        ],        
-        "price": 35000,
-        "type": "city"
-      },
-      {
-        "id": 10,
-        "name": "Istanbul, Turkey",
-        "description": "Experience the blend of cultures and history in Istanbul, where East meets West.",
-        "image": "https://images.unsplash.com/photo-1589561454226-796a8aa89b05?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fGlzdGFuYnVsJTIwdHVya2V5fGVufDB8fDB8fHww&auto=format&fit=crop&w=700&q=60",
-        "about": "Istanbul, a city spanning two continents, is a cultural melting pot where Europe meets Asia. It's known for its stunning architecture, historic sites, and vibrant markets.",
-        "famous": "Some of the famous attractions in Istanbul include the Hagia Sophia, Blue Mosque, Topkapi Palace, and the Grand Bazaar. The city's rich cuisine, including baklava and kebabs, is also renowned.",
-        "history": "Istanbul, formerly Byzantium and Constantinople, has a history dating back to ancient times. It was the capital of the Byzantine and Ottoman Empires, leaving a legacy of diverse cultures, religions, and traditions.",
-        "rating": 4.6,
-        "placeImages": [
-          "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
-        ],        
-        "price": 40000,
-        "type": "city"
-      },
-      {
-        "id": 11,
-        "name": "Machu Picchu, Peru",
-        "description": "Hike to the ancient ruins of Machu Picchu and marvel at its breathtaking beauty.",
-        "image": "https://images.unsplash.com/photo-1564551099958-799746bfe1aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fG1hY2h1JTIwcGljY2h1JTIwcGVydXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60",
-        "about": "Machu Picchu, located high in the Andes Mountains of Peru, is an ancient Inca citadel known for its stunning architecture and breathtaking mountain scenery.",
-        "famous": "Machu Picchu is famous for its precisely cut stone structures, terraced fields, and its strategic location amidst the mountains. The site is also a testament to Inca engineering and astronomical achievements.",
-        "history": "Machu Picchu was built in the 15th century but abandoned during the Spanish conquest. It remained hidden until its rediscovery in 1911 by Hiram Bingham. Today, it's a UNESCO World Heritage Site and a symbol of Inca civilization.",
-        "rating": 4.9,
-        "placeImages": [
-          "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
-        ],        
-        "price": 30000,
-        "type": "hills"
-      },
-      {
-        "id": 12,
-        "name": "Amsterdam, Netherlands",
-        "description": "Explore the charming canals, historic museums, and vibrant culture of Amsterdam.",
-        "image": "https://images.unsplash.com/photo-1529943247435-a5974e63d6e4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YW1zdGVyZGFtJTIwbmV0aGVybGFuZHN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=700&q=60",
-        "about": "Amsterdam, the capital of the Netherlands, is known for its picturesque canals, historic architecture, and vibrant arts scene. It's a city that embraces diversity and creativity.",
-        "famous": "Some of the famous attractions in Amsterdam include the Anne Frank House, Rijksmuseum, Van Gogh Museum, and the iconic canal belt. Bicycling along the city's canals is a popular activity.",
-        "history": "Amsterdam's history is closely tied to its canals, which were constructed in the 17th century. It played a significant role in the Dutch Golden Age and has a legacy of commerce, art, and liberalism.",
-        "rating": 4.8,
-        "placeImages": [
-          "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
-        ],        
-        "price": 35000,
-        "type": "hills"
-      },
-      {
-        "id": 13,
-        "name": "Rio de Janeiro, Brazil",
-        "description": "Enjoy the lively atmosphere of Rio de Janeiro, from Copacabana Beach to Christ the Redeemer.",
-        "image": "https://images.unsplash.com/photo-1599342019150-cd9ca23e1029?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjJ8fFJpbyUyMGRlJTIwSmFuZWlybyUyQyUyMEJyYXppbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60",
-        "about": "Rio de Janeiro, often called Rio, is a vibrant city in Brazil known for its festive spirit, stunning beaches, and iconic landmarks. It's one of the most famous carnival destinations.",
-        "famous": "Some of the famous attractions in Rio include Copacabana Beach, Sugarloaf Mountain, Christ the Redeemer statue atop Corcovado, and the lively Sambadrome during carnival.",
-        "history": "Rio de Janeiro has a history dating back to Portuguese colonization. It was the capital of Brazil before Brasília and played a crucial role in the country's independence and cultural heritage.",
-        "rating": 4.7,
-        "placeImages": [
-          "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
-        ],        
-        "price": 25000,
-        "type": "beach"
-      },
-      {
-        "id": 14,
-        "name": "Toronto, Canada",
-        "description": "Discover the diverse culture, culinary delights, and iconic CN Tower in Toronto.",
-        "image": "https://images.unsplash.com/photo-1620218776099-1eb4a9bff180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fFJpbyUyMGRlJTIwSmFuZWlybyUyQyUyMEJyYXppbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60",
-        "about": "Toronto, the largest city in Canada, is a diverse and dynamic metropolis known for its multicultural neighborhoods, delicious cuisine, and impressive skyline.",
-        "famous": "Some of the famous attractions in Toronto include the CN Tower, Royal Ontario Museum, Distillery District, and Toronto Islands. The city's diverse food scene reflects its multiculturalism.",
-        "history": "Toronto's history includes Indigenous peoples, European settlers, and waves of immigration. It's a reflection of Canada's multicultural identity, and its historic sites showcase this rich heritage.",
-        "rating": 4.6,
-        "placeImages": [
-          "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
-        ],        
-        "price": 38000,
-        "type": "city"
-      },
-      {
-        "id": 15,
-        "name": "Mumbai, India",
-        "description": "Experience the bustling streets and rich cultural heritage of Mumbai, India's financial capital.",
-        "image": "https://images.unsplash.com/photo-1595658658481-d53d3f999875?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bXVtYmFpJTIwaW5kaWF8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=700&q=60",
-        "about": "Mumbai, also known as Bombay, is India's financial capital and a bustling metropolis known for its vibrant street life, historic landmarks, and thriving film industry.",
-        "famous": "Some of the famous attractions in Mumbai include the Gateway of India, Chhatrapati Shivaji Terminus, Marine Drive, and the vibrant markets of Colaba. Bollywood, India's film industry, is also centered in Mumbai.",
-        "history": "Mumbai has a history dating back to ancient times and was shaped by Portuguese and British colonization. It's a city of contrasts, with historic architecture alongside modern skyscrapers.",
-        "rating": 4.8,
-        "placeImages": [
-          "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
-        ],        
-        "price": 15000,
-        "type": "city"
-      },
-      {
-        "id": 16,
-        "name": "Seoul, South Korea",
-        "description": "Explore the modern and traditional facets of Seoul, from high-tech skyscrapers to historic palaces.",
-        "image": "https://images.unsplash.com/photo-1554310603-d39d43033735?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8U2VvdWwlMkMlMjBTb3V0aCUyMEtvcmVhfGVufDB8fDB8fHww&auto=format&fit=crop&w=700&q=60",
-        "about": "Seoul, the capital of South Korea, is a dynamic city that seamlessly blends modernity with tradition. It's known for its cutting-edge technology, K-pop culture, and historic palaces.",
-        "famous": "Some of the famous attractions in Seoul include Gyeongbokgung Palace, Bukchon Hanok Village, Myeongdong shopping district, and the futuristic Dongdaemun Design Plaza. K-food is a highlight of Korean cuisine.",
-        "history": "Seoul has a history that spans over 2,000 years, with a legacy of dynasties, invasions, and the Korean War. Historic sites reflect this rich heritage, while the city is also a hub for innovation and modernity.",
-        "rating": 4.7,
-        "placeImages": [
-          "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
-        ],        
-        "price": 30000,
-        "type": "city"
-      },
-      {
-        "id": 17,
-        "name": "Moscow, Russia",
-        "description": "Visit the grand Red Square and iconic St. Basil's Cathedral in Moscow.",
-        "image": "https://images.unsplash.com/photo-1547448415-e9f5b28e570d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TW9zY293JTJDJTIwUnVzc2lhfGVufDB8fDB8fHww&auto=format&fit=crop&w=700&q=60",
-        "about": "Moscow, the capital of Russia, is a city of grandeur, history, and political significance. It's known for its iconic landmarks, including the Red Square and the Kremlin.",
-        "famous": "Some of the famous attractions in Moscow include Red Square, St. Basil's Cathedral, the Kremlin, and the Bolshoi Theatre. The city's metro stations are also architectural marvels.",
-        "history": "Moscow's history is intertwined with that of Russia itself, from its medieval origins to the rise of the Russian Empire and the Soviet era. It's a city where history and modernity coexist.",
-        "rating": 4.9,
-        "placeImages": [
-          "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
-        ],        
-        "price": 34000,
-        "type": "city"
-      },
-      {
-        "id": 18,
-        "name": "Cairo, Egypt",
-        "description": "Witness the wonders of ancient Egypt, including the pyramids and Sphinx in Cairo.",
-        "image": "https://images.unsplash.com/photo-1553913861-c0fddf2619ee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2Fpcm8lMjBlZ3lwdHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60",
-        "about": "Cairo, the capital of Egypt, is a city where ancient and modern worlds collide. It's known for its historic treasures, bustling markets, and the mighty Nile River.",
-        "famous": "Some of the famous attractions in Cairo include the Pyramids of Giza, the Sphinx, the Egyptian Museum, and the bustling Khan el-Khalili bazaar. The city is a gateway to exploring ancient Egypt.",
-        "history": "Cairo's history dates back to ancient times, and it has been a center of Egyptian civilization for millennia. It played a key role in the Pharaonic, Islamic, and Ottoman eras, leaving behind a rich tapestry of history.",
-        "rating": 4.7,
-        "placeImages": [
-          "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
-        ],        
-        "price": 45000,
-        "type": "city"
-      },
-      {
-        "id": 19,
-        "name": "Copenhagen, Denmark",
-        "description": "Experience the Danish hygge lifestyle and visit the enchanting Tivoli Gardens in Copenhagen.",
-        "image": "https://images.unsplash.com/photo-1609955618141-5b3491b53822?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fENvcGVuaGFnZW4lMkMlMjBEZW5tYXJrfGVufDB8fDB8fHww&auto=format&fit=crop&w=700&q=60",
-        "about": "Copenhagen, the capital of Denmark, is a city known for its cozy hygge culture, historic charm, and innovative design. It's a place where tradition meets modernity.",
-        "famous": "Some of the famous attractions in Copenhagen include Tivoli Gardens, the Little Mermaid statue, Nyhavn canal district, and the Rosenborg Castle. Danish pastries and cuisine are also highlights.",
-        "history": "Copenhagen's history spans centuries, from its Viking origins to becoming the capital of Denmark. The city has played a significant role in the cultural and political development of Denmark.",
-        "rating": 4.6,
-        "placeImages": [
-          "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
-        ],        
-        "price": 25000,
-        "type": "beach"
-      },
-      {
-        "id": 20,
-        "name": "Berlin, Germany",
-        "description": "Explore the vibrant arts and history scene of Berlin, from the Berlin Wall to world-class museums.",
-        "image": "https://images.unsplash.com/photo-1552035496-08efc7baf40e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fEJlcmxpbiUyQyUyMEdlcm1hbnl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=700&q=60",
-        "about": "Berlin, the capital of Germany, is a city of contrasts, known for its rich history, contemporary arts scene, and vibrant nightlife. It's a city that constantly reinvents itself.",
-        "famous": "Some of the famous attractions in Berlin include the Berlin Wall, Brandenburg Gate, Museum Island, and the East Side Gallery. The city's diverse cultural offerings and nightlife are renowned.",
-        "history": "Berlin's history is marked by its role in World War II, the Cold War, and its subsequent reunification. It's a city where history is palpable, with memorials and museums that tell its story.",
-        "rating": 4.8,
-        "placeImages": [
-          "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
-        ],
-        "price": 35000,
-        "type": "city"
-      },
-      {
-        "id": 21,
-        "name": "Prague, Czech Republic",
-        "description": "Discover the enchanting charm of Prague with its historic architecture and picturesque Old Town Square.",
-        "image": "https://images.unsplash.com/photo-1594492256402-1463c14e0317?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cHJhZ3VlJTIwY3plY2glMjByZXB1YmxpY3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60",
-        "about": "Prague, the capital of the Czech Republic, is a city of fairy tales, known for its well-preserved medieval architecture, romantic ambiance, and rich cultural heritage.",
-        "famous": "Some of the famous attractions in Prague include Prague Castle, Charles Bridge, Old Town Square, and the Astronomical Clock. The city is also famous for its beer and classical music.",
-        "history": "Prague's history dates back to the Middle Ages and the reign of Charles IV. It was a hub of European culture during the Renaissance and has played a pivotal role in Central European history.",
-        "rating": 4.9,
-        "placeImages": [
-          "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
-        ],        
-        "price": 25000,
-        "type": "city"
-      },
-      {
-        "id": 22,
-        "name": "Dubai, United Arab Emirates",
-        "description": "Experience luxury and modernity in Dubai, from the Burj Khalifa to the Palm Jumeirah.",
-        "image": "https://images.unsplash.com/photo-1551541711-489a256cd2a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTR8fER1YmFpJTJDJTIwVUFFfGVufDB8fDB8fHww&auto=format&fit=crop&w=700&q=60",
-        "about": "Dubai, a city in the United Arab Emirates, is known for its opulent lifestyle, futuristic architecture, and desert landscapes. It's a global hub for business and leisure.",
-        "famous": "Some of the famous attractions in Dubai include the Burj Khalifa, Palm Jumeirah, Dubai Mall, and the Dubai Fountain. The city's luxury hotels and shopping are renowned.",
-        "history": "Dubai's history is rooted in its role as a trading port and pearl diving center. It has transformed into a modern metropolis in recent decades, with rapid development and urban planning.",
-        "rating": 4.7,
-        "placeImages": [
-          "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
-        ],        
-        "price": 38000,
-        "type": "beach"
-      },
-      {
-        "id": 23,
-        "name": "Vienna, Austria",
-        "description": "Immerse yourself in Vienna's classical music scene, historic palaces, and delightful coffeehouses.",
-        "image": "https://images.unsplash.com/photo-1567597435927-80055c207c1c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Vmllbm5hJTJDJTIwQXVzdHJpYXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-        "about": "Vienna, the capital of Austria, is a city steeped in music, culture, and history. It's known for its classical music heritage, imperial palaces, and elegant cafes.",
-        "famous": "Some of the famous attractions in Vienna include Schönbrunn Palace, St. Stephen's Cathedral, Belvedere Palace, and the Vienna State Opera. The city's coffeehouse culture is also iconic.",
-        "history": "Vienna has a rich history as the former capital of the Habsburg Empire. It was a center of art and culture during the Renaissance and Baroque periods, leaving behind magnificent architecture and art.",
-        "rating": 4.8,
-        "placeImages": [
-          "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
-          "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
-        ],        
-        "price": 27000,
-        "type": "city"
-      },
-      
+  "destinations": [
+    {
+      "id": 1,
+      "name": "Paris, France",
+      "description": "Explore the romantic streets of Paris and visit iconic landmarks like the Eiffel Tower.",
+      "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGFyaXMlMjBmcmFuY2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=1000&q=60",
+      "about": "Paris, often referred to as the 'City of Love,' is the capital of France and a global center for art, fashion, and culture. It's renowned for its romantic ambiance, exquisite cuisine, and iconic landmarks.",
+      "famous": "Some of the famous attractions in Paris include the Eiffel Tower, Louvre Museum, Notre-Dame Cathedral, and Montmartre. Strolling along the Seine River and enjoying a café au lait at a sidewalk café are quintessential Parisian experiences.",
+      "history": "Paris has a rich history dating back to the Roman era. It played a pivotal role in the Renaissance, Enlightenment, and French Revolution. The city has been a hub for intellectuals, artists, and writers, making it a center of innovation and creativity.",
+      "rating": 4.7,
+      "placeImages": [
+        "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+      ],
+      "price": 41000,
+      "type": "city"
+    },
+    {
+      "id": 2,
+      "name": "Kyoto, Japan",
+      "description": "Immerse yourself in Kyoto's rich history, from ancient temples to traditional tea ceremonies.",
+      "image": "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGt5b3RvJTIwamFwYW58ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=1000&q=60",
+      "about": "Kyoto, a city in Japan's Kansai region, is known for its well-preserved historical structures, traditional wooden houses, and beautiful gardens. It's a place where ancient traditions seamlessly blend with modern life.",
+      "famous": "Kyoto is famous for its numerous temples, including Kinkaku-ji (the Golden Pavilion), Ginkaku-ji (the Silver Pavilion), and Fushimi Inari Taisha. The city is also renowned for its tea ceremonies, kimonos, and cherry blossom festivals.",
+      "history": "Kyoto served as the imperial capital of Japan for over a thousand years. It played a central role in Japanese history and culture, witnessing the rise and fall of samurai clans, the development of tea ceremony traditions, and the preservation of traditional arts.",
+      "rating": 4.8,
+      "placeImages": [
+        "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+      ],
+      "price": 45000,
+      "type": "city"
+    },
+    {
+      "id": 3,
+      "name": "Santorini, Greece",
+      "description": "Relax on the pristine beaches of Santorini and enjoy breathtaking sunsets over the caldera.",
+      "image": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjB8fFNhbnRvcmluaSUyQyUyMEdyZWVjZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60",
+      "about": "Santorini is a stunning island in the Aegean Sea, known for its white-washed buildings, crystal-clear waters, and dramatic sunsets. It's often considered one of the most romantic destinations in the world.",
+      "famous": "The island's iconic blue-domed churches in Oia and the dramatic caldera views are famous attractions. Santorini is also celebrated for its delicious Greek cuisine, including fresh seafood and traditional dishes.",
+      "history": "Santorini has a unique history tied to the Minoan civilization. It's believed to be the inspiration for the legend of Atlantis. The island's volcanic eruption in antiquity shaped its landscape and contributed to its unique beauty.",
+      "rating": 4.9,
+      "placeImages": [
+        "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+      ],
+      "price": 33000,
+      "type": "beach"
+    },
+    {
+      "id": 4,
+      "name": "New York City, USA",
+      "description": "Experience the hustle and bustle of New York City, visit iconic landmarks, and explore diverse neighborhoods.",
+      "image": "https://images.unsplash.com/photo-1486607303850-bc051a4ffad4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG5ldyUyMHlvdWslMjBjaXR5JTIwdXNhfGVufDB8fDB8fHww&auto=format&fit=crop&w=1000&q=60",
+      "about": "New York City, often called the 'Big Apple,' is the largest city in the United States and a global metropolis. It's known for its diverse culture, towering skyscrapers, and vibrant energy.",
+      "famous": "Some of the famous attractions in NYC include Times Square, Central Park, Statue of Liberty, and Broadway. The city is a hub for finance, fashion, and the arts, making it a cultural melting pot.",
+      "history": "New York City has a rich history dating back to its Dutch colonial origins. It played a pivotal role in the American Revolution and has been a center of immigration, leading to its incredible cultural diversity.",
+      "rating": 4.6,
+      "placeImages": [
+        "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+      ],
+      "price": 43000,
+      "type": "city"
+    },
+    {
+      "id": 5,
+      "name": "Rome, Italy",
+      "description": "Discover the historical treasures of Rome, including the Colosseum, Vatican City, and Roman Forum.",
+      "image": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cm9tZSUyMGl0YWx5fGVufDB8fDB8fHww&auto=format&fit=crop&w=1000&q=60",
+      "about": "Rome, the capital of Italy, is a city that encapsulates centuries of history, art, and culture. It's known for its ancient ruins, Renaissance art, and delectable cuisine.",
+      "famous": "Rome's famous landmarks include the Colosseum, Roman Forum, Pantheon, and Vatican City, home to St. Peter's Basilica and the Sistine Chapel. The city is also renowned for its delicious pasta and gelato.",
+      "history": "Rome was once the heart of the Roman Empire, with a legacy that shaped the Western world. It was a center of power, art, and innovation during antiquity and continues to be a living museum of history.",
+      "rating": 4.7,
+      "placeImages": [
+        "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+      ],
+      "price": 35000,
+      "type": "city"
+    },
+    {
+      "id": 6,
+      "name": "Bali, Indonesia",
+      "description": "Relax on Bali's stunning beaches, enjoy vibrant nightlife, and explore lush rice terraces.",
+      "image": "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YmFsaSUyMGluZG9uZXNpYXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+      "about": "Bali, an island in Indonesia, is a tropical paradise known for its lush landscapes, vibrant culture, and welcoming locals. It offers a perfect blend of relaxation and adventure.",
+      "famous": "Some of the famous attractions in Bali include Uluwatu Temple, Ubud Monkey Forest, and the terraced rice fields of Tegallalang. The island is also celebrated for its traditional dance performances and vibrant nightlife.",
+      "history": "Bali has a rich cultural heritage rooted in Hinduism. Its temples, rituals, and festivals are an integral part of daily life. The island's history is intertwined with its stunning natural beauty.",
+      "rating": 4.8,
+      "placeImages": [
+        "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+      ],
+      "price": 25000,
+      "type": "beach"
+    },
+    {
+      "id": 7,
+      "name": "Barcelona, Spain",
+      "description": "Experience the vibrant culture and architecture of Barcelona, from Gaudi's masterpieces to the bustling La Rambla.",
+      "image": "https://images.unsplash.com/photo-1570295030269-aa4f34cb5409?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFyY2Vsb25hJTIwc3BhaW58ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=1000&q=60",
+      "about": "Barcelona, located on the northeastern coast of Spain, is a city known for its unique architecture, artistic heritage, and lively street life. It's the capital of Catalonia.",
+      "famous": "Barcelona is famous for Antoni Gaudí's architectural masterpieces like Sagrada Família and Park Güell. The city's Gothic Quarter, La Rambla, and vibrant food scene are also popular among visitors.",
+      "history": "Barcelona has a history dating back to Roman times. It has a distinct Catalan identity and played a significant role in the Spanish Civil War. Its culture, language, and traditions are proudly preserved.",
+      "rating": 4.7,
+      "placeImages": [
+        "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+      ],
+      "price": 50000,
+      "type": "beach"
+    },
+    {
+      "id": 8,
+      "name": "Cape Town, South Africa",
+      "description": "Embark on a journey to Cape Town and explore Table Mountain, the Cape Winelands, and stunning beaches.",
+      "image": "https://images.unsplash.com/photo-1612860606900-25b4b0bc79ba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Q2FwZSUyMFRvd24lMkMlMjBTb3V0aCUyMEFmcmljYXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+      "about": "Cape Town, a coastal city in South Africa, is renowned for its natural beauty, diverse landscapes, and rich cultural heritage. It's often called the 'Mother City.'",
+      "famous": "Table Mountain, Robben Island, Boulders Beach with its penguins, and the Cape Winelands are famous attractions. Cape Town is also known for its vibrant arts scene and delicious cuisine.",
+      "history": "Cape Town has a complex history, from indigenous Khoikhoi and San settlements to European colonization and apartheid. Sites like Robben Island hold significant historical importance.",
+      "rating": 4.8,
+      "placeImages": [
+        "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+      ],
+      "price": 35000,
+      "type": "beach"
+    },
+    {
+      "id": 9,
+      "name": "Sydney, Australia",
+      "description": "Discover the beauty of Sydney, with its iconic Sydney Opera House and picturesque Bondi Beach.",
+      "image": "https://images.unsplash.com/photo-1513343987712-5da15ea2a9bb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c3lkbmV5JTIwYXVzdHJhbGlhfGVufDB8fDB8fHww&auto=format&fit=crop&w=1000&q=60",
+      "about": "Sydney, the largest city in Australia, is known for its stunning harbor, iconic landmarks, and a laid-back beach lifestyle. It's the capital of New South Wales.",
+      "famous": "Sydney's famous landmarks include the Sydney Opera House, Sydney Harbour Bridge, and Bondi Beach. The city's multicultural neighborhoods and vibrant arts scene make it a diverse and exciting destination.",
+      "history": "Sydney's history is tied to British colonization, with Indigenous Australian heritage dating back thousands of years. The city has evolved into a thriving metropolis while preserving its natural beauty.",
+      "rating": 4.9,
+      "placeImages": [
+        "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+      ],
+      "price": 35000,
+      "type": "city"
+    },
+    {
+      "id": 10,
+      "name": "Istanbul, Turkey",
+      "description": "Experience the blend of cultures and history in Istanbul, where East meets West.",
+      "image": "https://images.unsplash.com/photo-1589561454226-796a8aa89b05?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fGlzdGFuYnVsJTIwdHVya2V5fGVufDB8fDB8fHww&auto=format&fit=crop&w=700&q=60",
+      "about": "Istanbul, a city spanning two continents, is a cultural melting pot where Europe meets Asia. It's known for its stunning architecture, historic sites, and vibrant markets.",
+      "famous": "Some of the famous attractions in Istanbul include the Hagia Sophia, Blue Mosque, Topkapi Palace, and the Grand Bazaar. The city's rich cuisine, including baklava and kebabs, is also renowned.",
+      "history": "Istanbul, formerly Byzantium and Constantinople, has a history dating back to ancient times. It was the capital of the Byzantine and Ottoman Empires, leaving a legacy of diverse cultures, religions, and traditions.",
+      "rating": 4.6,
+      "placeImages": [
+        "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+      ],
+      "price": 40000,
+      "type": "city"
+    },
+    {
+      "id": 11,
+      "name": "Machu Picchu, Peru",
+      "description": "Hike to the ancient ruins of Machu Picchu and marvel at its breathtaking beauty.",
+      "image": "https://images.unsplash.com/photo-1564551099958-799746bfe1aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fG1hY2h1JTIwcGljY2h1JTIwcGVydXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60",
+      "about": "Machu Picchu, located high in the Andes Mountains of Peru, is an ancient Inca citadel known for its stunning architecture and breathtaking mountain scenery.",
+      "famous": "Machu Picchu is famous for its precisely cut stone structures, terraced fields, and its strategic location amidst the mountains. The site is also a testament to Inca engineering and astronomical achievements.",
+      "history": "Machu Picchu was built in the 15th century but abandoned during the Spanish conquest. It remained hidden until its rediscovery in 1911 by Hiram Bingham. Today, it's a UNESCO World Heritage Site and a symbol of Inca civilization.",
+      "rating": 4.9,
+      "placeImages": [
+        "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+      ],
+      "price": 30000,
+      "type": "hills"
+    },
+    {
+      "id": 12,
+      "name": "Amsterdam, Netherlands",
+      "description": "Explore the charming canals, historic museums, and vibrant culture of Amsterdam.",
+      "image": "https://images.unsplash.com/photo-1529943247435-a5974e63d6e4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YW1zdGVyZGFtJTIwbmV0aGVybGFuZHN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=700&q=60",
+      "about": "Amsterdam, the capital of the Netherlands, is known for its picturesque canals, historic architecture, and vibrant arts scene. It's a city that embraces diversity and creativity.",
+      "famous": "Some of the famous attractions in Amsterdam include the Anne Frank House, Rijksmuseum, Van Gogh Museum, and the iconic canal belt. Bicycling along the city's canals is a popular activity.",
+      "history": "Amsterdam's history is closely tied to its canals, which were constructed in the 17th century. It played a significant role in the Dutch Golden Age and has a legacy of commerce, art, and liberalism.",
+      "rating": 4.8,
+      "placeImages": [
+        "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+      ],
+      "price": 35000,
+      "type": "hills"
+    },
+    {
+      "id": 13,
+      "name": "Rio de Janeiro, Brazil",
+      "description": "Enjoy the lively atmosphere of Rio de Janeiro, from Copacabana Beach to Christ the Redeemer.",
+      "image": "https://images.unsplash.com/photo-1599342019150-cd9ca23e1029?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjJ8fFJpbyUyMGRlJTIwSmFuZWlybyUyQyUyMEJyYXppbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60",
+      "about": "Rio de Janeiro, often called Rio, is a vibrant city in Brazil known for its festive spirit, stunning beaches, and iconic landmarks. It's one of the most famous carnival destinations.",
+      "famous": "Some of the famous attractions in Rio include Copacabana Beach, Sugarloaf Mountain, Christ the Redeemer statue atop Corcovado, and the lively Sambadrome during carnival.",
+      "history": "Rio de Janeiro has a history dating back to Portuguese colonization. It was the capital of Brazil before Brasília and played a crucial role in the country's independence and cultural heritage.",
+      "rating": 4.7,
+      "placeImages": [
+        "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+      ],
+      "price": 25000,
+      "type": "beach"
+    },
+    {
+      "id": 14,
+      "name": "Toronto, Canada",
+      "description": "Discover the diverse culture, culinary delights, and iconic CN Tower in Toronto.",
+      "image": "https://images.unsplash.com/photo-1620218776099-1eb4a9bff180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fFJpbyUyMGRlJTIwSmFuZWlybyUyQyUyMEJyYXppbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60",
+      "about": "Toronto, the largest city in Canada, is a diverse and dynamic metropolis known for its multicultural neighborhoods, delicious cuisine, and impressive skyline.",
+      "famous": "Some of the famous attractions in Toronto include the CN Tower, Royal Ontario Museum, Distillery District, and Toronto Islands. The city's diverse food scene reflects its multiculturalism.",
+      "history": "Toronto's history includes Indigenous peoples, European settlers, and waves of immigration. It's a reflection of Canada's multicultural identity, and its historic sites showcase this rich heritage.",
+      "rating": 4.6,
+      "placeImages": [
+        "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+      ],
+      "price": 38000,
+      "type": "city"
+    },
+    {
+      "id": 15,
+      "name": "Mumbai, India",
+      "description": "Experience the bustling streets and rich cultural heritage of Mumbai, India's financial capital.",
+      "image": "https://images.unsplash.com/photo-1595658658481-d53d3f999875?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bXVtYmFpJTIwaW5kaWF8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=700&q=60",
+      "about": "Mumbai, also known as Bombay, is India's financial capital and a bustling metropolis known for its vibrant street life, historic landmarks, and thriving film industry.",
+      "famous": "Some of the famous attractions in Mumbai include the Gateway of India, Chhatrapati Shivaji Terminus, Marine Drive, and the vibrant markets of Colaba. Bollywood, India's film industry, is also centered in Mumbai.",
+      "history": "Mumbai has a history dating back to ancient times and was shaped by Portuguese and British colonization. It's a city of contrasts, with historic architecture alongside modern skyscrapers.",
+      "rating": 4.8,
+      "placeImages": [
+        "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+      ],
+      "price": 15000,
+      "type": "city"
+    },
+    {
+      "id": 16,
+      "name": "Seoul, South Korea",
+      "description": "Explore the modern and traditional facets of Seoul, from high-tech skyscrapers to historic palaces.",
+      "image": "https://images.unsplash.com/photo-1554310603-d39d43033735?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8U2VvdWwlMkMlMjBTb3V0aCUyMEtvcmVhfGVufDB8fDB8fHww&auto=format&fit=crop&w=700&q=60",
+      "about": "Seoul, the capital of South Korea, is a dynamic city that seamlessly blends modernity with tradition. It's known for its cutting-edge technology, K-pop culture, and historic palaces.",
+      "famous": "Some of the famous attractions in Seoul include Gyeongbokgung Palace, Bukchon Hanok Village, Myeongdong shopping district, and the futuristic Dongdaemun Design Plaza. K-food is a highlight of Korean cuisine.",
+      "history": "Seoul has a history that spans over 2,000 years, with a legacy of dynasties, invasions, and the Korean War. Historic sites reflect this rich heritage, while the city is also a hub for innovation and modernity.",
+      "rating": 4.7,
+      "placeImages": [
+        "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+      ],
+      "price": 30000,
+      "type": "city"
+    },
+    {
+      "id": 17,
+      "name": "Moscow, Russia",
+      "description": "Visit the grand Red Square and iconic St. Basil's Cathedral in Moscow.",
+      "image": "https://images.unsplash.com/photo-1547448415-e9f5b28e570d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TW9zY293JTJDJTIwUnVzc2lhfGVufDB8fDB8fHww&auto=format&fit=crop&w=700&q=60",
+      "about": "Moscow, the capital of Russia, is a city of grandeur, history, and political significance. It's known for its iconic landmarks, including the Red Square and the Kremlin.",
+      "famous": "Some of the famous attractions in Moscow include Red Square, St. Basil's Cathedral, the Kremlin, and the Bolshoi Theatre. The city's metro stations are also architectural marvels.",
+      "history": "Moscow's history is intertwined with that of Russia itself, from its medieval origins to the rise of the Russian Empire and the Soviet era. It's a city where history and modernity coexist.",
+      "rating": 4.9,
+      "placeImages": [
+        "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+      ],
+      "price": 34000,
+      "type": "city"
+    },
+    {
+      "id": 18,
+      "name": "Cairo, Egypt",
+      "description": "Witness the wonders of ancient Egypt, including the pyramids and Sphinx in Cairo.",
+      "image": "https://images.unsplash.com/photo-1553913861-c0fddf2619ee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2Fpcm8lMjBlZ3lwdHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60",
+      "about": "Cairo, the capital of Egypt, is a city where ancient and modern worlds collide. It's known for its historic treasures, bustling markets, and the mighty Nile River.",
+      "famous": "Some of the famous attractions in Cairo include the Pyramids of Giza, the Sphinx, the Egyptian Museum, and the bustling Khan el-Khalili bazaar. The city is a gateway to exploring ancient Egypt.",
+      "history": "Cairo's history dates back to ancient times, and it has been a center of Egyptian civilization for millennia. It played a key role in the Pharaonic, Islamic, and Ottoman eras, leaving behind a rich tapestry of history.",
+      "rating": 4.7,
+      "placeImages": [
+        "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+      ],
+      "price": 45000,
+      "type": "city"
+    },
+    {
+      "id": 19,
+      "name": "Copenhagen, Denmark",
+      "description": "Experience the Danish hygge lifestyle and visit the enchanting Tivoli Gardens in Copenhagen.",
+      "image": "https://images.unsplash.com/photo-1609955618141-5b3491b53822?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fENvcGVuaGFnZW4lMkMlMjBEZW5tYXJrfGVufDB8fDB8fHww&auto=format&fit=crop&w=700&q=60",
+      "about": "Copenhagen, the capital of Denmark, is a city known for its cozy hygge culture, historic charm, and innovative design. It's a place where tradition meets modernity.",
+      "famous": "Some of the famous attractions in Copenhagen include Tivoli Gardens, the Little Mermaid statue, Nyhavn canal district, and the Rosenborg Castle. Danish pastries and cuisine are also highlights.",
+      "history": "Copenhagen's history spans centuries, from its Viking origins to becoming the capital of Denmark. The city has played a significant role in the cultural and political development of Denmark.",
+      "rating": 4.6,
+      "placeImages": [
+        "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+      ],
+      "price": 25000,
+      "type": "beach"
+    },
+    {
+      "id": 20,
+      "name": "Berlin, Germany",
+      "description": "Explore the vibrant arts and history scene of Berlin, from the Berlin Wall to world-class museums.",
+      "image": "https://images.unsplash.com/photo-1552035496-08efc7baf40e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fEJlcmxpbiUyQyUyMEdlcm1hbnl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=700&q=60",
+      "about": "Berlin, the capital of Germany, is a city of contrasts, known for its rich history, contemporary arts scene, and vibrant nightlife. It's a city that constantly reinvents itself.",
+      "famous": "Some of the famous attractions in Berlin include the Berlin Wall, Brandenburg Gate, Museum Island, and the East Side Gallery. The city's diverse cultural offerings and nightlife are renowned.",
+      "history": "Berlin's history is marked by its role in World War II, the Cold War, and its subsequent reunification. It's a city where history is palpable, with memorials and museums that tell its story.",
+      "rating": 4.8,
+      "placeImages": [
+        "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+      ],
+      "price": 35000,
+      "type": "city"
+    },
+    {
+      "id": 21,
+      "name": "Prague, Czech Republic",
+      "description": "Discover the enchanting charm of Prague with its historic architecture and picturesque Old Town Square.",
+      "image": "https://images.unsplash.com/photo-1594492256402-1463c14e0317?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cHJhZ3VlJTIwY3plY2glMjByZXB1YmxpY3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60",
+      "about": "Prague, the capital of the Czech Republic, is a city of fairy tales, known for its well-preserved medieval architecture, romantic ambiance, and rich cultural heritage.",
+      "famous": "Some of the famous attractions in Prague include Prague Castle, Charles Bridge, Old Town Square, and the Astronomical Clock. The city is also famous for its beer and classical music.",
+      "history": "Prague's history dates back to the Middle Ages and the reign of Charles IV. It was a hub of European culture during the Renaissance and has played a pivotal role in Central European history.",
+      "rating": 4.9,
+      "placeImages": [
+        "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+      ],
+      "price": 25000,
+      "type": "city"
+    },
+    {
+      "id": 22,
+      "name": "Dubai, United Arab Emirates",
+      "description": "Experience luxury and modernity in Dubai, from the Burj Khalifa to the Palm Jumeirah.",
+      "image": "https://images.unsplash.com/photo-1551541711-489a256cd2a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTR8fER1YmFpJTJDJTIwVUFFfGVufDB8fDB8fHww&auto=format&fit=crop&w=700&q=60",
+      "about": "Dubai, a city in the United Arab Emirates, is known for its opulent lifestyle, futuristic architecture, and desert landscapes. It's a global hub for business and leisure.",
+      "famous": "Some of the famous attractions in Dubai include the Burj Khalifa, Palm Jumeirah, Dubai Mall, and the Dubai Fountain. The city's luxury hotels and shopping are renowned.",
+      "history": "Dubai's history is rooted in its role as a trading port and pearl diving center. It has transformed into a modern metropolis in recent decades, with rapid development and urban planning.",
+      "rating": 4.7,
+      "placeImages": [
+        "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+      ],
+      "price": 38000,
+      "type": "beach"
+    },
+    {
+      "id": 23,
+      "name": "Vienna, Austria",
+      "description": "Immerse yourself in Vienna's classical music scene, historic palaces, and delightful coffeehouses.",
+      "image": "https://images.unsplash.com/photo-1567597435927-80055c207c1c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Vmllbm5hJTJDJTIwQXVzdHJpYXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+      "about": "Vienna, the capital of Austria, is a city steeped in music, culture, and history. It's known for its classical music heritage, imperial palaces, and elegant cafes.",
+      "famous": "Some of the famous attractions in Vienna include Schönbrunn Palace, St. Stephen's Cathedral, Belvedere Palace, and the Vienna State Opera. The city's coffeehouse culture is also iconic.",
+      "history": "Vienna has a rich history as the former capital of the Habsburg Empire. It was a center of art and culture during the Renaissance and Baroque periods, leaving behind magnificent architecture and art.",
+      "rating": 4.8,
+      "placeImages": [
+        "https://images.unsplash.com/photo-1600628103910-32023b03cbee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1665056507555-7104246b2f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+        "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
+      ],
+      "price": 27000,
+      "type": "city"
+    },
 
     {
       "id": 24,
@@ -1547,11 +1540,9 @@
         "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
         "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
         "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
-
-      ],        
-    "price": 25000,
+      ],
+      "price": 25000,
       "type": "hills"
-
     },
     {
       "id": 25,
@@ -1587,11 +1578,9 @@
         "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
         "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
         "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
-
-      ],        
-    "price": 29000,
+      ],
+      "price": 29000,
       "type": "hills"
-
     },
     {
       "id": 27,
@@ -1627,11 +1616,9 @@
         "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
         "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
         "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
-
-      ],        
-    "price": 47000,
+      ],
+      "price": 47000,
       "type": "hills"
-
     },
     {
       "id": 29,
@@ -1648,11 +1635,9 @@
         "https://images.unsplash.com/photo-1505688545775-aeb18d5aa895?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
         "https://images.unsplash.com/photo-1571953545474-26da5a3d521c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhpZ2glMjBxdWFsaXR5JTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
         "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60"
-
-      ],        
-    "price": 45000,
+      ],
+      "price": 45000,
       "type": "hills"
-
     },
     {
       "id": 30,

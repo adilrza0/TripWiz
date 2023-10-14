@@ -283,7 +283,7 @@ export const Explore = () => {
                   //css
                   type="date" // Use type="tel" for CVC
                   name="date"
-                  placeholder="Date"
+                  placeholder="Choose Date"
                   value={state.date}
                   onChange={handleChange}
                 />
@@ -303,7 +303,7 @@ export const Explore = () => {
                   //css
                   boxShadow= "rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px"
                   //css
-                  type="tel" // Use type="tel" for CVC
+                  type="text" // Use type="tel" for CVC
                   name="national"
                   placeholder="Nationality"
                   value={state.national}
@@ -322,6 +322,7 @@ export const Explore = () => {
                 backgroundColor="#1071BD"
                 color="white"
                 type="submit"
+                onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
               >
                 Book Now
               </Button>
