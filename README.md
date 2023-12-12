@@ -1,4 +1,4 @@
-#TripWiz
+# TripWiz
 ![logo-color](https://github.com/adilrza0/adaptable-oven-8035/assets/68914197/3a8c05b4-911e-4bd1-9dbd-41bb0e651e14=250x250)
 
 
